@@ -219,11 +219,13 @@ def xtb_optimize(symbols, coords, multiplicity, fmax=0.03, freq=False):
         vib.run()
         f = vib.get_frequencies()
         shutil.rmtree(tmp)
-        real = np.real(f)[np.abs(np.imag(f)) < 1e-6]
-        imag = np.imag(f)[np.abs(np.imag(f)) > 1e-6]
-        res["frequencias"] = {"menor_real_cm1": float(np.sort(real[real > 1])[0]) if len(real[real > 1]) else None,
-                              "imaginarias_cm1": [float(x) for x in imag if abs(x) > 30],
-                              "n_modos": int(len(f))}
+        # Descarta os 6 modos de corpo rígido (translação/rotação, idealmente 0) pelos menores |ν|.
+        internal = sorted(f, key=abs)[6:]
+        real = [float(np.real(x)) for x in internal if abs(np.imag(x)) < 1e-6]
+        imag = [float(np.imag(x)) for x in internal if abs(np.imag(x)) >= 1e-6]
+        res["frequencias"] = {"menor_real_cm1": min(real) if real else None,
+                              "imaginarias_cm1": [x for x in imag if abs(x) > 30],
+                              "n_modos_internos": len(internal)}
     return res, atoms.positions.copy()
 
 
