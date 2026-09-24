@@ -22,6 +22,7 @@
 namespace {
 
 constexpr int R = 4;          // raio da grade hexagonal disponível
+constexpr double kMinHH = 1.5;  // Å: abaixo disso os H da borda se chocam e a molécula não fica plana
 constexpr int kMaxHex = 16;   // tamanho máximo da molécula (anéis)
 
 struct Cell { int q, r; };
@@ -52,7 +53,7 @@ class ChemistryLab : public Lab {
   std::string title() const override { return "Química: benzenoides e magnetismo de carbono (Hückel)"; }
   std::string objective() const override {
     return "maximizar modos de energia zero (elétrons desemparelhados), com peso dobrado para os 'ocultos' "
-           "(não explicados pelo desbalanço de subredes); até 16 anéis";
+           "(não explicados pelo desbalanço de subredes); até 16 anéis; só moléculas planas (H–H ≥ 1.5 Å)";
   }
 
   Genome random(Rng& rng) const override {
@@ -113,6 +114,7 @@ class ChemistryLab : public Lab {
     const int hexes = count(g);
     if (hexes == 0 || hexes > kMaxHex || !connected(g)) return e;
     const Molecule mol = build(g);
+    if (min_hh_distance(mol) < kMinHH) return e;  // não seria plana: o modelo de Hückel não vale
     const int eta = zero_modes(mol);
     const int imbalance = std::abs(mol.na - mol.nb);
     const int hidden = eta - imbalance;
@@ -144,8 +146,8 @@ class ChemistryLab : public Lab {
     const Molecule mol = build(g);
     const int eta = zero_modes(mol);
     char buf[256];
-    std::snprintf(buf, sizeof buf, "C%dH%d, %d anéis, subredes %d/%d, modos zero η=%d, gap HOMO-LUMO=%.3f|β|",
-                  mol.atoms, mol.hydrogens, mol.hexes, mol.na, mol.nb, eta, gap(mol));
+    std::snprintf(buf, sizeof buf, "C%dH%d, %d anéis, subredes %d/%d, modos zero η=%d, gap HOMO-LUMO=%.3f|β|, menor H–H %.2f Å",
+                  mol.atoms, mol.hydrogens, mol.hexes, mol.na, mol.nb, eta, gap(mol), min_hh_distance(mol));
     return std::string(buf) + "\n" + picture(g);
   }
 
@@ -162,7 +164,7 @@ class ChemistryLab : public Lab {
       }
     char buf[160];
     std::snprintf(buf, sizeof buf, "], \"formula\": \"C%dH%d\", \"aneis\": %d, \"eta\": %d, \"n_A\": %d, \"n_B\": %d, "
-                  "\"gap_huckel_beta\": %.6f, ", mol.atoms, mol.hydrogens, mol.hexes, zero_modes(mol), mol.na, mol.nb, gap(mol));
+                  "\"gap_huckel_beta\": %.6f, \"menor_HH_plana_A\": %.3f, ", mol.atoms, mol.hydrogens, mol.hexes, zero_modes(mol), mol.na, mol.nb, gap(mol), min_hh_distance(mol));
     s += buf;
     s += "\"carbonos\": [";
     constexpr double d = 1.42;
@@ -199,6 +201,26 @@ class ChemistryLab : public Lab {
       char buf[256];
       std::snprintf(buf, sizeof buf, "| %s | %s → C%dH%d | %.3f → %.3f | %d → %d |", c.name, c.formula, mol.atoms,
                     mol.hydrogens, c.gap, gap(mol), c.eta, zero_modes(mol));
+      out.push_back(buf);
+    }
+    // Planaridade: menor distância H–H na geometria plana contra o que se sabe dessas moléculas.
+    struct Steric { const char* name; std::vector<Cell> cells; const char* known; };
+    const std::vector<Steric> steric = {
+        {"fenantreno (baía)", {{0, 0}, {1, 0}, {1, 1}}, "plano"},
+        {"cálice de Clar (baías)", {{-2, -1}, {-1, -2}, {-1, -1}, {0, -3}, {0, -2}, {0, -1}, {0, 0}, {0, 1}, {1, -1}, {1, 0}, {2, -1}},
+         "plano (Mishra et al. 2020)"},
+        {"[4]heliceno (enseada)", {{0, 0}, {1, 0}, {1, 1}, {0, 2}}, "torcido ~30° (benzo[c]fenantreno)"},
+        {"[5]heliceno (fiorde)", {{0, 0}, {1, 0}, {1, 1}, {0, 2}, {-1, 2}}, "helicoidal, fortemente torcido"},
+    };
+    out.push_back("");
+    out.push_back("| molécula | conhecido | menor H–H plana (Å) | modelo (limiar 1.5 Å) |");
+    out.push_back("|---|---|---|---|");
+    for (const auto& c : steric) {
+      Genome g(cells_.size(), 0);
+      for (const auto& cell : c.cells) g[index_.at({cell.q, cell.r})] = 1;
+      const double hh = min_hh_distance(build(g));
+      char buf[256];
+      std::snprintf(buf, sizeof buf, "| %s | %s | %.2f | %s |", c.name, c.known, hh, hh < kMinHH ? "rejeitada (não plana)" : "aceita (plana)");
       out.push_back(buf);
     }
     return out;
@@ -311,6 +333,32 @@ class ChemistryLab : public Lab {
     for (int d : degree) mol.hydrogens += (d == 2);
     for (int s : mol.sublattice) (s == 0 ? mol.na : mol.nb)++;
     return mol;
+  }
+
+  // Menor distância H–H com a molécula plana (C–C 1.42 Å, C–H 1.09 Å apontando para fora).
+  // Baías (fenantreno, cálice de Clar) dão ~1.75 Å; enseadas e fiordes, bem menos: a molécula torce.
+  static double min_hh_distance(const Molecule& mol) {
+    constexpr double d = 1.42, ch = 1.09;
+    std::vector<std::vector<int>> nb(mol.atoms);
+    for (auto [a, b] : mol.bonds) nb[a].push_back(b), nb[b].push_back(a);
+    auto xy = [&](int i) {
+      return std::pair{mol.position[i].first * std::sqrt(3.0) / 2 * d, mol.position[i].second * 0.5 * d};
+    };
+    std::vector<std::pair<double, double>> h;
+    for (int i = 0; i < mol.atoms; ++i) {
+      if (nb[i].size() != 2) continue;
+      auto [x, y] = xy(i);
+      auto [x1, y1] = xy(nb[i][0]);
+      auto [x2, y2] = xy(nb[i][1]);
+      double vx = x - 0.5 * (x1 + x2), vy = y - 0.5 * (y1 + y2);
+      const double norm = std::hypot(vx, vy);
+      h.push_back({x + ch * vx / norm, y + ch * vy / norm});
+    }
+    double best = 1e9;
+    for (size_t a = 0; a < h.size(); ++a)
+      for (size_t b = a + 1; b < h.size(); ++b)
+        best = std::min(best, std::hypot(h[a].first - h[b].first, h[a].second - h[b].second));
+    return best;
   }
 
   static int zero_modes(const Molecule& mol) {
