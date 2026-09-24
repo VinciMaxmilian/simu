@@ -131,3 +131,73 @@ EmergenceResult run_emergence(const EmergenceScenario& s, long planets, uint64_t
   }
   return res;
 }
+
+BioEmergenceResult run_bio_emergence(const EmergenceScenario& s, const Biochemistry& b, double catalysis,
+                                     long planets, uint64_t seed) {
+  static const FormationSampler sampler;
+  BioEmergenceResult res;
+  res.biochemistry = b.name;
+  res.planets = planets;
+  const int threads = omp_get_max_threads();
+  const size_t last = s.steps.size() - 1;
+
+#pragma omp parallel num_threads(threads)
+  {
+    Rng rng(seed * 104729 + omp_get_thread_num());
+    BioEmergenceResult local;
+#pragma omp for schedule(static)
+    for (long p = 0; p < planets; ++p) {
+      const double born = sampler.sample(rng);
+      const double mass = sample_star_mass(rng);
+      const double lifetime = 10.0 * std::pow(mass, -2.5);
+      if (!rng.chance(b.solvent.abundance)) continue;  // o planeta não tem oceano deste solvente
+      // Temperatura de superfície: Terra ≈ 255 K de equilíbrio × efeito estufa.
+      const double lum0 = 0.7 * std::pow(mass, 4.0);  // luminosidade inicial (Sol jovem = 0.7)
+      const double orbit = std::exp(rng.uniform(std::log(0.05), std::log(50.0)));
+      const double albedo = rng.uniform(0.1, 0.6), greenhouse = rng.uniform(1.0, 1.35);
+      const double t0 = 255.0 * std::pow((1 - albedo) / 0.7, 0.25) * std::pow(lum0, 0.25) / std::sqrt(orbit) * greenhouse;
+      // L(t) = L0 (1 + 0.93 t/τ)  ⇒  T(t) = T0 (1 + 0.93 t/τ)^{1/4}
+      auto temp_at = [&](double t) { return t0 * std::pow(1 + 0.93 * t / lifetime, 0.25); };
+      auto time_of = [&](double target) { return (std::pow(target / t0, 4.0) - 1) * lifetime / 0.93; };
+      const double start = std::max(0.3, time_of(b.t_low()));
+      const double end = std::min(0.55 * lifetime, time_of(b.t_high()));
+      if (end <= start) continue;
+      ++local.habitable;
+
+      double t = start;
+      bool ok = true;
+      for (size_t k = 0; k <= last && ok; ++k) {
+        const BioFactors f = bio_factors(b, temp_at(t), catalysis);
+        double speed;
+        if (k == 0)  // abiogênese: química do esqueleto no solvente
+          speed = f.rate * f.stability * b.compatibility * f.polarity * b.backbone.available;
+        else if (k < last)  // complexidade biológica: versatilidade do esqueleto
+          speed = f.rate * f.stability * f.versatility * std::sqrt(f.polarity);
+        else  // da inteligência à ciência: pensamento e ferramentas (sem fogo: 10× mais lento)
+          speed = f.thought / (b.combustion ? 1.0 : 10.0);
+        if (speed <= 1e-12) { ok = false; break; }
+        t += rng.exponential(s.steps[k].mean_gyr / speed);
+        ok = t <= end;
+      }
+      if (!ok) continue;
+      ++local.successes;
+      if (born + t <= kToday) ++local.successes_before_today;
+      if (static_cast<long>(local.time_after_formation.size()) < kMaxSamples / threads) {
+        local.time_after_formation.push_back(t);
+        local.cosmic_time.push_back(born + t);
+        local.temperature.push_back(temp_at(t));
+      }
+    }
+#pragma omp critical
+    {
+      res.habitable += local.habitable;
+      res.successes += local.successes;
+      res.successes_before_today += local.successes_before_today;
+      auto append = [](std::vector<double>& a, const std::vector<double>& v) { a.insert(a.end(), v.begin(), v.end()); };
+      append(res.time_after_formation, local.time_after_formation);
+      append(res.cosmic_time, local.cosmic_time);
+      append(res.temperature, local.temperature);
+    }
+  }
+  return res;
+}

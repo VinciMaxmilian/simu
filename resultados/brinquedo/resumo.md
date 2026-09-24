@@ -2,7 +2,7 @@
 
 **Objetivo de pesquisa:** maximizar o desempenho de uma 'tecnologia' de 28 componentes; score = fração do ótimo global.
 
-32 universos × 4 civilizações × 300 anos de ciência; 1866310 experimentos (897703 distintos) em 0.6 s.
+32 universos × 4 civilizações × 300 anos de ciência; 1866310 experimentos (897703 distintos) em 0.9 s.
 
 ## Validação contra o mundo real
 

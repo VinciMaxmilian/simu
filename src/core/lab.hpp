@@ -31,6 +31,8 @@ class Lab {
   // translações). Padrão: os próprios bytes do genoma.
   virtual std::string canonical(const Genome& g) const { return std::string(g.begin(), g.end()); }
   virtual std::string describe(const Genome& g) const = 0;
+  // Representação completa e legível por máquina (objeto JSON) para reconstruir o resultado depois.
+  virtual std::string export_json(const Genome&) const { return "{}"; }
 
   // Confere o laboratório contra fatos conhecidos do mundo real (linhas em Markdown).
   virtual std::vector<std::string> validate() const = 0;

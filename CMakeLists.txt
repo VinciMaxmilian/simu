@@ -14,6 +14,7 @@ add_executable(simu
   src/main.cpp
   src/core/research.cpp
   src/core/emergence.cpp
+  src/core/biochemistry.cpp
   src/labs/toy.cpp
   src/labs/chemistry.cpp
   src/labs/materials.cpp

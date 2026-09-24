@@ -120,7 +120,9 @@ class Engine {
 
   void research_year(int c, int year) {
     Civ& civ = civs_[c];
-    double capacity = std::min(cfg_.max_experiments, cfg_.experiments0 * std::pow(1.0 + cfg_.growth, year));
+    const Culture& cu = *civ.culture;
+    double capacity =
+        cu.speed * std::min(cfg_.max_experiments * cu.tools, cfg_.experiments0 * std::pow(1.0 + cfg_.growth, year));
     if (year < civ.dark_until) capacity *= 0.5;
     // Parte fracionária vira chance de um experimento a mais.
     int count = static_cast<int>(capacity);

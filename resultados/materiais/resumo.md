@@ -2,7 +2,7 @@
 
 **Objetivo de pesquisa:** achar a banda mais plana possível e, de preferência, isolada das outras por um gap de energia; score = −log10(largura + 1e−6) + 3·min(gap certificado, 1).
 
-32 universos × 4 civilizações × 300 anos de ciência; 7198925 experimentos (1678273 distintos) em 38.3 s.
+32 universos × 4 civilizações × 300 anos de ciência; 7198925 experimentos (1678273 distintos) em 67.5 s.
 
 ## Validação contra o mundo real
 

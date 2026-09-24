@@ -11,6 +11,8 @@ struct Culture {
   double explore;    // fração de experimentos totalmente novos (curiosidade)
   double crossover;  // fração que combina duas ideias conhecidas
   double share;      // probabilidade anual de trocar conhecimento com outra civilização
+  double speed = 1;  // velocidade de pensamento relativa à humana (bioquímica): multiplica os experimentos
+  double tools = 1;  // fração do teto instrumental alcançável (sem fogo/metalurgia < 1)
 };
 
 std::vector<Culture> default_cultures();

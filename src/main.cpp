@@ -1,8 +1,9 @@
 // simu — civilizações simuladas pesquisando um universo regido pelo Modelo Padrão.
 //
 //   simu emergencia [--planetas N] [--saida DIR]
+//   simu bioquimica [--planetas N] [--saida DIR]
 //   simu pesquisa --lab brinquedo|quimica|materiais|nuclear [--anos Y] [--rodadas R]
-//                 [--semente S] [--inicio E0] [--teto E] [--saida DIR]
+//                 [--semente S] [--inicio E0] [--teto E] [--civs culturas|bioquimicas] [--saida DIR]
 //   simu validar --lab ...
 #include <omp.h>
 
@@ -122,7 +123,162 @@ int cmd_emergence(const Args& args) {
   return 0;
 }
 
+// ---------------------------------------------------------------- bioquímicas
+double median_or_nan(const std::vector<double>& v) { return v.empty() ? NAN : quantile(v, 0.5); }
+
+// Civilizações de bioquímicas diferentes (cenário Terra, catálise adaptada): as 6 com mais chance de
+// chegar à ciência. Velocidade = pensamento na temperatura mediana em que chegaram lá.
+std::vector<Culture> biochemistry_civilizations() {
+  const auto scenarios = default_scenarios();
+  const EmergenceScenario& earth = scenarios[1];
+  struct Cand { Culture c; double p; };
+  std::vector<Cand> cands;
+  uint64_t seed = 900;
+  for (const auto& b : default_biochemistries()) {
+    const auto r = run_bio_emergence(earth, b, 1.0, 400000, seed++);
+    if (r.successes == 0) continue;
+    const double t = median_or_nan(r.temperature);
+    const BioFactors f = bio_factors(b, t, 1.0);
+    // Cultura equilibrada, sem contato (estão em sistemas estelares diferentes).
+    cands.push_back({{b.name, 0.15, 0.20, 0.0, f.thought, b.combustion ? 1.0 : 0.3},
+                     static_cast<double>(r.successes) / r.planets});
+  }
+  std::sort(cands.begin(), cands.end(), [](const Cand& a, const Cand& b) { return a.p > b.p; });
+  std::vector<Culture> out;
+  for (size_t i = 0; i < cands.size() && i < 6; ++i) out.push_back(cands[i].c);
+  return out;
+}
+
+int cmd_biochemistry(const Args& args) {
+  const long planets = std::stol(args.get("planetas", "4000000"));
+  const fs::path dir = args.get("saida", "resultados/bioquimica");
+  fs::create_directories(dir);
+  const auto biochems = default_biochemistries();
+  const auto scenarios = default_scenarios();
+  std::ofstream samples(dir / "amostras.csv");
+  samples << "cenario,catalise,bioquimica,tempo_apos_formacao_gyr,tempo_cosmico_gyr,temperatura_k\n";
+  std::ofstream md(dir / "resumo.md");
+  md << "# Camada A — Surgimento com bioquímicas alternativas\n\n";
+  md << "Monte Carlo com " << planets << " sistemas por bioquímica, cenário e hipótese de catálise. Cada planeta "
+     << "tem órbita 0,05–50 UA, albedo 0,1–0,6 e efeito estufa ×1,00–1,35; a temperatura sobe com o brilho da "
+     << "estrela, e a bioquímica só é viável com o solvente líquido. Os tempos de cada transição do cenário são "
+     << "divididos pelos fatores químicos na temperatura do momento. **Química fixa**: Ea = 50 kJ/mol (frio = "
+     << "lento). **Catálise adaptada**: Ea/RT igual ao da Terra (só o prefator kT/h muda).\n\n";
+
+  md << "## Propriedades na temperatura típica do solvente\n\n";
+  md << "| bioquímica | T típica (K) | reações, química fixa | reações, adaptada | estabilidade | versatilidade | "
+        "polaridade | compatibilidade | fogo/metalurgia | nota |\n|---|---|---|---|---|---|---|---|---|---|\n";
+  for (const auto& b : biochems) {
+    const double t = b.solvent.name == "agua" ? 288.0 : 0.5 * (b.t_low() + b.t_high());
+    const BioFactors f0 = bio_factors(b, t, 0.0), f1 = bio_factors(b, t, 1.0);
+    char buf[512];
+    std::snprintf(buf, sizeof buf, "| %s | %.0f | %.2g | %.2f | %.2f | %.2f | %.2f | %.2f | %s | %s |\n", b.name.c_str(),
+                  t, f0.rate, f1.rate, f1.stability, f1.versatility, f1.polarity, b.compatibility,
+                  b.combustion ? "sim" : "não", b.note.c_str());
+    md << buf;
+  }
+
+  uint64_t seed = 77;
+  for (const auto& sc : scenarios) {
+    md << "\n## Cenário " << sc.name << "\n\n";
+    md << "| bioquímica | planetas com ambiente viável | P(ciência), química fixa | P(ciência), adaptada | "
+          "civilizações por civ. carbono/água (adaptada) | mediana até a ciência (Gyr, adaptada) | "
+          "T mediana (K) | já possível até hoje |\n|---|---|---|---|---|---|---|---|\n";
+    double reference = 0;
+    std::vector<std::string> rows;
+    for (const auto& b : biochems) {
+      const auto r0 = run_bio_emergence(sc, b, 0.0, planets, seed++);
+      const auto r1 = run_bio_emergence(sc, b, 1.0, planets, seed++);
+      if (b.name == "Carbono/agua") reference = static_cast<double>(r1.successes);
+      for (const auto* r : {&r0, &r1})
+        for (size_t i = 0; i < r->time_after_formation.size() && i < 3000; ++i)
+          samples << sc.name << "," << (r == &r0 ? "fixa" : "adaptada") << "," << b.name << ","
+                  << r->time_after_formation[i] << "," << r->cosmic_time[i] << "," << r->temperature[i] << "\n";
+      char buf[512];
+      std::snprintf(buf, sizeof buf, "| %s | %.3f%% | %.2e | %.2e | %%s | %s | %s | %s |\n", b.name.c_str(),
+                    100.0 * r1.habitable / r1.planets, static_cast<double>(r0.successes) / r0.planets,
+                    static_cast<double>(r1.successes) / r1.planets,
+                    r1.successes ? (std::to_string(median_or_nan(r1.time_after_formation)).substr(0, 5)).c_str() : "—",
+                    r1.successes ? std::to_string(static_cast<int>(median_or_nan(r1.temperature))).c_str() : "—",
+                    r1.successes ? (std::to_string(100 * r1.successes_before_today / r1.successes) + "%").c_str() : "—");
+      rows.push_back(std::string(buf) + "\x1f" + std::to_string(r1.successes));
+      std::cout << sc.name << " " << b.name << ": fixa " << r0.successes << ", adaptada " << r1.successes << "\n";
+    }
+    for (auto& row : rows) {
+      const size_t cut = row.find('\x1f');
+      const double n = std::stod(row.substr(cut + 1));
+      char ratio[32];
+      if (reference > 0) std::snprintf(ratio, sizeof ratio, "%.3g", n / reference);
+      else std::snprintf(ratio, sizeof ratio, "—");
+      char line[640];
+      std::snprintf(line, sizeof line, row.substr(0, cut).c_str(), ratio);
+      md << line;
+    }
+  }
+  std::cout << "Resultados em " << dir << "\n";
+  return 0;
+}
+
 // ---------------------------------------------------------------- pesquisa
+std::string hex(const Genome& g) {
+  static const char* digits = "0123456789abcdef";
+  std::string s;
+  for (uint8_t b : g) s += digits[b >> 4], s += digits[b & 15];
+  return s;
+}
+
+std::string git_commit() {
+  std::string out;
+  if (FILE* p = popen("git rev-parse HEAD 2>/dev/null && git status --porcelain 2>/dev/null | head -1", "r")) {
+    char buf[128];
+    while (fgets(buf, sizeof buf, p)) out += buf;
+    pclose(p);
+  }
+  const size_t nl = out.find('\n');
+  std::string commit = out.substr(0, nl);
+  const bool dirty = nl != std::string::npos && nl + 1 < out.size();
+  return commit.empty() ? "desconhecido" : commit + (dirty ? " (com alterações locais)" : "");
+}
+
+// Catálogo reprodutível: parâmetros, semente, commit e, para cada classe, o genoma exato da primeira
+// descoberta e do melhor exemplar, com a exportação completa do laboratório.
+template <typename Items>
+void write_catalog_json(const fs::path& path, const Lab& lab, const std::vector<Culture>& cultures,
+                        const ResearchConfig& cfg, const Args& args, uint64_t seed, int runs, const Items& items) {
+  std::ofstream js(path);
+  js << "{\n  \"laboratorio\": \"" << lab.id() << "\",\n  \"commit\": \"" << git_commit() << "\",\n";
+  js << "  \"comando\": \"simu pesquisa";
+  for (const auto& [k, v] : args.opts) js << " --" << k << " " << v;
+  js << "\",\n  \"semente\": " << seed << ", \"rodadas\": " << runs
+     << ",\n  \"semente_de_cada_rodada\": \"semente * 1000003 + rodada\",\n";
+  js << "  \"config\": {\"anos\": " << cfg.years << ", \"experimentos_ano0\": " << cfg.experiments0
+     << ", \"crescimento\": " << cfg.growth << ", \"teto\": " << cfg.max_experiments
+     << ", \"catastrofe_por_ano\": " << cfg.catastrophe_rate << ", \"perda_na_catastrofe\": " << cfg.catastrophe_loss
+     << ", \"anos_de_trevas\": " << cfg.dark_age_years << ", \"memoria\": " << cfg.archive_size << "},\n";
+  js << "  \"civilizacoes\": [";
+  for (size_t c = 0; c < cultures.size(); ++c)
+    js << (c ? ", " : "") << "{\"nome\": \"" << cultures[c].name << "\", \"explora\": " << cultures[c].explore
+       << ", \"recombina\": " << cultures[c].crossover << ", \"contato\": " << cultures[c].share
+       << ", \"velocidade\": " << cultures[c].speed << ", \"ferramentas\": " << cultures[c].tools << "}";
+  js << "],\n  \"classes\": [\n";
+  for (size_t i = 0; i < items.size(); ++i) {
+    const auto& [label, it] = items[i];
+    auto origin = [&](const auto& o) {
+      std::ostringstream os;
+      os << "{\"rodada\": " << o.run << ", \"civilizacao\": \"" << (o.civ >= 0 ? cultures[o.civ].name : "") << "\", \"ano\": "
+         << o.year << ", \"como\": \"" << o.how << "\"}";
+      return os.str();
+    };
+    js << "    {\"classe\": \"" << label << "\", \"melhor_score\": " << it.score << ", \"universos\": " << it.runs.size()
+       << ",\n     \"melhor\": {\"origem\": " << origin(it.origin) << ", \"genoma_hex\": \"" << hex(it.genome)
+       << "\", \"estrutura\": " << lab.export_json(it.genome) << "},\n     \"primeira\": {\"origem\": "
+       << origin(it.first) << ", \"genoma_hex\": \"" << hex(it.first_genome) << "\", \"estrutura\": "
+       << (it.first_genome.empty() ? std::string("{}") : lab.export_json(it.first_genome)) << "}}"
+       << (i + 1 < items.size() ? ",\n" : "\n");
+  }
+  js << "  ]\n}\n";
+}
+
 int cmd_research(const Args& args) {
   const std::string lab_id = args.get("lab", "brinquedo");
   const uint64_t seed = std::stoull(args.get("semente", "42"));
@@ -132,8 +288,9 @@ int cmd_research(const Args& args) {
   cfg.max_experiments = std::stod(args.get("teto", "1000"));
   cfg.experiments0 = std::stod(args.get("inicio", "10"));
   const auto lab = make_lab(lab_id, seed);
-  const auto cultures = default_cultures();
-  const fs::path dir = args.get("saida", "resultados/" + lab_id);
+  const bool biochem_civs = args.get("civs", "culturas") == "bioquimicas";
+  const auto cultures = biochem_civs ? biochemistry_civilizations() : default_cultures();
+  const fs::path dir = args.get("saida", "resultados/" + lab_id + (biochem_civs ? "_bioquimicas" : ""));
   fs::create_directories(dir);
 
   std::cout << "Laboratório: " << lab->title() << "\n" << runs << " rodadas × " << cultures.size()
@@ -175,6 +332,17 @@ int cmd_research(const Args& args) {
   for (const auto& line : lab->validate()) md << line << "\n";
 
   md << "\n## Desempenho por cultura de pesquisa\n\n";
+  if (biochem_civs) {
+    md << "Civilizações de bioquímicas diferentes (cenário Terra, catálise adaptada), cada uma no seu sistema "
+          "estelar (sem contato). Velocidade = pensamento relativo ao humano; ferramentas = fração do teto "
+          "instrumental (sem fogo/metalurgia: 30%).\n\n| civilização | velocidade | ferramentas |\n|---|---|---|\n";
+    for (const auto& c : cultures) {
+      char buf[160];
+      std::snprintf(buf, sizeof buf, "| %s | %.2f | %.0f%% |\n", c.name.c_str(), c.speed, 100 * c.tools);
+      md << buf;
+    }
+    md << "\n";
+  }
   md << "| cultura | explora | recombina | contato | melhor score (média ± dp) | classes descobertas | "
         "descobertas inéditas no universo | ano médio em que atingiu o recorde global | catástrofes |\n";
   md << "|---|---|---|---|---|---|---|---|---|\n";
@@ -206,19 +374,21 @@ int cmd_research(const Args& args) {
   }
 
   // Catálogo de tudo o que foi descoberto
+  struct Origin { int run = -1, civ = -1, year = -1; std::string how; };
   struct Item {
     int first_year = 1 << 30, runs_found = 0;
     double score = -1e300;
-    Genome genome;
+    Genome genome, first_genome;
+    Origin origin, first;
     std::set<int> runs;
   };
   std::map<std::string, Item> catalog;
   for (const auto& res : results)
     for (const auto& d : res.discoveries) {
       Item& it = catalog[d.label];
-      it.first_year = std::min(it.first_year, d.year);
+      if (d.year < it.first_year) it.first_year = d.year, it.first_genome = d.genome, it.first = {d.run, d.civ, d.year, "descoberta"};
       it.runs.insert(d.run);
-      if (d.score > it.score) it.score = d.score, it.genome = d.genome;
+      if (d.score > it.score) it.score = d.score, it.genome = d.genome, it.origin = {d.run, d.civ, d.year, "descoberta"};
     }
   // Os melhores genomas finais também entram (podem ser melhores que o exemplo da 1ª descoberta).
   for (const auto& res : results)
@@ -226,7 +396,9 @@ int cmd_research(const Args& args) {
       if (res.best_genome[c].empty()) continue;
       const Evaluation e = lab->evaluate(res.best_genome[c]);
       Item& it = catalog[e.label];
-      if (e.score > it.score) it.score = e.score, it.genome = res.best_genome[c];
+      if (e.score > it.score)
+        it.score = e.score, it.genome = res.best_genome[c],
+        it.origin = {static_cast<int>(&res - results.data()), static_cast<int>(c), cfg.years, "melhor ao fim da rodada"};
     }
   std::vector<std::pair<std::string, Item>> items(catalog.begin(), catalog.end());
   std::sort(items.begin(), items.end(), [](auto& a, auto& b) { return a.second.score > b.second.score; });
@@ -239,6 +411,8 @@ int cmd_research(const Args& args) {
                   it.first_year == (1 << 30) ? -1 : it.first_year, it.runs.size(), runs);
     md << buf;
   }
+  write_catalog_json(dir / "catalogo.json", *lab, cultures, cfg, args, seed, runs, items);
+
   md << "\n## Melhores exemplares\n\n";
   const int show = std::min<int>(8, items.size());
   for (int i = 0; i < show; ++i) {
@@ -269,6 +443,7 @@ int main(int argc, char** argv) {
   try {
     if (args.command == "emergencia") return cmd_emergence(args);
     if (args.command == "pesquisa") return cmd_research(args);
+    if (args.command == "bioquimica") return cmd_biochemistry(args);
     if (args.command == "validar") return cmd_validate(args);
   } catch (const std::exception& e) {
     std::cerr << "erro: " << e.what() << "\n";

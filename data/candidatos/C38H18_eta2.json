@@ -1,0 +1,547 @@
+{
+ "candidato": "C38H18",
+ "classe": "eta=2 (desbalanco=0, oculto=2)",
+ "descricao": "Estrutura exata encontrada pela simulação; a fórmula sozinha não identifica o isômero.",
+ "reproducao": {
+  "comando": "simu pesquisa --lab quimica --rodadas 32 --anos 300 --inicio 5 --teto 500",
+  "semente": 42,
+  "semente_da_rodada": "semente * 1000003 + rodada",
+  "resultados_identicos_ao_commit": "81b68ad (resultados/quimica/descobertas.csv reproduzido byte a byte)",
+  "config": {
+   "anos": 300,
+   "experimentos_ano0": 5,
+   "crescimento": 0.02,
+   "teto": 500,
+   "catastrofe_por_ano": 0.004,
+   "perda_na_catastrofe": 0.7,
+   "anos_de_trevas": 25,
+   "memoria": 64
+  },
+  "civilizacoes": [
+   {
+    "nome": "Empiristas",
+    "explora": 0.5,
+    "recombina": 0.1,
+    "contato": 0.15,
+    "velocidade": 1,
+    "ferramentas": 1
+   },
+   {
+    "nome": "Incrementalistas",
+    "explora": 0.03,
+    "recombina": 0.05,
+    "contato": 0.15,
+    "velocidade": 1,
+    "ferramentas": 1
+   },
+   {
+    "nome": "Evolucionistas",
+    "explora": 0.1,
+    "recombina": 0.45,
+    "contato": 0.15,
+    "velocidade": 1,
+    "ferramentas": 1
+   },
+   {
+    "nome": "Isolados",
+    "explora": 0.15,
+    "recombina": 0.2,
+    "contato": 0,
+    "velocidade": 1,
+    "ferramentas": 1
+   }
+  ]
+ },
+ "origem": {
+  "rodada": 9,
+  "civilizacao": "Isolados",
+  "ano": 145,
+  "como": "descoberta"
+ },
+ "genoma_hex": "00000000000000000000000001000000000000010100000000000001010101010000000000000101000000000000010000000000000000000000000000",
+ "primeira_descoberta_da_classe": {
+  "rodada": 27,
+  "civilizacao": "Evolucionistas",
+  "ano": 12,
+  "como": "descoberta",
+  "formula": "C52H26"
+ },
+ "estrutura": {
+  "anel_coordenadas_axiais_q_r": [
+   [
+    -2,
+    -1
+   ],
+   [
+    -1,
+    -2
+   ],
+   [
+    -1,
+    -1
+   ],
+   [
+    0,
+    -3
+   ],
+   [
+    0,
+    -2
+   ],
+   [
+    0,
+    -1
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    -1
+   ]
+  ],
+  "formula": "C38H18",
+  "aneis": 11,
+  "eta": 2,
+  "n_A": 19,
+  "n_B": 19,
+  "gap_huckel_beta": 0.0,
+  "carbonos": [
+   {
+    "id": 0,
+    "x_A": -6.14878,
+    "y_A": -0.71,
+    "subrede": "A"
+   },
+   {
+    "id": 1,
+    "x_A": -4.91902,
+    "y_A": -1.42,
+    "subrede": "B"
+   },
+   {
+    "id": 2,
+    "x_A": -4.91902,
+    "y_A": -2.84,
+    "subrede": "A"
+   },
+   {
+    "id": 3,
+    "x_A": -6.14878,
+    "y_A": -3.55,
+    "subrede": "B"
+   },
+   {
+    "id": 4,
+    "x_A": -7.37854,
+    "y_A": -2.84,
+    "subrede": "A"
+   },
+   {
+    "id": 5,
+    "x_A": -7.37854,
+    "y_A": -1.42,
+    "subrede": "B"
+   },
+   {
+    "id": 6,
+    "x_A": -3.68927,
+    "y_A": -3.55,
+    "subrede": "B"
+   },
+   {
+    "id": 7,
+    "x_A": -3.68927,
+    "y_A": -4.97,
+    "subrede": "A"
+   },
+   {
+    "id": 8,
+    "x_A": -4.91902,
+    "y_A": -5.68,
+    "subrede": "B"
+   },
+   {
+    "id": 9,
+    "x_A": -6.14878,
+    "y_A": -4.97,
+    "subrede": "A"
+   },
+   {
+    "id": 10,
+    "x_A": -3.68927,
+    "y_A": -0.71,
+    "subrede": "A"
+   },
+   {
+    "id": 11,
+    "x_A": -2.45951,
+    "y_A": -1.42,
+    "subrede": "B"
+   },
+   {
+    "id": 12,
+    "x_A": -2.45951,
+    "y_A": -2.84,
+    "subrede": "A"
+   },
+   {
+    "id": 13,
+    "x_A": -2.45951,
+    "y_A": -5.68,
+    "subrede": "B"
+   },
+   {
+    "id": 14,
+    "x_A": -2.45951,
+    "y_A": -7.1,
+    "subrede": "A"
+   },
+   {
+    "id": 15,
+    "x_A": -3.68927,
+    "y_A": -7.81,
+    "subrede": "B"
+   },
+   {
+    "id": 16,
+    "x_A": -4.91902,
+    "y_A": -7.1,
+    "subrede": "A"
+   },
+   {
+    "id": 17,
+    "x_A": -1.22976,
+    "y_A": -3.55,
+    "subrede": "B"
+   },
+   {
+    "id": 18,
+    "x_A": -1.22976,
+    "y_A": -4.97,
+    "subrede": "A"
+   },
+   {
+    "id": 19,
+    "x_A": -1.22976,
+    "y_A": -0.71,
+    "subrede": "A"
+   },
+   {
+    "id": 20,
+    "x_A": 0.0,
+    "y_A": -1.42,
+    "subrede": "B"
+   },
+   {
+    "id": 21,
+    "x_A": 0.0,
+    "y_A": -2.84,
+    "subrede": "A"
+   },
+   {
+    "id": 22,
+    "x_A": 0.0,
+    "y_A": 1.42,
+    "subrede": "A"
+   },
+   {
+    "id": 23,
+    "x_A": 1.22976,
+    "y_A": 0.71,
+    "subrede": "B"
+   },
+   {
+    "id": 24,
+    "x_A": 1.22976,
+    "y_A": -0.71,
+    "subrede": "A"
+   },
+   {
+    "id": 25,
+    "x_A": -1.22976,
+    "y_A": 0.71,
+    "subrede": "B"
+   },
+   {
+    "id": 26,
+    "x_A": 1.22976,
+    "y_A": 3.55,
+    "subrede": "A"
+   },
+   {
+    "id": 27,
+    "x_A": 2.45951,
+    "y_A": 2.84,
+    "subrede": "B"
+   },
+   {
+    "id": 28,
+    "x_A": 2.45951,
+    "y_A": 1.42,
+    "subrede": "A"
+   },
+   {
+    "id": 29,
+    "x_A": 0.0,
+    "y_A": 2.84,
+    "subrede": "B"
+   },
+   {
+    "id": 30,
+    "x_A": 2.45951,
+    "y_A": -1.42,
+    "subrede": "B"
+   },
+   {
+    "id": 31,
+    "x_A": 2.45951,
+    "y_A": -2.84,
+    "subrede": "A"
+   },
+   {
+    "id": 32,
+    "x_A": 1.22976,
+    "y_A": -3.55,
+    "subrede": "B"
+   },
+   {
+    "id": 33,
+    "x_A": 3.68927,
+    "y_A": 0.71,
+    "subrede": "B"
+   },
+   {
+    "id": 34,
+    "x_A": 3.68927,
+    "y_A": -0.71,
+    "subrede": "A"
+   },
+   {
+    "id": 35,
+    "x_A": 4.91902,
+    "y_A": -1.42,
+    "subrede": "B"
+   },
+   {
+    "id": 36,
+    "x_A": 4.91902,
+    "y_A": -2.84,
+    "subrede": "A"
+   },
+   {
+    "id": 37,
+    "x_A": 3.68927,
+    "y_A": -3.55,
+    "subrede": "B"
+   }
+  ],
+  "ligacoes": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    11,
+    19
+   ],
+   [
+    12,
+    17
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    13,
+    18
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    15,
+    16
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    17,
+    21
+   ],
+   [
+    19,
+    20
+   ],
+   [
+    19,
+    25
+   ],
+   [
+    20,
+    21
+   ],
+   [
+    20,
+    24
+   ],
+   [
+    21,
+    32
+   ],
+   [
+    22,
+    23
+   ],
+   [
+    22,
+    25
+   ],
+   [
+    22,
+    29
+   ],
+   [
+    23,
+    24
+   ],
+   [
+    23,
+    28
+   ],
+   [
+    24,
+    30
+   ],
+   [
+    26,
+    27
+   ],
+   [
+    26,
+    29
+   ],
+   [
+    27,
+    28
+   ],
+   [
+    28,
+    33
+   ],
+   [
+    30,
+    31
+   ],
+   [
+    30,
+    34
+   ],
+   [
+    31,
+    32
+   ],
+   [
+    31,
+    37
+   ],
+   [
+    33,
+    34
+   ],
+   [
+    34,
+    35
+   ],
+   [
+    35,
+    36
+   ],
+   [
+    36,
+    37
+   ]
+  ]
+ }
+}

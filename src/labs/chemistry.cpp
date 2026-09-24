@@ -34,6 +34,7 @@ struct Molecule {
   int atoms = 0, na = 0, nb = 0, hydrogens = 0, hexes = 0;
   std::vector<std::pair<int, int>> bonds;
   std::vector<int> sublattice;  // 0 = A, 1 = B
+  std::vector<std::pair<int, int>> position;  // (x, y) inteiros: x em unidades de √3/2·d, y em d/2
 };
 
 class ChemistryLab : public Lab {
@@ -148,6 +149,36 @@ class ChemistryLab : public Lab {
     return std::string(buf) + "\n" + picture(g);
   }
 
+  // Tudo para reconstruir a molécula: anéis (coordenadas axiais), átomos (Å, ligação C–C = 1.42 Å),
+  // ligações, subredes, e o que o Hückel calculou.
+  std::string export_json(const Genome& g) const override {
+    const Molecule mol = build(g);
+    std::string s = "{\"anel_coordenadas_axiais_q_r\": [";
+    bool first = true;
+    for (size_t i = 0; i < g.size(); ++i)
+      if (g[i]) {
+        s += (first ? "" : ", ") + std::string("[") + std::to_string(cells_[i].q) + ", " + std::to_string(cells_[i].r) + "]";
+        first = false;
+      }
+    char buf[160];
+    std::snprintf(buf, sizeof buf, "], \"formula\": \"C%dH%d\", \"aneis\": %d, \"eta\": %d, \"n_A\": %d, \"n_B\": %d, "
+                  "\"gap_huckel_beta\": %.6f, ", mol.atoms, mol.hydrogens, mol.hexes, zero_modes(mol), mol.na, mol.nb, gap(mol));
+    s += buf;
+    s += "\"carbonos\": [";
+    constexpr double d = 1.42;
+    for (int i = 0; i < mol.atoms; ++i) {
+      std::snprintf(buf, sizeof buf, "%s{\"id\": %d, \"x_A\": %.5f, \"y_A\": %.5f, \"subrede\": \"%c\"}", i ? ", " : "", i,
+                    mol.position[i].first * std::sqrt(3.0) / 2 * d, mol.position[i].second * 0.5 * d,
+                    mol.sublattice[i] == 0 ? 'A' : 'B');
+      s += buf;
+    }
+    s += "], \"ligacoes\": [";
+    for (size_t k = 0; k < mol.bonds.size(); ++k)
+      s += (k ? ", [" : "[") + std::to_string(mol.bonds[k].first) + ", " + std::to_string(mol.bonds[k].second) + "]";
+    s += "]}";
+    return s;
+  }
+
   std::vector<std::string> validate() const override {
     struct Case { const char* name; std::vector<Cell> cells; const char* formula; double gap; int eta; };
     const std::vector<Case> cases = {
@@ -257,6 +288,7 @@ class ChemistryLab : public Lab {
       auto [it, inserted] = atom.emplace(std::pair{x, y}, mol.atoms);
       if (inserted) {
         ++mol.atoms;
+        mol.position.push_back({x, y});
         mol.sublattice.push_back((((y % 3) + 3) % 3) == 2 ? 0 : 1);
       }
       return it->second;

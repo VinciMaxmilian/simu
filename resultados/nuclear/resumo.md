@@ -2,7 +2,7 @@
 
 **Objetivo de pesquisa:** achar o elemento mais pesado que vive ≥ 60 s; score = Z − 5 por década abaixo de 60 s.
 
-32 universos × 4 civilizações × 300 anos de ciência; 7255574 experimentos (332395 distintos) em 1.2 s.
+32 universos × 4 civilizações × 300 anos de ciência; 7255574 experimentos (332395 distintos) em 2.4 s.
 
 ## Validação contra o mundo real
 

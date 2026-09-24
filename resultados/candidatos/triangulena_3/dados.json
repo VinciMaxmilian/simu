@@ -1,0 +1,134 @@
+{
+ "nome": "triangulena_3",
+ "formula": "C22H12",
+ "n_A": 10,
+ "n_B": 12,
+ "eta_huckel": 2,
+ "S_lieb": 1.0,
+ "parametros": {
+  "t_eV": 2.7,
+  "U_eV": 3.24
+ },
+ "esperado_literatura": "S=1 (tripleto) fundamental; sintetizada em superfície (Pavliček et al. 2017)",
+ "hubbard_campo_medio": {
+  "0.0": {
+   "energia_eV": -65.58264733335665,
+   "momento_total": 1.6653345369377348e-15,
+   "momento_local_max": 0.29299659426856833,
+   "convergiu": true,
+   "energia_rel_meV": 188.63756198211945
+  },
+  "1.0": {
+   "energia_eV": -65.77128489533877,
+   "momento_total": 2.000000000000001,
+   "momento_local_max": 0.31143130132077157,
+   "convergiu": true,
+   "energia_rel_meV": 0.0
+  },
+  "2.0": {
+   "energia_eV": -61.79713883577172,
+   "momento_total": 4.000000000000002,
+   "momento_local_max": 0.5824063566306268,
+   "convergiu": true,
+   "energia_rel_meV": 3974.1460595670474
+  },
+  "3.0": {
+   "energia_eV": -57.196665282811985,
+   "momento_total": 6.0,
+   "momento_local_max": 0.5814725924958357,
+   "convergiu": true,
+   "energia_rel_meV": 8574.619612526782
+  },
+  "4.0": {
+   "energia_eV": -52.71083537111288,
+   "momento_total": 7.999999999999998,
+   "momento_local_max": 0.6210008918686774,
+   "convergiu": true,
+   "energia_rel_meV": 13060.449524225887
+  }
+ },
+ "hubbard_campo_medio_Sz_fundamental": 1.0,
+ "hubbard_cas": {
+  "orbitais_ativos": 6,
+  "eletrons_ativos": 6,
+  "niveis": [
+   {
+    "S": 1.0,
+    "energia_rel_meV": 0.0
+   },
+   {
+    "S": 0.0,
+    "energia_rel_meV": 311.14261782782825
+   },
+   {
+    "S": 0.0,
+    "energia_rel_meV": 311.58213819718173
+   },
+   {
+    "S": 0.0,
+    "energia_rel_meV": 629.8415704734788
+   },
+   {
+    "S": 1.0,
+    "energia_rel_meV": 2303.8427924083053
+   },
+   {
+    "S": 1.0,
+    "energia_rel_meV": 2304.99964521299
+   },
+   {
+    "S": 0.0,
+    "energia_rel_meV": 2640.2495412911235
+   },
+   {
+    "S": 0.0,
+    "energia_rel_meV": 2641.541522870401
+   }
+  ]
+ },
+ "hubbard_densidade_spin_fundamental": [
+  -0.05700716138832124,
+  0.0859984136522593,
+  -0.05700716138832124,
+  0.2356678895788613,
+  -0.07187021874155142,
+  0.2356678895788612,
+  -0.048642857837677855,
+  0.08599841365225941,
+  -0.05700716138832129,
+  0.31143130132077135,
+  -0.0570071613883214,
+  0.23566788957886164,
+  -0.07187021874155153,
+  0.2356678895788613,
+  -0.05700716138832129,
+  0.08599841365225941,
+  0.31143130132077157,
+  -0.0570071613883214,
+  0.3114313013207715,
+  -0.07187021874155142,
+  0.2356678895788616,
+  0.23566788957886142
+ ],
+ "xtb": {
+  "3": {
+   "multiplicidade": 3,
+   "energia_eV": -1448.5437511276737,
+   "desvio_do_plano_A": 0.02310374409899137,
+   "ligacao_CC_A": [
+    1.3811388731488081,
+    1.4221256698154332
+   ]
+  },
+  "5": {
+   "multiplicidade": 5,
+   "energia_eV": -1444.5061828288874,
+   "desvio_do_plano_A": 0.02890310764428477,
+   "ligacao_CC_A": [
+    1.3895762067253945,
+    1.4422170402689867
+   ]
+  }
+ },
+ "tempo_s": 11.162725687026978
+}

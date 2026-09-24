@@ -2,7 +2,7 @@
 
 **Objetivo de pesquisa:** maximizar modos de energia zero (elétrons desemparelhados), com peso dobrado para os 'ocultos' (não explicados pelo desbalanço de subredes); até 16 anéis.
 
-32 universos × 4 civilizações × 300 anos de ciência; 7236954 experimentos (2089699 distintos) em 93.3 s.
+32 universos × 4 civilizações × 300 anos de ciência; 7236954 experimentos (2089699 distintos) em 170.4 s.
 
 ## Validação contra o mundo real
 

@@ -1,0 +1,118 @@
+{
+ "nome": "fenalenil",
+ "formula": "C13H9",
+ "n_A": 6,
+ "n_B": 7,
+ "eta_huckel": 1,
+ "S_lieb": 0.5,
+ "parametros": {
+  "t_eV": 2.7,
+  "U_eV": 3.24
+ },
+ "esperado_literatura": "monorradical, S=1/2 (conhecido desde os anos 1950)",
+ "hubbard_campo_medio": {
+  "0.5": {
+   "energia_eV": -37.78004871873007,
+   "momento_total": 0.9999999999999991,
+   "momento_local_max": 0.21799327168103477,
+   "convergiu": true,
+   "energia_rel_meV": 0.0
+  },
+  "1.5": {
+   "energia_eV": -33.1593506277413,
+   "momento_total": 2.999999999999998,
+   "momento_local_max": 0.6171065159631217,
+   "convergiu": true,
+   "energia_rel_meV": 4620.698090988774
+  },
+  "2.5": {
+   "energia_eV": -28.75941130717291,
+   "momento_total": 4.999999999999998,
+   "momento_local_max": 0.6577964661950131,
+   "convergiu": true,
+   "energia_rel_meV": 9020.63741155716
+  },
+  "3.5": {
+   "energia_eV": -24.55860605498639,
+   "momento_total": 6.999999999999995,
+   "momento_local_max": 0.6633537636227149,
+   "convergiu": true,
+   "energia_rel_meV": 13221.44266374368
+  }
+ },
+ "hubbard_campo_medio_Sz_fundamental": 0.5,
+ "hubbard_cas": {
+  "orbitais_ativos": 5,
+  "eletrons_ativos": 5,
+  "niveis": [
+   {
+    "S": 0.5,
+    "energia_rel_meV": 0.0
+   },
+   {
+    "S": 0.5,
+    "energia_rel_meV": 2615.1086280457
+   },
+   {
+    "S": 0.5,
+    "energia_rel_meV": 2747.1092051449828
+   },
+   {
+    "S": 0.5,
+    "energia_rel_meV": 2979.4324633829106
+   },
+   {
+    "S": 0.5,
+    "energia_rel_meV": 3120.127021923046
+   },
+   {
+    "S": 1.5,
+    "energia_rel_meV": 4695.384405628139
+   },
+   {
+    "S": 1.5,
+    "energia_rel_meV": 4993.576807694704
+   },
+   {
+    "S": 1.5,
+    "energia_rel_meV": 5043.641762359658
+   }
+  ]
+ },
+ "hubbard_densidade_spin_fundamental": [
+  -0.04619015384434444,
+  0.020168039386595615,
+  -0.04619015384434422,
+  0.21799327168103472,
+  -0.06318573597992361,
+  0.21799327168103455,
+  -0.04619015384434433,
+  0.21799327168103472,
+  -0.06318573597992405,
+  0.21799327168103477,
+  -0.06318573597992366,
+  0.21799327168103455,
+  0.2179932716810346
+ ],
+ "xtb": {
+  "2": {
+   "multiplicidade": 2,
+   "energia_eV": -881.6642291360567,
+   "desvio_do_plano_A": 0.012029139516490124,
+   "ligacao_CC_A": [
+    1.381493870128021,
+    1.418502151778443
+   ]
+  },
+  "4": {
+   "multiplicidade": 4,
+   "energia_eV": -877.2780486812278,
+   "desvio_do_plano_A": 0.008946239066233415,
+   "ligacao_CC_A": [
+    1.362344372219944,
+    1.4763701665024853
+   ]
+  }
+ },
+ "tempo_s": 5.614816904067993
+}

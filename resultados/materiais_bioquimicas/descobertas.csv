@@ -1,0 +1,1903 @@
+rodada,ano,civilizacao,cultura,classe,score,primeira_do_universo,por_contato
+0,0,0,Carbono/agua,"dispersiva",-4.34294e-07,1,0
+0,0,3,Carbono/metano,"dispersiva",-4.34294e-07,0,0
+0,1,2,Carbono/acido sulfurico,"dispersiva",-0.30103,0,0
+0,1,4,Silicio/agua,"dispersiva",-0.232103,0,0
+0,1,5,Silicio/acido sulfurico,"dispersiva",-0.343412,0,0
+0,2,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+0,5,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+0,6,1,Carbono/amonia,"dispersiva",-0.214062,0,0
+0,6,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+0,6,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.6417,1,0
+0,12,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.35559,1,0
+0,12,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,14,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,18,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.14193,1,0
+0,20,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.69444,0,0
+0,21,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,26,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.18716,0,0
+0,28,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.23805,0,0
+0,35,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.21162,0,0
+0,41,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,44,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.18941,0,0
+0,53,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6.14556,0,0
+0,54,2,Carbono/acido sulfurico,"dispersiva",-0.0356383,0,0
+0,54,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.30482,0,0
+0,55,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,56,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,57,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.24793,0,0
+0,59,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,61,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.66294,0,0
+0,67,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",6.50526,0,0
+0,73,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,90,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+0,90,5,Silicio/acido sulfurico,"dispersiva",-0.510018,0,0
+0,93,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.54692,0,0
+0,99,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,100,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",8.47183,0,0
+0,101,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,101,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.26649,0,0
+0,105,2,Carbono/acido sulfurico,"quase plana isolada, 4 sitios",3.63993,1,0
+0,105,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,109,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.48328,0,0
+0,113,2,Carbono/acido sulfurico,"quase plana nao isolada, 4 sitios",2.58657,1,0
+0,114,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+0,115,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+0,119,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,124,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,125,2,Carbono/acido sulfurico,"dispersiva",-0.0369421,0,0
+0,128,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,129,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.59,0,0
+0,133,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.07989,0,0
+0,134,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,137,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,137,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,138,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.55952,0,0
+0,151,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+0,154,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,203,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.75692,0,0
+0,204,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,208,4,Silicio/agua,"dispersiva",0.328461,0,0
+0,208,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,227,3,Carbono/metano,"dispersiva",-0.180057,0,0
+0,231,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+0,233,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+0,235,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.60976,0,0
+0,246,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+0,286,5,Silicio/acido sulfurico,"dispersiva",-0.199913,0,0
+1,0,0,Carbono/agua,"dispersiva",-4.34294e-07,1,0
+1,0,1,Carbono/amonia,"dispersiva",-0.0894389,0,0
+1,0,4,Silicio/agua,"dispersiva",-0.90309,0,0
+1,0,5,Silicio/acido sulfurico,"dispersiva",-0.30103,0,0
+1,2,2,Carbono/acido sulfurico,"dispersiva",-0.264547,0,0
+1,5,3,Carbono/metano,"dispersiva",-0.0240425,0,0
+1,12,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+1,20,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.1772,1,0
+1,27,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+1,28,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.23376,0,0
+1,32,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+1,37,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.58807,1,0
+1,39,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,1,0
+1,41,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+1,43,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.5292,0,0
+1,66,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.47523,0,0
+1,68,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+1,70,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+1,89,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.91376,0,0
+1,96,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,0,0
+1,97,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+1,102,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,118,1,Carbono/amonia,"quase plana isolada, 4 sitios",2.8934,1,0
+1,136,5,Silicio/acido sulfurico,"dispersiva",-0.236322,0,0
+1,136,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,136,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.28388,0,0
+1,146,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.46679,0,0
+1,146,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",8.75388,0,0
+1,154,0,Carbono/agua,"quase plana isolada, 4 sitios",3.5418,0,0
+1,155,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.37082,0,0
+1,156,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+1,160,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+1,164,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+1,165,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,167,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+1,168,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.89037,0,0
+1,169,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.07989,0,0
+1,170,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,175,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+1,182,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+1,182,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,184,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+1,184,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.89366,0,0
+1,201,1,Carbono/amonia,"quase plana isolada, 4 sitios",2.8934,0,0
+1,201,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+1,202,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+1,202,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,205,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+1,216,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+1,280,3,Carbono/metano,"dispersiva",-0.405009,0,0
+2,0,1,Carbono/amonia,"dispersiva",-0.166947,1,0
+2,0,3,Carbono/metano,"dispersiva",-0.188342,0,0
+2,0,4,Silicio/agua,"dispersiva",-0.403003,0,0
+2,0,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+2,0,5,Silicio/acido sulfurico,"dispersiva",-0.23434,0,0
+2,0,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+2,1,0,Carbono/agua,"dispersiva",-0.251958,0,0
+2,1,2,Carbono/acido sulfurico,"dispersiva",-0.510018,0,0
+2,2,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,1,0
+2,2,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.61438,1,0
+2,11,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6.1309,0,0
+2,12,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.32724,0,0
+2,22,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+2,25,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.44943,0,0
+2,29,3,Carbono/metano,"dispersiva",-0.398308,0,0
+2,34,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+2,34,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+2,34,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.77646,1,0
+2,36,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,42,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.29088,0,0
+2,45,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.08911,0,0
+2,64,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.17979,0,0
+2,66,4,Silicio/agua,"dispersiva",-0.0913949,0,0
+2,66,5,Silicio/acido sulfurico,"dispersiva",-0.193557,0,0
+2,68,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+2,70,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,80,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",7.09496,0,0
+2,82,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.34773,0,0
+2,85,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,89,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+2,90,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+2,93,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.23729,0,0
+2,96,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,96,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+2,102,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,105,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,110,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+2,121,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+2,127,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+2,131,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.44137,0,0
+2,150,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.52376,0,0
+2,154,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,155,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.48328,0,0
+2,156,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,158,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+2,161,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,190,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+2,197,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,197,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+2,197,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.5369,0,0
+2,213,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,217,1,Carbono/amonia,"dispersiva",0.101135,0,0
+2,227,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+2,229,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.32171,0,0
+2,230,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.49259,0,0
+2,232,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+2,253,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,262,0,Carbono/agua,"dispersiva",0.135458,0,0
+2,262,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+2,262,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.67943,0,0
+2,262,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.27984,0,0
+2,263,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+2,277,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6.12447,0,0
+2,292,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,0,4,Silicio/agua,"dispersiva",-0.459088,1,0
+3,0,5,Silicio/acido sulfurico,"dispersiva",-0.15582,0,0
+3,1,0,Carbono/agua,"dispersiva",0.19946,0,0
+3,1,1,Carbono/amonia,"dispersiva",-0.441754,0,0
+3,1,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+3,1,2,Carbono/acido sulfurico,"dispersiva",-0.573807,0,0
+3,1,3,Carbono/metano,"dispersiva",-0.510018,0,0
+3,2,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,1,0
+3,5,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.4,1,0
+3,9,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.12362,1,0
+3,10,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+3,21,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,30,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+3,32,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,33,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,36,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.4435,0,0
+3,49,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,53,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,0,0
+3,54,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,58,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,63,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.09496,0,0
+3,71,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+3,77,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,81,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.18092,0,0
+3,91,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+3,93,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,94,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+3,94,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,96,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.50588,0,0
+3,103,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,104,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,107,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,109,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,117,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+3,118,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,119,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.08174,0,0
+3,123,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.99411,0,0
+3,124,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,135,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+3,140,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+3,140,5,Silicio/acido sulfurico,"dispersiva",0.0505686,0,0
+3,140,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.35617,0,0
+3,154,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,156,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,162,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.69203,0,0
+3,165,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,173,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.22409,0,0
+3,179,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.31672,0,0
+3,181,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,195,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.20355,0,0
+3,196,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6.0449,0,0
+3,230,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,242,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.06104,0,0
+3,245,2,Carbono/acido sulfurico,"dispersiva",-0.383568,0,0
+3,252,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,255,3,Carbono/metano,"dispersiva",-0.42726,0,0
+3,255,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.95597,0,0
+3,259,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+3,261,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+3,262,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.84233,0,0
+3,294,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+3,295,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.51636,0,0
+4,0,0,Carbono/agua,"dispersiva",-0.510018,1,0
+4,0,1,Carbono/amonia,"dispersiva",-0.108432,0,0
+4,0,2,Carbono/acido sulfurico,"dispersiva",-0.0841805,0,0
+4,0,4,Silicio/agua,"dispersiva",-0.408503,0,0
+4,0,5,Silicio/acido sulfurico,"dispersiva",-0.224824,0,0
+4,1,3,Carbono/metano,"dispersiva",-0.370577,0,0
+4,5,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.52684,1,0
+4,8,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.07915,1,0
+4,18,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+4,21,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+4,25,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,25,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.10521,0,0
+4,25,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+4,29,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,38,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.38124,1,0
+4,39,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.58473,0,0
+4,40,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,41,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,42,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,42,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.48697,0,0
+4,46,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,52,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+4,63,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.77308,0,0
+4,64,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.39359,0,0
+4,64,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+4,70,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,75,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",7.09177,0,0
+4,77,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+4,94,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.41822,0,0
+4,95,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.89055,0,0
+4,96,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,97,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+4,98,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,99,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.48328,0,0
+4,102,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,133,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,164,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,167,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,169,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,170,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,181,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+4,184,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.37047,0,0
+4,185,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,192,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.42612,0,0
+4,197,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,201,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+4,211,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+4,212,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.07915,0,0
+4,212,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,214,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.05421,0,0
+4,215,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+4,227,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,267,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+4,275,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+4,294,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+4,295,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.13028,0,0
+4,295,1,Carbono/amonia,"dispersiva",-0.134601,0,0
+4,295,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.33391,0,0
+4,296,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.46996,0,0
+4,300,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.76882,0,0
+5,0,0,Carbono/agua,"dispersiva",-0.508817,1,0
+5,0,2,Carbono/acido sulfurico,"dispersiva",-0.139182,0,0
+5,0,4,Silicio/agua,"dispersiva",-0.548856,0,0
+5,1,1,Carbono/amonia,"dispersiva",-0.213102,0,0
+5,1,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.33935,1,0
+5,3,5,Silicio/acido sulfurico,"dispersiva",-4.34294e-07,0,0
+5,6,3,Carbono/metano,"dispersiva",-0.0374605,0,0
+5,29,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+5,32,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+5,33,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.54062,1,0
+5,36,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.32439,0,0
+5,38,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.0866,0,0
+5,39,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,42,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+5,43,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.7186,1,0
+5,45,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+5,47,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,54,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.00868,0,0
+5,58,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,60,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.71371,0,0
+5,61,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+5,62,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+5,64,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,69,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+5,70,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,74,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,96,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.99771,0,0
+5,98,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,106,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,0,0
+5,116,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+5,120,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,121,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",7.27701,0,0
+5,124,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+5,132,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+5,133,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,135,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.1684,0,0
+5,137,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,138,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.6668,0,0
+5,143,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.0684,0,0
+5,146,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+5,146,1,Carbono/amonia,"dispersiva",-0.22541,0,0
+5,158,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.15505,0,0
+5,170,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,179,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+5,179,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,181,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,183,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+5,188,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+5,188,3,Carbono/metano,"dispersiva",-0.251622,0,0
+5,219,0,Carbono/agua,"dispersiva",-0.142277,0,0
+5,219,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+5,219,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+5,244,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.65816,0,0
+5,245,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+5,280,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.36843,0,0
+5,298,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+6,0,1,Carbono/amonia,"dispersiva",-0.092152,1,0
+6,0,2,Carbono/acido sulfurico,"dispersiva",-0.0600167,0,0
+6,0,3,Carbono/metano,"dispersiva",-0.120065,0,0
+6,0,4,Silicio/agua,"dispersiva",-0.30103,0,0
+6,0,5,Silicio/acido sulfurico,"dispersiva",-0.510018,0,0
+6,1,0,Carbono/agua,"dispersiva",-0.660348,0,0
+6,27,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,1,0
+6,27,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+6,32,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+6,33,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+6,35,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.16403,1,0
+6,36,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.10367,1,0
+6,40,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.83351,0,0
+6,43,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.27701,0,0
+6,59,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+6,62,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",7.16131,0,0
+6,67,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+6,73,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+6,74,5,Silicio/acido sulfurico,"dispersiva",-0.431615,0,0
+6,75,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",8.44487,0,0
+6,78,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+6,80,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+6,82,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+6,85,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.19085,0,0
+6,86,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6.12857,0,0
+6,94,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+6,100,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",8.97924,0,0
+6,110,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+6,112,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+6,122,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+6,122,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+6,123,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+6,123,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.29469,0,0
+6,124,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.89055,0,0
+6,124,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+6,125,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.33593,0,0
+6,125,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.04189,0,0
+6,126,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+6,128,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.53376,0,0
+6,134,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.15679,0,0
+6,137,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.73673,0,0
+6,144,2,Carbono/acido sulfurico,"quase plana nao isolada, 4 sitios",1.42638,1,0
+6,153,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+6,200,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+6,200,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+6,201,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",8.34829,0,0
+6,201,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.5,0,0
+6,208,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+6,240,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+6,259,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+6,261,2,Carbono/acido sulfurico,"quase plana isolada, 4 sitios",4.30232,1,0
+6,274,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+7,0,1,Carbono/amonia,"dispersiva",-0.17928,1,0
+7,0,2,Carbono/acido sulfurico,"dispersiva",-0.190784,0,0
+7,0,3,Carbono/metano,"dispersiva",-0.151594,0,0
+7,0,4,Silicio/agua,"dispersiva",-0.262656,0,0
+7,0,5,Silicio/acido sulfurico,"dispersiva",-0.389076,0,0
+7,1,0,Carbono/agua,"dispersiva",-0.00396498,0,0
+7,3,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+7,3,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+7,7,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.07989,1,0
+7,12,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.85644,1,0
+7,12,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,14,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+7,17,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+7,17,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.59679,0,0
+7,20,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.30821,1,0
+7,21,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+7,23,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.37264,0,0
+7,40,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+7,46,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.37113,0,0
+7,47,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+7,48,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,49,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.69912,0,0
+7,49,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.52496,0,0
+7,55,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.67943,0,0
+7,57,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.46101,0,0
+7,59,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,64,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+7,92,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+7,99,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+7,104,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+7,105,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+7,110,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+7,110,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.63467,0,0
+7,115,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+7,125,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+7,128,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+7,130,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,203,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.01609,0,0
+7,203,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,204,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+7,207,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+7,227,4,Silicio/agua,"dispersiva",-0.30103,0,0
+7,232,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+7,234,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",6.56729,0,0
+7,236,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,239,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.14193,0,0
+7,239,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.61906,0,0
+7,243,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+7,247,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.19995,0,0
+7,279,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+7,282,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+7,284,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,0,0,Carbono/agua,"dispersiva",-0.482198,1,0
+8,0,1,Carbono/amonia,"dispersiva",-0.0871396,0,0
+8,0,2,Carbono/acido sulfurico,"dispersiva",-0.529169,0,0
+8,0,3,Carbono/metano,"dispersiva",-0.190475,0,0
+8,1,4,Silicio/agua,"dispersiva",-0.190703,0,0
+8,4,5,Silicio/acido sulfurico,"dispersiva",-0.201838,0,0
+8,13,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+8,19,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.22631,1,0
+8,20,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+8,21,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.83351,1,0
+8,32,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+8,36,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+8,40,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+8,40,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.38887,0,0
+8,73,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+8,74,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.50366,1,0
+8,74,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.99976,0,0
+8,75,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,81,1,Carbono/amonia,"dispersiva",-0.0892351,0,0
+8,84,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+8,89,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,90,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.944,0,0
+8,96,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+8,101,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+8,105,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+8,105,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+8,107,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.42406,0,0
+8,108,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+8,108,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.21983,0,0
+8,110,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+8,118,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,118,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+8,119,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.99411,0,0
+8,119,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+8,121,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.944,0,0
+8,122,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.47146,0,0
+8,127,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+8,129,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,135,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+8,137,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+8,149,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.65734,0,0
+8,155,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+8,170,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.99865,0,0
+8,176,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+8,177,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,203,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,205,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",9,0,0
+8,205,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+8,205,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+8,216,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.38857,0,0
+8,290,1,Carbono/amonia,"quase plana isolada, 4 sitios",3.02802,1,0
+9,0,0,Carbono/agua,"dispersiva",-0.30103,1,0
+9,0,2,Carbono/acido sulfurico,"dispersiva",-0.224886,0,0
+9,0,4,Silicio/agua,"dispersiva",-0.90309,0,0
+9,0,5,Silicio/acido sulfurico,"dispersiva",-0.30103,0,0
+9,1,3,Carbono/metano,"dispersiva",-0.564288,0,0
+9,2,1,Carbono/amonia,"dispersiva",-0.362345,0,0
+9,17,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+9,24,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+9,25,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",7.90023,1,0
+9,26,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,26,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.35617,0,0
+9,27,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,1,0
+9,31,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+9,32,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.51437,1,0
+9,35,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.56729,0,0
+9,44,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.92705,0,0
+9,48,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,53,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,54,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.2161,0,0
+9,64,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.01609,0,0
+9,67,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,67,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,72,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,72,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.26316,0,0
+9,76,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.71904,0,0
+9,78,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,81,2,Carbono/acido sulfurico,"dispersiva",-0.195942,0,0
+9,88,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,93,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+9,105,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,109,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.8296,0,0
+9,122,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.10729,0,0
+9,123,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.71447,0,0
+9,125,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+9,126,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.98687,0,0
+9,126,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,138,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+9,139,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.54692,0,0
+9,146,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,147,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,168,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+9,173,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+9,174,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,175,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,178,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,178,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+9,178,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.35617,0,0
+9,179,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,182,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.28569,0,0
+9,185,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.13688,0,0
+9,194,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+9,204,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,206,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.30122,0,0
+9,215,3,Carbono/metano,"dispersiva",-0.0554603,0,0
+9,232,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,243,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+9,245,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+9,246,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+9,249,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.20603,0,0
+9,268,0,Carbono/agua,"quase plana nao isolada, 4 sitios",1.34028,1,0
+9,280,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+9,282,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+9,297,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+9,297,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",8.35147,0,0
+10,0,0,Carbono/agua,"dispersiva",-0.289371,1,0
+10,0,2,Carbono/acido sulfurico,"dispersiva",0.217785,0,0
+10,0,5,Silicio/acido sulfurico,"dispersiva",-0.100185,0,0
+10,1,1,Carbono/amonia,"dispersiva",-0.235647,0,0
+10,1,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.50961,1,0
+10,1,4,Silicio/agua,"dispersiva",0.105992,0,0
+10,2,3,Carbono/metano,"dispersiva",-0.2404,0,0
+10,6,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.40589,0,0
+10,7,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+10,9,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.5386,0,0
+10,11,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,12,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.48328,1,0
+10,19,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+10,20,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,24,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,24,2,Carbono/acido sulfurico,"quase plana nao isolada, 4 sitios",1.44163,1,0
+10,33,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.40188,0,0
+10,36,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.79205,0,0
+10,56,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+10,59,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,63,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,66,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,1,0
+10,71,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,72,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,72,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.41739,0,0
+10,78,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.24943,0,0
+10,86,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.68237,0,0
+10,88,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+10,90,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+10,95,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+10,101,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.24943,0,0
+10,115,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+10,115,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+10,119,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,121,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+10,124,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.75692,0,0
+10,125,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+10,127,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,130,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+10,132,2,Carbono/acido sulfurico,"dispersiva",-0.286023,0,0
+10,133,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,133,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.71062,0,0
+10,136,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+10,140,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+10,141,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.97906,0,0
+10,148,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+10,154,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+10,154,5,Silicio/acido sulfurico,"dispersiva",-0.0925499,0,0
+10,154,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.41832,0,0
+10,160,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.23697,0,0
+10,168,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,219,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.75666,0,0
+10,250,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,255,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+10,258,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+10,265,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.9352,0,0
+10,273,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+10,273,3,Carbono/metano,"dispersiva",-0.169735,0,0
+10,273,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.51782,0,0
+10,273,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+10,289,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.20017,0,0
+11,0,0,Carbono/agua,"dispersiva",-0.30103,1,0
+11,0,4,Silicio/agua,"dispersiva",-0.27659,0,0
+11,0,5,Silicio/acido sulfurico,"dispersiva",-0.591402,0,0
+11,1,2,Carbono/acido sulfurico,"dispersiva",-0.30103,0,0
+11,2,1,Carbono/amonia,"dispersiva",-0.30103,0,0
+11,7,3,Carbono/metano,"dispersiva",-0.22683,0,0
+11,17,1,Carbono/amonia,"dispersiva",-0.0514219,0,0
+11,20,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+11,29,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.52684,1,0
+11,49,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,1,0
+11,51,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.45416,0,0
+11,52,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+11,53,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+11,56,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.83244,1,0
+11,57,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.69146,0,0
+11,59,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,64,4,Silicio/agua,"quase plana isolada, 4 sitios",3.60915,1,0
+11,68,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+11,81,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,82,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.24202,0,0
+11,85,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,0,0
+11,85,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,88,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+11,90,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+11,94,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.30006,0,0
+11,99,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+11,101,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+11,102,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+11,102,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.30338,0,0
+11,105,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,107,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.94863,0,0
+11,109,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,115,1,Carbono/amonia,"quase plana nao isolada, 4 sitios",1.72922,1,0
+11,139,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,141,3,Carbono/metano,"dispersiva",-0.250461,0,0
+11,141,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+11,144,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+11,150,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,151,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,175,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,176,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.89366,0,0
+11,177,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+11,180,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,188,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.52342,0,0
+11,193,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.03885,0,0
+11,209,1,Carbono/amonia,"dispersiva",-0.30103,0,0
+11,214,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.33041,0,0
+11,221,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,224,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.17785,0,0
+11,225,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6.14224,0,0
+11,227,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,233,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+11,233,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",9,0,0
+11,236,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.20069,0,0
+11,238,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+11,246,5,Silicio/acido sulfurico,"dispersiva",-0.347922,0,0
+11,246,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+11,282,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+11,289,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+11,290,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.80524,0,0
+11,292,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.20069,0,0
+12,0,0,Carbono/agua,"dispersiva",-0.190703,1,0
+12,0,1,Carbono/amonia,"dispersiva",-0.510018,0,0
+12,0,2,Carbono/acido sulfurico,"dispersiva",-0.683806,0,0
+12,0,3,Carbono/metano,"dispersiva",-0.60206,0,0
+12,0,4,Silicio/agua,"dispersiva",-0.200731,0,0
+12,1,5,Silicio/acido sulfurico,"dispersiva",-0.476036,0,0
+12,5,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+12,6,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.59958,1,0
+12,11,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+12,12,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.29154,0,0
+12,15,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,18,3,Carbono/metano,"dispersiva",-0.186989,0,0
+12,24,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.42432,1,0
+12,28,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+12,30,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,1,0
+12,48,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.45778,0,0
+12,57,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,70,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.52174,0,0
+12,71,3,Carbono/metano,"dispersiva",-0.90309,0,0
+12,79,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,92,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.93678,0,0
+12,95,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,104,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,111,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,116,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,118,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,118,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.30132,0,0
+12,118,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.99411,0,0
+12,120,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+12,124,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.41739,0,0
+12,129,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,130,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.32969,0,0
+12,135,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+12,139,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,141,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,144,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,144,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,144,2,Carbono/acido sulfurico,"quase plana nao isolada, 4 sitios",1.36279,1,0
+12,145,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,147,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.6506,0,0
+12,148,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",7.41349,0,0
+12,149,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.38124,0,0
+12,149,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+12,152,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,155,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+12,160,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,166,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.35755,0,0
+12,166,3,Carbono/metano,"dispersiva",0.118631,0,0
+12,176,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,184,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,190,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,217,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+12,219,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,225,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.21869,0,0
+12,226,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,0,0
+12,230,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+12,230,4,Silicio/agua,"quase plana nao isolada, 4 sitios",1.43193,0,0
+12,233,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+12,233,3,Carbono/metano,"dispersiva",-0.1041,0,0
+12,233,5,Silicio/acido sulfurico,"dispersiva",-0.421945,0,0
+12,234,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.40739,0,0
+12,235,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,235,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+12,258,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",7.41679,0,0
+12,258,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+12,258,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",9,0,0
+12,276,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+12,279,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,0,0,Carbono/agua,"dispersiva",-0.510018,1,0
+13,0,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+13,0,2,Carbono/acido sulfurico,"dispersiva",0.0240223,0,0
+13,0,3,Carbono/metano,"dispersiva",0.0936302,0,0
+13,0,4,Silicio/agua,"dispersiva",-0.333205,0,0
+13,1,1,Carbono/amonia,"dispersiva",0.0848607,0,0
+13,1,5,Silicio/acido sulfurico,"dispersiva",-0.120426,0,0
+13,11,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.37036,1,0
+13,14,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.5118,0,0
+13,14,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.45107,1,0
+13,16,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+13,19,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,23,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.47271,0,0
+13,23,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.24537,1,0
+13,24,1,Carbono/amonia,"dispersiva",-0.0920427,0,0
+13,26,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,27,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.71902,0,0
+13,28,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,31,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+13,36,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+13,38,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.48211,0,0
+13,40,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.17876,0,0
+13,41,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+13,42,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+13,42,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.13276,0,0
+13,47,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,64,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,65,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+13,77,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.62488,0,0
+13,81,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+13,90,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,100,3,Carbono/metano,"dispersiva",-0.20414,0,0
+13,104,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+13,104,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+13,107,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.62738,0,0
+13,107,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+13,108,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,114,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.15143,0,0
+13,115,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,143,1,Carbono/amonia,"quase plana nao isolada, 4 sitios",1.49675,1,0
+13,143,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+13,143,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,145,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.57638,0,0
+13,151,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,158,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+13,160,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+13,162,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.3319,0,0
+13,162,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+13,178,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.23787,0,0
+13,178,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+13,178,5,Silicio/acido sulfurico,"dispersiva",-0.119862,0,0
+13,181,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,187,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,221,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+13,221,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.18167,0,0
+13,254,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+13,282,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+13,284,0,Carbono/agua,"dispersiva",-0.30103,0,0
+13,284,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+13,284,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.58807,0,0
+13,284,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+14,0,2,Carbono/acido sulfurico,"dispersiva",-0.344048,1,0
+14,0,3,Carbono/metano,"dispersiva",-0.90309,0,0
+14,0,5,Silicio/acido sulfurico,"dispersiva",-0.497635,0,0
+14,2,0,Carbono/agua,"dispersiva",-0.180717,0,0
+14,2,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.83789,1,0
+14,3,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+14,4,1,Carbono/amonia,"dispersiva",-0.510018,0,0
+14,4,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.17876,1,0
+14,5,4,Silicio/agua,"dispersiva",-0.522351,0,0
+14,6,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+14,7,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+14,8,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.37082,0,0
+14,9,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+14,9,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+14,14,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.78416,0,0
+14,16,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+14,17,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.15055,1,0
+14,20,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+14,23,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6.14323,0,0
+14,24,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+14,33,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+14,50,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+14,50,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.38445,0,0
+14,68,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+14,85,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+14,87,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",7.3319,0,0
+14,87,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.03325,0,0
+14,91,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+14,92,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+14,95,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+14,95,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+14,100,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.55236,0,0
+14,100,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.36835,0,0
+14,100,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+14,101,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.74415,0,0
+14,107,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+14,121,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+14,135,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+14,147,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+14,148,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+14,148,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.82966,0,0
+14,155,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.185,0,0
+14,178,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+14,182,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+14,182,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.847,0,0
+14,197,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+14,208,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+14,208,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.89021,0,0
+14,247,3,Carbono/metano,"dispersiva",0.116945,0,0
+14,257,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+14,279,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+14,286,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+14,291,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+14,292,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,0,1,Carbono/amonia,"dispersiva",-0.477121,1,0
+15,0,2,Carbono/acido sulfurico,"dispersiva",-0.193557,0,0
+15,0,4,Silicio/agua,"dispersiva",-0.0789473,0,0
+15,1,0,Carbono/agua,"dispersiva",-0.90309,0,0
+15,1,5,Silicio/acido sulfurico,"dispersiva",-0.286162,0,0
+15,2,3,Carbono/metano,"dispersiva",-0.0948407,0,0
+15,2,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.40589,1,0
+15,8,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.48211,1,0
+15,12,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+15,20,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.5,1,0
+15,21,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+15,22,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.15046,0,0
+15,26,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+15,28,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,34,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+15,37,5,Silicio/acido sulfurico,"dispersiva",-0.204854,0,0
+15,37,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.28388,0,0
+15,43,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,43,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.40043,0,0
+15,47,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.55492,0,0
+15,61,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,68,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+15,72,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+15,77,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.26316,0,0
+15,77,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.93678,0,0
+15,77,2,Carbono/acido sulfurico,"dispersiva",-4.34294e-07,0,0
+15,86,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.75077,0,0
+15,87,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,88,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,93,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,94,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.81395,0,0
+15,97,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,99,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,105,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.17181,0,0
+15,105,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,111,1,Carbono/amonia,"dispersiva",0.0170094,0,0
+15,111,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.85042,0,0
+15,112,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+15,114,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.92747,0,0
+15,129,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,134,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,136,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.94211,0,0
+15,138,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,141,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.80597,0,0
+15,147,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+15,147,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",9,0,0
+15,149,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,163,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+15,163,5,Silicio/acido sulfurico,"dispersiva",0.0631637,0,0
+15,168,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+15,175,0,Carbono/agua,"quase plana nao isolada, 4 sitios",1.36279,1,0
+15,175,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.57524,0,0
+15,178,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,180,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+15,189,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+15,191,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,194,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.43264,0,0
+15,195,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,196,2,Carbono/acido sulfurico,"dispersiva",-0.214905,0,0
+15,196,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.46679,0,0
+15,196,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.05421,0,0
+15,199,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+15,200,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",9,0,0
+15,202,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,202,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,210,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+15,210,2,Carbono/acido sulfurico,"dispersiva",0.197165,0,0
+15,241,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.1365,0,0
+15,244,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+15,244,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+15,244,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",9,0,0
+15,244,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,244,5,Silicio/acido sulfurico,"dispersiva",-0.347922,0,0
+15,246,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.19889,0,0
+15,252,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,252,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,266,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+15,266,1,Carbono/amonia,"dispersiva",-0.215699,0,0
+15,269,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+15,272,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+15,283,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+15,285,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+16,0,0,Carbono/agua,"dispersiva",-0.129463,1,0
+16,0,1,Carbono/amonia,"dispersiva",-0.90309,0,0
+16,0,2,Carbono/acido sulfurico,"dispersiva",-0.218569,0,0
+16,0,4,Silicio/agua,"dispersiva",-0.279853,0,0
+16,0,5,Silicio/acido sulfurico,"dispersiva",-0.331994,0,0
+16,2,3,Carbono/metano,"dispersiva",-0.496931,0,0
+16,31,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.05123,1,0
+16,33,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.26316,1,0
+16,33,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.90261,1,0
+16,35,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.72666,1,0
+16,35,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+16,37,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+16,38,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+16,41,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+16,45,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.48576,0,0
+16,49,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",8.91437,0,0
+16,69,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.72666,0,0
+16,74,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+16,74,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+16,76,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.15046,0,0
+16,84,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+16,88,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+16,89,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+16,93,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.48211,0,0
+16,95,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+16,100,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+16,100,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.77444,0,0
+16,100,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+16,101,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+16,108,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+16,110,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+16,112,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+16,112,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.17876,0,0
+16,113,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.47714,0,0
+16,114,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.80524,0,0
+16,116,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+16,120,1,Carbono/amonia,"dispersiva",-0.414952,0,0
+16,145,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.59528,0,0
+16,148,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.77444,0,0
+16,155,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+16,177,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6.08216,0,0
+16,186,0,Carbono/agua,"quase plana isolada, 4 sitios",2.35518,1,0
+16,208,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+16,209,2,Carbono/acido sulfurico,"dispersiva",-0.315783,0,0
+16,227,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+16,236,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.51507,0,0
+16,237,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+16,248,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.12925,0,0
+16,250,0,Carbono/agua,"quase plana nao isolada, 4 sitios",1.4167,1,0
+16,252,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.60694,0,0
+16,253,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+16,273,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+16,275,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.78055,0,0
+17,0,0,Carbono/agua,"dispersiva",-0.510018,1,0
+17,0,4,Silicio/agua,"dispersiva",-0.193407,0,0
+17,0,5,Silicio/acido sulfurico,"dispersiva",-0.204854,0,0
+17,1,2,Carbono/acido sulfurico,"dispersiva",-0.286688,0,0
+17,1,3,Carbono/metano,"dispersiva",-0.221578,0,0
+17,2,1,Carbono/amonia,"dispersiva",-0.218069,0,0
+17,3,4,Silicio/agua,"dispersiva",-0.536439,0,0
+17,16,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+17,19,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.61438,1,0
+17,22,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,1,0
+17,30,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.44339,0,0
+17,32,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+17,34,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+17,46,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+17,47,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.66294,0,0
+17,50,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+17,61,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+17,61,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.82302,1,0
+17,67,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+17,70,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.99411,0,0
+17,70,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",8.28938,0,0
+17,71,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+17,84,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.87407,0,0
+17,91,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+17,102,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+17,105,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+17,105,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+17,106,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+17,107,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+17,108,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.20316,0,0
+17,108,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+17,128,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.9531,0,0
+17,128,0,Carbono/agua,"dispersiva",0.0936302,0,0
+17,128,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.48557,0,0
+17,130,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+17,138,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+17,139,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+17,147,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+17,149,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.07915,0,0
+17,149,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+17,151,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.62842,0,0
+17,152,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+17,154,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.64308,0,0
+17,155,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+17,185,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.11718,0,0
+17,191,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.20944,0,0
+17,198,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",8.15926,0,0
+17,201,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+17,202,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.57281,0,0
+17,218,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.20838,0,0
+17,254,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+17,262,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+17,262,2,Carbono/acido sulfurico,"dispersiva",0.0860536,0,0
+17,262,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.75692,0,0
+17,262,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+17,269,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+17,282,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+18,0,5,Silicio/acido sulfurico,"dispersiva",-0.90309,1,0
+18,1,1,Carbono/amonia,"dispersiva",-0.122856,0,0
+18,1,4,Silicio/agua,"dispersiva",-0.60206,0,0
+18,2,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+18,2,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+18,2,2,Carbono/acido sulfurico,"dispersiva",0.216881,0,0
+18,2,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+18,2,3,Carbono/metano,"dispersiva",0.100395,0,0
+18,4,0,Carbono/agua,"dispersiva",-0.408503,0,0
+18,4,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,1,0
+18,5,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.52903,1,0
+18,6,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.52804,0,0
+18,9,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.0681,1,0
+18,23,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.73078,0,0
+18,27,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+18,27,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.20269,0,0
+18,29,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+18,30,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6.06527,0,0
+18,34,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.51437,0,0
+18,42,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+18,44,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.64974,0,0
+18,44,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+18,44,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.99771,0,0
+18,47,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,59,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,73,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+18,88,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.41442,0,0
+18,98,2,Carbono/acido sulfurico,"dispersiva",-0.272775,0,0
+18,104,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+18,123,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+18,124,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.45993,0,0
+18,125,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+18,132,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.77444,0,0
+18,141,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,142,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.44361,0,0
+18,142,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,145,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.49523,0,0
+18,151,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+18,152,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+18,156,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,162,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+18,162,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.60739,0,0
+18,166,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+18,180,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+18,222,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.99865,0,0
+18,226,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+18,226,4,Silicio/agua,"dispersiva",-0.152521,0,0
+18,226,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",9,0,0
+18,227,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.43682,0,0
+18,227,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+18,230,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,235,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+18,236,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+18,251,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.96656,0,0
+18,251,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+18,253,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+18,256,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.40984,0,0
+18,264,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+18,276,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+18,282,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+18,295,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,0,1,Carbono/amonia,"dispersiva",-0.383914,1,0
+19,0,2,Carbono/acido sulfurico,"dispersiva",-0.354969,0,0
+19,0,3,Carbono/metano,"dispersiva",-0.24597,0,0
+19,0,5,Silicio/acido sulfurico,"dispersiva",-0.60206,0,0
+19,1,4,Silicio/agua,"dispersiva",-0.0576704,0,0
+19,4,0,Carbono/agua,"dispersiva",-0.286272,0,0
+19,21,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+19,23,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.06549,1,0
+19,23,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.48328,1,0
+19,28,0,Carbono/agua,"dispersiva",-0.159231,0,0
+19,29,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.494,1,0
+19,30,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.68435,0,0
+19,36,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+19,39,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.944,0,0
+19,44,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+19,51,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6.11453,0,0
+19,51,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+19,52,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.4084,0,0
+19,58,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,1,0
+19,65,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",7.70977,0,0
+19,72,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+19,82,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+19,83,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.65611,0,0
+19,91,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+19,93,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,102,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",8.4,0,0
+19,102,2,Carbono/acido sulfurico,"dispersiva",-0.129373,0,0
+19,106,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+19,106,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+19,108,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.81097,0,0
+19,112,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,116,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.36692,0,0
+19,116,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,118,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,119,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+19,119,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.52496,0,0
+19,125,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+19,143,4,Silicio/agua,"dispersiva",0.111895,0,0
+19,143,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.70127,0,0
+19,144,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,148,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+19,149,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.30943,0,0
+19,156,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+19,162,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+19,164,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+19,165,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.04467,0,0
+19,166,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.9531,0,0
+19,182,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.56775,0,0
+19,184,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+19,241,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+20,0,1,Carbono/amonia,"dispersiva",-0.42787,1,0
+20,0,2,Carbono/acido sulfurico,"dispersiva",-0.192812,0,0
+20,0,4,Silicio/agua,"dispersiva",-0.30103,0,0
+20,0,5,Silicio/acido sulfurico,"dispersiva",0.065721,0,0
+20,1,0,Carbono/agua,"dispersiva",-0.347282,0,0
+20,6,3,Carbono/metano,"dispersiva",-0.90309,0,0
+20,21,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+20,23,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,1,0
+20,34,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,36,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.20838,1,0
+20,37,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.77668,0,0
+20,45,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+20,46,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+20,50,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.1501,1,0
+20,61,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,62,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+20,71,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.58629,0,0
+20,72,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.34773,0,0
+20,81,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,84,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.5143,0,0
+20,89,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+20,102,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+20,111,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+20,113,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+20,113,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.20903,0,0
+20,116,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,117,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.54489,0,0
+20,123,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+20,125,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+20,125,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+20,128,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+20,129,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+20,131,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+20,132,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.34543,0,0
+20,134,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,135,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.59528,0,0
+20,136,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.53205,0,0
+20,141,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+20,150,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+20,167,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.02903,0,0
+20,167,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,171,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+20,172,2,Carbono/acido sulfurico,"dispersiva",0.145176,0,0
+20,176,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.07915,0,0
+20,183,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+20,194,1,Carbono/amonia,"dispersiva",-0.366125,0,0
+20,196,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+20,217,4,Silicio/agua,"banda plana nao isolada [interferencia], 2 sitios",6,1,0
+20,223,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,0,0
+20,224,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",9,0,0
+20,226,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+20,229,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+20,242,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+20,242,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+20,292,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.08701,0,0
+20,292,1,Carbono/amonia,"dispersiva",-0.393073,0,0
+21,0,0,Carbono/agua,"dispersiva",-0.374347,1,0
+21,0,1,Carbono/amonia,"dispersiva",-0.60206,0,0
+21,0,2,Carbono/acido sulfurico,"dispersiva",-0.729933,0,0
+21,0,4,Silicio/agua,"dispersiva",-4.34294e-07,0,0
+21,0,5,Silicio/acido sulfurico,"dispersiva",-0.16922,0,0
+21,2,3,Carbono/metano,"dispersiva",-0.117033,0,0
+21,8,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+21,12,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+21,12,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+21,14,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.25943,1,0
+21,17,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+21,19,3,Carbono/metano,"dispersiva",-0.0920427,0,0
+21,21,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.60976,1,0
+21,21,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.29226,0,0
+21,39,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.17916,0,0
+21,40,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,1,0
+21,42,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+21,46,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+21,46,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",7.60976,0,0
+21,51,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+21,54,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+21,56,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.44063,0,0
+21,65,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+21,72,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+21,77,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.32038,0,0
+21,78,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+21,78,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.29469,0,0
+21,81,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+21,93,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.47714,0,0
+21,99,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.32824,0,0
+21,99,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+21,104,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6.10349,0,0
+21,109,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+21,110,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+21,111,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+21,112,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+21,113,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+21,113,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.52342,0,0
+21,114,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+21,123,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.7105,0,0
+21,124,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+21,125,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.05421,0,0
+21,126,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+21,128,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+21,140,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+21,141,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.4,0,0
+21,144,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.51961,0,0
+21,167,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+21,168,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.19085,0,0
+21,168,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+21,171,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+21,205,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+21,205,1,Carbono/amonia,"dispersiva",-4.34294e-07,0,0
+21,205,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.05421,0,0
+21,248,4,Silicio/agua,"quase plana nao isolada, 4 sitios",1.35613,1,0
+21,273,4,Silicio/agua,"quase plana isolada, 4 sitios",2.35403,1,0
+22,0,2,Carbono/acido sulfurico,"dispersiva",-0.421362,1,0
+22,0,4,Silicio/agua,"dispersiva",-0.235543,0,0
+22,0,5,Silicio/acido sulfurico,"dispersiva",-0.4159,0,0
+22,1,0,Carbono/agua,"dispersiva",-0.510358,0,0
+22,3,3,Carbono/metano,"dispersiva",-0.374347,0,0
+22,5,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.32171,1,0
+22,8,1,Carbono/amonia,"dispersiva",-0.176307,0,0
+22,8,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.77668,1,0
+22,9,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+22,14,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,22,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+22,23,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.52094,0,0
+22,26,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+22,29,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+22,32,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,36,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,0,0
+22,41,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+22,46,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.30132,0,0
+22,54,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.57574,1,0
+22,63,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+22,64,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+22,70,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+22,70,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,71,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+22,72,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.18512,0,0
+22,77,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.08544,0,0
+22,88,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.60381,0,0
+22,110,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",8.01693,0,0
+22,111,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",8.67869,0,0
+22,111,3,Carbono/metano,"dispersiva",0.312478,0,0
+22,113,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6.12966,0,0
+22,122,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,122,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+22,123,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,125,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.5,0,0
+22,129,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.52094,0,0
+22,131,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.70964,0,0
+22,139,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.30382,0,0
+22,145,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.55952,0,0
+22,146,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+22,150,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+22,151,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6.13678,0,0
+22,154,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+22,162,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+22,162,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,168,1,Carbono/amonia,"dispersiva",0.101135,0,0
+22,175,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,175,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+22,286,0,Carbono/agua,"dispersiva",-0.556405,0,0
+22,289,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+22,299,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+23,0,1,Carbono/amonia,"dispersiva",-0.30103,1,0
+23,0,2,Carbono/acido sulfurico,"dispersiva",-0.134601,0,0
+23,0,5,Silicio/acido sulfurico,"dispersiva",-0.205665,0,0
+23,1,0,Carbono/agua,"dispersiva",-0.90309,0,0
+23,1,4,Silicio/agua,"dispersiva",-0.408503,0,0
+23,4,3,Carbono/metano,"dispersiva",-4.34294e-07,0,0
+23,15,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+23,18,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+23,20,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+23,25,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.24943,1,0
+23,26,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.08318,0,0
+23,32,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,1,0
+23,33,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",6.29469,0,0
+23,43,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+23,45,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",7.10779,1,0
+23,51,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6.12104,1,0
+23,52,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.1637,0,0
+23,53,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+23,57,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+23,57,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+23,62,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.5,0,0
+23,62,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+23,64,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.93252,0,0
+23,82,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+23,97,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+23,98,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+23,98,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.52094,0,0
+23,101,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+23,101,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+23,101,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+23,102,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.14193,0,0
+23,102,4,Silicio/agua,"dispersiva",-0.30103,0,0
+23,102,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",8.63912,0,0
+23,104,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+23,105,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+23,106,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+23,135,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+23,145,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.30176,0,0
+23,159,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.31833,0,0
+23,161,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+23,165,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+23,166,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.78262,0,0
+23,171,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+23,177,0,Carbono/agua,"dispersiva",0.158553,0,0
+23,177,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+23,185,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.76988,0,0
+23,190,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+23,193,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+23,194,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.33189,0,0
+23,195,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+23,212,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",9,0,0
+23,212,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+23,265,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+23,284,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+23,300,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.34773,0,0
+24,0,1,Carbono/amonia,"dispersiva",-0.210543,1,0
+24,0,2,Carbono/acido sulfurico,"dispersiva",-0.528126,0,0
+24,0,3,Carbono/metano,"dispersiva",-0.30103,0,0
+24,0,4,Silicio/agua,"dispersiva",-0.510018,0,0
+24,0,5,Silicio/acido sulfurico,"dispersiva",-0.164594,0,0
+24,2,0,Carbono/agua,"dispersiva",-0.171811,0,0
+24,7,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.85644,1,0
+24,11,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+24,12,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.83351,1,0
+24,17,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.17876,1,0
+24,18,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+24,19,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+24,22,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+24,23,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.09009,0,0
+24,23,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+24,26,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.58592,0,0
+24,30,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",8.29965,0,0
+24,32,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,0,0
+24,34,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+24,36,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.15115,0,0
+24,37,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+24,41,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+24,42,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+24,53,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+24,71,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.07369,0,0
+24,74,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+24,82,4,Silicio/agua,"dispersiva",-0.294655,0,0
+24,90,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+24,95,5,Silicio/acido sulfurico,"dispersiva",-4.34294e-07,0,0
+24,97,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.58807,0,0
+24,106,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.83789,0,0
+24,106,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+24,111,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+24,113,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+24,116,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.92082,0,0
+24,118,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+24,122,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+24,123,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+24,124,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.77308,0,0
+24,124,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.90289,0,0
+24,129,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+24,129,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.51437,0,0
+24,130,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+24,146,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+24,155,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+24,170,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+24,174,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+24,175,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.40577,0,0
+24,198,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6.08562,0,0
+24,268,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.65633,0,0
+24,279,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.16233,0,0
+24,289,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+24,289,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+24,293,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.43604,0,0
+24,293,5,Silicio/acido sulfurico,"dispersiva",-0.264175,0,0
+25,0,2,Carbono/acido sulfurico,"dispersiva",-0.30103,1,0
+25,0,4,Silicio/agua,"dispersiva",-0.370721,0,0
+25,0,5,Silicio/acido sulfurico,"dispersiva",-0.223617,0,0
+25,1,1,Carbono/amonia,"dispersiva",-0.220438,0,0
+25,2,0,Carbono/agua,"dispersiva",-0.646971,0,0
+25,7,3,Carbono/metano,"dispersiva",-0.501204,0,0
+25,20,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.28938,1,0
+25,21,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.59679,0,0
+25,36,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+25,43,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.66294,0,0
+25,48,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.73078,0,0
+25,51,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,1,0
+25,52,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+25,53,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,0,0
+25,54,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+25,56,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,63,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,0,0
+25,63,3,Carbono/metano,"dispersiva",-4.34294e-07,0,0
+25,66,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,69,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+25,70,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.23553,0,0
+25,73,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+25,76,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+25,77,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.42558,1,0
+25,79,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+25,86,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+25,91,5,Silicio/acido sulfurico,"dispersiva",-0.200245,0,0
+25,95,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+25,96,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.65611,0,0
+25,103,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,0,0
+25,107,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,126,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.99865,0,0
+25,142,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.48328,0,0
+25,143,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6.12857,0,0
+25,145,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+25,146,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,147,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.36826,0,0
+25,147,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,0,0
+25,150,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,164,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+25,164,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.64923,0,0
+25,168,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,168,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,177,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+25,178,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,179,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.90675,0,0
+25,195,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,198,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,201,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7,0,0
+25,202,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+25,232,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+25,232,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.92082,0,0
+25,233,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.85902,0,0
+25,233,5,Silicio/acido sulfurico,"dispersiva",-0.0554603,0,0
+25,233,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",9,0,0
+25,239,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+25,239,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",7.34726,0,0
+25,239,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,239,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+25,263,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.74049,0,0
+25,264,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,265,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+25,265,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.31187,0,0
+25,266,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.52023,0,0
+25,267,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,269,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.37355,0,0
+25,275,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,290,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+25,293,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+25,296,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+26,0,0,Carbono/agua,"dispersiva",-0.208052,1,0
+26,0,3,Carbono/metano,"dispersiva",-0.30103,0,0
+26,0,4,Silicio/agua,"dispersiva",-0.433103,0,0
+26,0,5,Silicio/acido sulfurico,"dispersiva",0.0545208,0,0
+26,1,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,1,0
+26,2,1,Carbono/amonia,"dispersiva",-0.0811351,0,0
+26,2,2,Carbono/acido sulfurico,"dispersiva",-0.510018,0,0
+26,3,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.49619,1,0
+26,4,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+26,4,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+26,6,5,Silicio/acido sulfurico,"dispersiva",-0.0235132,0,0
+26,9,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.54489,0,0
+26,14,1,Carbono/amonia,"dispersiva",-0.221815,0,0
+26,14,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+26,22,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",8.4579,1,0
+26,23,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.83351,0,0
+26,25,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.80075,0,0
+26,29,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,31,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,32,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.57613,0,0
+26,35,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,35,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+26,36,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,37,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+26,40,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,57,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.99771,0,0
+26,64,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,67,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,70,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,77,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.4622,0,0
+26,83,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.99865,0,0
+26,87,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+26,96,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.82642,0,0
+26,107,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,120,4,Silicio/agua,"dispersiva",-0.172175,0,0
+26,123,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,143,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,155,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.32255,0,0
+26,156,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.73078,0,0
+26,157,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,158,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+26,161,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,165,2,Carbono/acido sulfurico,"dispersiva",0.111895,0,0
+26,165,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,166,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+26,166,0,Carbono/agua,"dispersiva",-0.374273,0,0
+26,167,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,171,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+26,179,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,194,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,207,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.17578,0,0
+26,207,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,209,2,Carbono/acido sulfurico,"dispersiva",-0.290441,0,0
+26,210,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,212,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+26,215,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+26,216,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,218,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,218,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.71531,0,0
+26,224,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6.11257,0,0
+26,225,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.842,0,0
+26,273,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,276,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.39136,0,0
+26,279,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+26,281,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.3818,0,0
+26,283,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,0,0
+26,283,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+27,0,0,Carbono/agua,"dispersiva",-0.198792,1,0
+27,0,4,Silicio/agua,"dispersiva",0.00148091,0,0
+27,1,3,Carbono/metano,"dispersiva",-4.34294e-07,0,0
+27,2,2,Carbono/acido sulfurico,"dispersiva",0.00647605,0,0
+27,2,5,Silicio/acido sulfurico,"dispersiva",-0.431713,0,0
+27,3,1,Carbono/amonia,"dispersiva",-0.255863,0,0
+27,6,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+27,7,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+27,8,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,1,0
+27,11,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",7.98687,1,0
+27,12,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.28388,0,0
+27,20,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+27,21,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.37824,1,0
+27,37,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,37,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+27,38,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+27,41,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+27,42,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.93747,0,0
+27,66,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.50385,0,0
+27,72,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+27,73,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.19937,0,0
+27,73,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+27,80,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+27,84,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.62132,0,0
+27,122,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+27,129,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,132,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+27,135,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,0,0
+27,135,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+27,135,5,Silicio/acido sulfurico,"dispersiva",-0.253622,0,0
+27,139,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.18167,0,0
+27,140,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+27,141,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.16131,0,0
+27,153,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,156,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+27,156,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.77444,0,0
+27,156,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,164,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.29755,0,0
+27,164,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+27,171,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+27,173,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",7.23164,0,0
+27,176,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+27,176,3,Carbono/metano,"dispersiva",-0.240467,0,0
+27,178,0,Carbono/agua,"quase plana nao isolada, 4 sitios",1.36279,1,0
+27,180,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+27,187,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,188,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",9,0,0
+27,191,3,Carbono/metano,"dispersiva",0.0464016,0,0
+27,211,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+27,212,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.22615,0,0
+27,213,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.67111,0,0
+27,220,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,220,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+27,225,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+27,236,0,Carbono/agua,"quase plana nao isolada, 4 sitios",1.36279,0,0
+27,270,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+28,0,0,Carbono/agua,"dispersiva",-0.190269,1,0
+28,0,1,Carbono/amonia,"dispersiva",-0.223068,0,0
+28,0,2,Carbono/acido sulfurico,"dispersiva",-0.398376,0,0
+28,0,4,Silicio/agua,"dispersiva",-0.092152,0,0
+28,1,3,Carbono/metano,"dispersiva",-0.267689,0,0
+28,1,5,Silicio/acido sulfurico,"dispersiva",-0.90309,0,0
+28,7,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.944,1,0
+28,8,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+28,14,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+28,16,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.53198,1,0
+28,17,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,1,0
+28,20,2,Carbono/acido sulfurico,"dispersiva",-0.0947973,0,0
+28,23,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.26915,0,0
+28,30,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,33,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+28,43,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+28,44,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.40112,0,0
+28,47,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,49,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.62357,0,0
+28,49,5,Silicio/acido sulfurico,"dispersiva",0.18725,0,0
+28,50,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.31412,0,0
+28,52,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,52,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,59,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",9,0,0
+28,60,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.58789,0,0
+28,72,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+28,74,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,83,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,96,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.40057,0,0
+28,100,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.31412,0,0
+28,103,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,106,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,107,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.47714,0,0
+28,112,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,116,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.69912,0,0
+28,120,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.4617,0,0
+28,123,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+28,126,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,129,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.38276,0,0
+28,131,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,132,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.6417,0,0
+28,134,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.34173,0,0
+28,134,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+28,135,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,166,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+28,195,5,Silicio/acido sulfurico,"dispersiva",-0.260634,0,0
+28,195,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+28,205,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.40244,0,0
+28,205,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,235,0,Carbono/agua,"dispersiva",-0.30103,0,0
+28,235,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,240,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,243,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6.12269,0,0
+28,261,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+28,261,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+28,262,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.79852,0,0
+28,285,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+28,290,4,Silicio/agua,"dispersiva",-0.335527,0,0
+28,290,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",8.58807,0,0
+28,290,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+28,292,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+28,296,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+28,299,4,Silicio/agua,"dispersiva",-0.163031,0,0
+28,299,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",8.61979,0,0
+29,0,2,Carbono/acido sulfurico,"dispersiva",-0.482198,1,0
+29,0,3,Carbono/metano,"dispersiva",-0.60206,0,0
+29,0,4,Silicio/agua,"dispersiva",-0.193557,0,0
+29,0,5,Silicio/acido sulfurico,"dispersiva",-0.60206,0,0
+29,1,1,Carbono/amonia,"dispersiva",-0.348738,0,0
+29,1,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.99865,1,0
+29,3,0,Carbono/agua,"dispersiva",-0.23983,0,0
+29,7,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+29,28,4,Silicio/agua,"dispersiva",-0.0456233,0,0
+29,38,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+29,43,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.35494,0,0
+29,44,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.40742,0,0
+29,47,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.37025,1,0
+29,49,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+29,52,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6.05962,0,0
+29,53,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+29,57,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",7.5019,0,0
+29,61,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+29,68,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,1,0
+29,72,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+29,73,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+29,87,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.50625,0,0
+29,92,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,95,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+29,97,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,98,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+29,102,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.22572,0,0
+29,103,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+29,120,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.34829,0,0
+29,122,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,124,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,0,0
+29,124,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.944,0,0
+29,132,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+29,134,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.0061,0,0
+29,136,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6.12053,0,0
+29,137,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+29,137,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6.12963,0,0
+29,142,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.61759,0,0
+29,154,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.56495,0,0
+29,157,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+29,159,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.66552,0,0
+29,175,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+29,178,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,182,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,185,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+29,188,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.99411,0,0
+29,189,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+29,208,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+29,216,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+29,216,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",9,0,0
+29,222,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.96656,0,0
+29,224,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,247,2,Carbono/acido sulfurico,"dispersiva",-0.0230164,0,0
+29,247,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+29,247,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.18474,0,0
+29,249,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+29,286,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+29,286,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",9,0,0
+29,286,3,Carbono/metano,"dispersiva",-0.201306,0,0
+29,300,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,0,1,Carbono/amonia,"dispersiva",-0.116187,1,0
+30,0,2,Carbono/acido sulfurico,"dispersiva",-0.0892274,0,0
+30,0,3,Carbono/metano,"dispersiva",-0.482198,0,0
+30,0,4,Silicio/agua,"dispersiva",-0.170177,0,0
+30,1,0,Carbono/agua,"dispersiva",-0.60206,0,0
+30,1,5,Silicio/acido sulfurico,"dispersiva",-0.284058,0,0
+30,3,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+30,8,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.77668,1,0
+30,11,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+30,15,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.11052,1,0
+30,17,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+30,26,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",7.44017,1,0
+30,30,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",6.2023,0,0
+30,30,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,31,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.59,0,0
+30,34,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.21436,0,0
+30,42,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6.10122,0,0
+30,42,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+30,44,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+30,50,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+30,52,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.20271,0,0
+30,56,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+30,56,3,Carbono/metano,"dispersiva",-0.0569088,0,0
+30,61,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,62,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,71,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",6.75174,0,0
+30,72,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6.05216,0,0
+30,77,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",8.03693,0,0
+30,83,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,85,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",6.68435,0,0
+30,85,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+30,85,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,91,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.61281,0,0
+30,93,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0
+30,100,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+30,101,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",7.07878,0,0
+30,105,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+30,107,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+30,109,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,110,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,122,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,125,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.80187,0,0
+30,127,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,130,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,134,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.47183,0,0
+30,140,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",8.41739,0,0
+30,143,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,143,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.67385,0,0
+30,148,3,Carbono/metano,"dispersiva",-0.496931,0,0
+30,148,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",7.75047,0,0
+30,150,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.72641,0,0
+30,161,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,161,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+30,166,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",8.4,0,0
+30,168,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,177,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",7.84117,0,0
+30,200,0,Carbono/agua,"quase plana nao isolada, 4 sitios",1.3809,1,0
+30,225,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+30,228,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,232,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+30,236,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+30,250,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.26917,0,0
+30,253,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",8.4,0,0
+30,253,1,Carbono/amonia,"dispersiva",-0.204854,0,0
+30,258,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+30,260,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,0,0
+30,261,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,273,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",6.99411,0,0
+30,278,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+30,281,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",7.75692,0,0
+30,282,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+30,289,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,0,2,Carbono/acido sulfurico,"dispersiva",-0.4563,1,0
+31,0,3,Carbono/metano,"dispersiva",-0.30103,0,0
+31,0,5,Silicio/acido sulfurico,"dispersiva",-0.30103,0,0
+31,1,0,Carbono/agua,"dispersiva",-0.435631,0,0
+31,1,4,Silicio/agua,"dispersiva",-0.0734729,0,0
+31,2,1,Carbono/amonia,"dispersiva",-0.60206,0,0
+31,17,1,Carbono/amonia,"dispersiva",-0.352848,0,0
+31,19,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,1,0
+31,20,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.7617,1,0
+31,31,2,Carbono/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",8.96656,1,0
+31,34,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",6.81838,0,0
+31,36,2,Carbono/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,1,0
+31,40,2,Carbono/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.02105,1,0
+31,41,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,43,1,Carbono/amonia,"banda plana isolada [interferencia], 4 sitios",8.03693,0,0
+31,43,2,Carbono/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,1,0
+31,44,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,49,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,52,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 3 sitios",6.27374,0,0
+31,62,3,Carbono/metano,"banda plana isolada [interferencia], 3 sitios",6.92563,0,0
+31,63,5,Silicio/acido sulfurico,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+31,64,0,Carbono/agua,"banda plana isolada [interferencia], 4 sitios",7.25028,0,0
+31,76,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+31,82,3,Carbono/metano,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,84,5,Silicio/acido sulfurico,"banda plana isolada [interferencia], 4 sitios",6.563,0,0
+31,86,5,Silicio/acido sulfurico,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,96,0,Carbono/agua,"banda plana isolada [interferencia], 3 sitios",8.0314,0,0
+31,97,4,Silicio/agua,"banda plana isolada [interferencia], 3 sitios",7.06688,0,0
+31,100,4,Silicio/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,103,1,Carbono/amonia,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,103,3,Carbono/metano,"banda plana isolada [desbalanco de subredes], 3 sitios",8.54062,0,0
+31,104,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,104,3,Carbono/metano,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+31,119,1,Carbono/amonia,"banda plana isolada [desbalanco de subredes], 3 sitios",6.46029,0,0
+31,129,1,Carbono/amonia,"banda plana isolada [interferencia], 3 sitios",9,0,0
+31,131,1,Carbono/amonia,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+31,134,1,Carbono/amonia,"quase plana nao isolada, 4 sitios",1.63032,1,0
+31,134,1,Carbono/amonia,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,149,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",6.73673,0,0
+31,150,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+31,184,0,Carbono/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+31,187,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.15073,0,0
+31,215,4,Silicio/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,216,4,Silicio/agua,"banda plana isolada [interferencia], 4 sitios",6.4769,0,0
+31,221,0,Carbono/agua,"dispersiva",0.478082,0,0
+31,221,0,Carbono/agua,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,225,0,Carbono/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",7.41822,0,0
+31,229,0,Carbono/agua,"banda plana nao isolada [interferencia], 3 sitios",6,0,0
+31,235,0,Carbono/agua,"quase plana isolada, 4 sitios",3.49263,1,0
+31,262,4,Silicio/agua,"banda plana isolada [desbalanco de subredes], 3 sitios",9,0,0
+31,262,4,Silicio/agua,"banda plana nao isolada [desbalanco de subredes], 3 sitios",6,0,0
+31,269,5,Silicio/acido sulfurico,"quase plana nao isolada, 4 sitios",1.61556,0,0
+31,283,3,Carbono/metano,"banda plana nao isolada [interferencia], 4 sitios",6,0,0
+31,300,3,Carbono/metano,"banda plana isolada [interferencia], 4 sitios",6.66107,0,0
+31,300,5,Silicio/acido sulfurico,"banda plana nao isolada [desbalanco de subredes], 4 sitios",6,1,0

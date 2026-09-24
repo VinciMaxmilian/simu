@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+#include "core/biochemistry.hpp"
+
 // Camada A: quanto tempo leva, num universo com as leis do Modelo Padrão + ΛCDM,
 // para um planeta chegar a uma civilização consciente que faz ciência?
 //
@@ -35,6 +37,19 @@ struct EmergenceResult {
 };
 
 EmergenceResult run_emergence(const EmergenceScenario& s, long planets, uint64_t seed);
+
+// Surgimento para uma bioquímica específica. Cada planeta tem órbita (0.05–50 UA, log-uniforme),
+// albedo e efeito estufa sorteados; a temperatura sobe com o brilho da estrela e a bioquímica só é
+// viável enquanto o solvente está líquido. Os tempos de cada passo do cenário são divididos pelos
+// fatores químicos (bio_factors) na temperatura do momento.
+struct BioEmergenceResult {
+  std::string biochemistry;
+  long planets = 0, habitable = 0, successes = 0, successes_before_today = 0;
+  std::vector<double> time_after_formation, cosmic_time, temperature;  // amostras dos sucessos
+};
+
+BioEmergenceResult run_bio_emergence(const EmergenceScenario& s, const Biochemistry& b, double catalysis,
+                                     long planets, uint64_t seed);
 
 // Idade do universo (Gyr) no redshift z, ΛCDM plano (Planck 2018).
 double cosmic_time_gyr(double z);
