@@ -1,0 +1,7 @@
+[C51H25_eta3] C51H25  η=3  N_A/N_B=25/26  Lieb: S=0.5
+  Hubbard MF: Sz fundamental=0.5, momento local máx=0.348
+  Hubbard CAS(7,7): S=0.5:0.0 meV, S=1.5:13.9 meV, S=0.5:179.7 meV, S=0.5:392.3 meV
+  xTB mult=2: E=-3321.3531 eV, desvio do plano 2.104 Å
+  xTB mult=4: E=-3320.8010 eV, desvio do plano 2.097 Å
+  xTB frequências (mult=2): imaginárias=[], menor=1.5 cm⁻¹
+  DFT 2S=1: E=-1958.119757 Ha, <S²>=1.492, conv=True

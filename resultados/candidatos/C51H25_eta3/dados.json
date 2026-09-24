@@ -151,5 +151,11 @@
    ]
   }
  },
- "tempo_s": 217.91851449012756
+ "tempo_s": 217.91851449012756,
+ "xtb_frequencias": {
+  "multiplicidade": 2,
+  "imaginarias_cm1": [],
+  "menor_cm1_inclui_modos_rigidos": 1.5,
+  "fonte": "resultados/candidatos/pipeline_C51.log (versão que ainda não excluía os 6 modos de corpo rígido)"
+ }
 }

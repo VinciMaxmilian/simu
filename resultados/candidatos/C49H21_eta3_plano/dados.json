@@ -149,5 +149,11 @@
    ]
   }
  },
- "tempo_s": 185.3721866607666
+ "tempo_s": 185.3721866607666,
+ "xtb_frequencias": {
+  "multiplicidade": 2,
+  "imaginarias_cm1": [],
+  "menor_real_cm1": 24.7,
+  "fonte": "resultados/candidatos/pipeline_C49.log (6 modos de corpo rígido excluídos)"
+ }
 }
