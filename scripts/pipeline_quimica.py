@@ -10,7 +10,7 @@ Uso:
   python3 scripts/pipeline_quimica.py --referencias      # valida em moléculas com resultado conhecido
 Saída: resultados/candidatos/<nome>/ (relatorio.md, dados.json, geometrias .xyz, densidade de spin .png)
 """
-import argparse, itertools, json, math, pathlib, sys, time
+import argparse, itertools, json, math, os, pathlib, sys, time
 
 import numpy as np
 
@@ -231,7 +231,11 @@ def xtb_optimize(symbols, coords, multiplicity, fmax=0.03, freq=False):
 
 def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksym=False):
     from pyscf import dft, gto, lib
-    lib.num_threads(4)
+    # Usa todos os núcleos se nenhum outro pipeline estiver rodando; senão, o limite do ambiente.
+    import subprocess
+    others = subprocess.run(["pgrep", "-f", "pipeline_quimica.py"], capture_output=True, text=True).stdout.split()
+    alone = len([p for p in others if int(p) != os.getpid()]) == 0
+    lib.num_threads(os.cpu_count() if alone else int(os.environ.get("OMP_NUM_THREADS", "4")))
     mol = gto.M(atom=[(s, tuple(c)) for s, c in zip(symbols, coords)], basis=basis, spin=spin2s, verbose=0)
     mf = dft.UKS(mol).density_fit()
     mf.xc = xc
