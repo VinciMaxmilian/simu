@@ -229,7 +229,28 @@ def xtb_optimize(symbols, coords, multiplicity, fmax=0.03, freq=False):
     return res, atoms.positions.copy()
 
 
-def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksym=False, dm0=None, log=None):
+def hubbard_guess(mf, spin_c):
+    """Densidade inicial: minao para o total, polarizada nos orbitais p_z dos carbonos conforme a
+    densidade de spin do Hubbard (m_i): α recebe +m_i/2 e β −m_i/2 em cada p_z do carbono i."""
+    mol = mf.mol
+    dm = mf.get_init_guess(key="minao")
+    total = dm[0] + dm[1] if getattr(dm, "ndim", 2) == 3 else dm
+    dm_a, dm_b = total / 2, total / 2
+    labels = mol.ao_labels(fmt=False)
+    pz = {}
+    for i, (atom, _sym, shell, comp) in enumerate(labels):
+        if shell.endswith("p") and comp == "z":
+            pz.setdefault(atom, []).append(i)
+    for atom, m in enumerate(spin_c):  # os carbonos vêm primeiro na lista de átomos
+        idx = pz.get(atom, [])
+        for i in idx:
+            dm_a[i, i] += m / (2 * len(idx))
+            dm_b[i, i] -= m / (2 * len(idx))
+    return np.array([dm_a, dm_b])
+
+
+def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksym=False, dm0=None, log=None,
+                     spin_guess=None, stability_rounds=3):
     """UKS com ajuste de densidade. dm0: densidade inicial (ex.: do estado de spin alto já convergido).
     log: arquivo onde o PySCF escreve cada iteração (acompanhamento). Retorna (resultado, densidade)."""
     import subprocess
@@ -246,6 +267,8 @@ def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksy
     mf.conv_tol = 1e-7
     if breaksym:
         mf.init_guess_breaksym = True
+    if spin_guess is not None:
+        dm0 = hubbard_guess(mf, spin_guess)
     mf.kernel(dm0=dm0)
     solver = "DIIS"
     if not mf.converged:  # segunda ordem a partir de onde o DIIS parou
@@ -253,6 +276,14 @@ def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksy
         mf.max_cycle = 50
         mf.kernel(dm0=mf.make_rdm1())
         solver = "DIIS + Newton"
+    # Estabilidade: se a solução for um ponto de sela (inclui violação de aufbau), segue a instabilidade.
+    stable = None
+    for rnd in range(stability_rounds):
+        mo1, _, stable, _ = mf.stability(return_status=True)
+        if stable:
+            break
+        mf.kernel(dm0=mf.make_rdm1(mo1, mf.mo_occ))
+        solver += f" + estabilidade {rnd + 1}"
     s2, _ = mf.spin_square()
     dm_a, dm_b = mf.make_rdm1()
     s = mol.intor_symmetric("int1e_ovlp")
@@ -263,7 +294,9 @@ def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksy
     mo_e = np.concatenate(mf.mo_energy)
     occ = np.concatenate(mf.mo_occ)
     homo, lumo = mo_e[occ > 0.5].max(), mo_e[occ < 0.5].min()
-    res = {"2S": spin2s, "chute_inicial": "densidade anterior" if dm0 is not None else ("quebra de simetria" if breaksym else "minao"),
+    guess = "Hubbard" if spin_guess is not None else ("densidade anterior" if dm0 is not None else
+                                                       ("quebra de simetria" if breaksym else "minao"))
+    res = {"2S": spin2s, "chute_inicial": guess, "estavel": bool(stable), "aufbau_ok": bool(homo < lumo),
            "metodo": f"U{xc.upper()}/{basis} (ajuste de densidade)", "solver": solver,
            "energia_Ha": float(mf.e_tot), "convergiu": bool(mf.converged), "S2": float(s2),
            "gap_somo_lumo_eV": float(27.2114 * (lumo - homo)), "densidade_spin_atomos": per_atom.tolist()}
@@ -291,14 +324,15 @@ def run_dft_only(name, struct, spins, extra_low=None):
     symbols = [l.split()[0] for l in lines if l.strip()]
     coords = np.array([[float(v) for v in l.split()[1:4]] for l in lines if l.strip()])
     data["dft"] = {}
-    dm = None
+    mf_scan = hubbard_mf_scan(struct, len(struct["carbonos"]))
     for spin2s in spins:
         t0 = time.time()
-        r, dm = dft_single_point(symbols, coords, spin2s, dm0=dm, log=out / f"dft_2S{spin2s}.log")
+        guess = mf_scan[spin2s / 2]["densidade_spin"]  # padrão de spin do Hubbard para este Sz
+        r, _ = dft_single_point(symbols, coords, spin2s, spin_guess=guess, log=out / f"dft_2S{spin2s}.log")
         r["tempo_min"] = (time.time() - t0) / 60
         data["dft"][f"2S={spin2s}"] = r
-        print(f"  DFT 2S={spin2s}: E={r['energia_Ha']:.6f} Ha, <S²>={r['S2']:.3f}, conv={r['convergiu']} "
-              f"({r['solver']}, {r['tempo_min']:.1f} min)", flush=True)
+        print(f"  DFT 2S={spin2s}: E={r['energia_Ha']:.6f} Ha, <S²>={r['S2']:.3f}, conv={r['convergiu']}, "
+              f"estável={r['estavel']}, aufbau={r['aufbau_ok']} ({r['solver']}, {r['tempo_min']:.1f} min)", flush=True)
     if extra_low:  # resultado de spin baixo de uma execução anterior (mesma geometria e método)
         data["dft"][f"2S={extra_low['2S']}"] = extra_low
     e0 = min(r["energia_Ha"] for r in data["dft"].values())
@@ -417,6 +451,7 @@ def main():
     ap.add_argument("--sem-dft", action="store_true")
     ap.add_argument("--sem-freq", action="store_true")
     ap.add_argument("--so-dft", action="store_true", help="só a etapa DFT, reaproveitando a geometria xTB salva")
+    ap.add_argument("--nome", default=None, help="pasta de saída em resultados/candidatos (padrão: nome do arquivo)")
     ap.add_argument("--estados", default=None, help="2S a calcular, em ordem (ex.: 3,1)")
     ap.add_argument("--spin-baixo-anterior", default=None,
                     help="JSON com um resultado de spin baixo já calculado (mesma geometria e método)")
@@ -434,7 +469,7 @@ def main():
         # Confere a geometria reconstruída a partir dos anéis contra a exportada pelo C++.
         rebuilt = structure_from_cells([tuple(c) for c in struct["anel_coordenadas_axiais_q_r"]])
         assert len(rebuilt["carbonos"]) == len(struct["carbonos"]) and len(rebuilt["ligacoes"]) == len(struct["ligacoes"])
-        name = pathlib.Path(args.candidato).stem
+        name = args.nome or pathlib.Path(args.candidato).stem
         if args.so_dft:
             data = json.load(open(OUT / name / "dados.json"))
             base = int(round(2 * data["S_lieb"]))
