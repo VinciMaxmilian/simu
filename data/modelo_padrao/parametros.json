@@ -1,0 +1,353 @@
+{
+  "parametros_livres_mp": [
+    {
+      "n": "1-6",
+      "nome": "massas dos quarks",
+      "ver": "particulas.json"
+    },
+    {
+      "n": "7-9",
+      "nome": "massas dos leptons carregados",
+      "ver": "particulas.json"
+    },
+    {
+      "n": 10,
+      "nome": "CKM lambda (Wolfenstein)",
+      "dado": {
+        "valor": 0.22501,
+        "incerteza": [
+          0.00068,
+          0.00068
+        ],
+        "unidade": "",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "n": 11,
+      "nome": "CKM A",
+      "dado": {
+        "valor": 0.826,
+        "incerteza": [
+          0.015,
+          0.016
+        ],
+        "unidade": "",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "n": 12,
+      "nome": "CKM rho_barra",
+      "dado": {
+        "valor": 0.1591,
+        "incerteza": [
+          0.0094,
+          0.0094
+        ],
+        "unidade": "",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "n": 13,
+      "nome": "CKM eta_barra (fase de violacao CP)",
+      "dado": {
+        "valor": 0.3523,
+        "incerteza": [
+          0.0071,
+          0.0073
+        ],
+        "unidade": "",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "n": 14,
+      "nome": "alpha_s(M_Z)",
+      "dado": {
+        "valor": 0.118,
+        "incerteza": [
+          0.0009,
+          0.0009
+        ],
+        "unidade": "",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "n": 15,
+      "nome": "alpha (Q=0)",
+      "dado": {
+        "valor": 0.0072973525643314245,
+        "unidade": "",
+        "fonte": "CODATA 2022",
+        "verificar": false,
+        "inverso": "137.035999177(21)"
+      }
+    },
+    {
+      "n": 16,
+      "nome": "sin2 theta_W (MSbar, M_Z)",
+      "dado": {
+        "valor": 0.23129,
+        "incerteza": [
+          4e-05,
+          4e-05
+        ],
+        "unidade": "",
+        "fonte": "PDG 2024",
+        "verificar": true
+      }
+    },
+    {
+      "n": 17,
+      "nome": "theta_QCD",
+      "dado": {
+        "valor": 1e-10,
+        "limite": "superior",
+        "unidade": "",
+        "fonte": "EDM do neutron |d_n| < 1.8e-26 e cm",
+        "verificar": true
+      }
+    },
+    {
+      "n": 18,
+      "nome": "massa do Higgs",
+      "dado": {
+        "valor": 125.2,
+        "incerteza": [
+          0.11,
+          0.11
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "n": 19,
+      "nome": "vev do Higgs",
+      "dado": {
+        "valor": 246.22,
+        "unidade": "GeV",
+        "fonte": "(sqrt(2) G_F)^-1/2",
+        "verificar": false
+      }
+    }
+  ],
+  "derivados": {
+    "G_F": {
+      "valor": 1.1663788e-05,
+      "incerteza": [
+        6e-12,
+        6e-12
+      ],
+      "unidade": "GeV^-2",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "alpha(M_Z)^-1": {
+      "valor": 127.95,
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": true
+    },
+    "g": {
+      "valor": 0.652,
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": true
+    },
+    "g_linha": {
+      "valor": 0.357,
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": true
+    },
+    "g_s(M_Z)": {
+      "valor": 1.22,
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": true
+    },
+    "lambda_Higgs": {
+      "valor": 0.13,
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": true
+    },
+    "yukawa_top": {
+      "valor": 0.99,
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": true
+    }
+  },
+  "CKM_modulos": {
+    "Vud": {
+      "valor": 0.97367,
+      "incerteza": [
+        0.00032,
+        0.00032
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vus": {
+      "valor": 0.22431,
+      "incerteza": [
+        0.00085,
+        0.00085
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vub": {
+      "valor": 0.00382,
+      "incerteza": [
+        0.0002,
+        0.0002
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vcd": {
+      "valor": 0.221,
+      "incerteza": [
+        0.004,
+        0.004
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vcs": {
+      "valor": 0.975,
+      "incerteza": [
+        0.006,
+        0.006
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vcb": {
+      "valor": 0.041,
+      "incerteza": [
+        0.0014,
+        0.0014
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vtd": {
+      "valor": 0.0086,
+      "incerteza": [
+        0.0002,
+        0.0002
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vts": {
+      "valor": 0.0415,
+      "incerteza": [
+        0.0009,
+        0.0009
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "Vtb": {
+      "valor": 1.01,
+      "incerteza": [
+        0.027,
+        0.027
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    },
+    "J_Jarlskog": {
+      "valor": 3.08e-05,
+      "incerteza": [
+        1.3e-06,
+        1.5e-06
+      ],
+      "unidade": "",
+      "fonte": "PDG 2024",
+      "verificar": false
+    }
+  },
+  "PMNS_NuFIT6_ordenamento_normal": {
+    "theta12_graus": {
+      "valor": 33.68,
+      "incerteza": [
+        0.7,
+        0.73
+      ],
+      "unidade": "",
+      "fonte": "NuFIT 6.0",
+      "verificar": false
+    },
+    "theta23_graus": {
+      "valor": 43.3,
+      "incerteza": [
+        0.8,
+        1.0
+      ],
+      "unidade": "",
+      "fonte": "NuFIT 6.0",
+      "verificar": false
+    },
+    "theta13_graus": {
+      "valor": 8.56,
+      "incerteza": [
+        0.11,
+        0.11
+      ],
+      "unidade": "",
+      "fonte": "NuFIT 6.0",
+      "verificar": false
+    },
+    "delta_CP_graus": {
+      "valor": 212,
+      "incerteza": [
+        41,
+        26
+      ],
+      "unidade": "",
+      "fonte": "NuFIT 6.0",
+      "verificar": false
+    },
+    "dm2_21_eV2": {
+      "valor": 7.49e-05,
+      "unidade": "eV^2",
+      "fonte": "NuFIT 6.0",
+      "verificar": true
+    },
+    "dm2_31_eV2": {
+      "valor": 0.002513,
+      "unidade": "eV^2",
+      "fonte": "NuFIT 6.0",
+      "verificar": true
+    }
+  },
+  "em_aberto": [
+    "ordenamento das massas dos neutrinos",
+    "natureza Dirac ou Majorana",
+    "fases de Majorana"
+  ]
+}

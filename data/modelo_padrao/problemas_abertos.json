@@ -1,0 +1,62 @@
+[
+  {
+    "id": "materia_escura",
+    "nome": "materia escura",
+    "nota": "~27% do conteudo de energia do universo; nao esta no MP"
+  },
+  {
+    "id": "energia_escura",
+    "nome": "energia escura",
+    "nota": "~68%; constante cosmologica?"
+  },
+  {
+    "id": "massa_neutrinos",
+    "nome": "origem da massa dos neutrinos",
+    "nota": "exige extensao do MP (Dirac ou Majorana)"
+  },
+  {
+    "id": "bariogenese",
+    "nome": "assimetria materia-antimateria",
+    "nota": "eta_B ~ 6.1e-10; violacao CP do MP insuficiente"
+  },
+  {
+    "id": "gravidade_quantica",
+    "nome": "gravidade quantica",
+    "nota": "MP nao inclui gravidade"
+  },
+  {
+    "id": "hierarquia",
+    "nome": "problema da hierarquia",
+    "nota": "por que m_H << M_Planck"
+  },
+  {
+    "id": "cp_forte",
+    "nome": "problema CP forte",
+    "nota": "theta_QCD < 1e-10; axion?"
+  },
+  {
+    "id": "geracoes",
+    "nome": "por que 3 geracoes",
+    "nota": ""
+  },
+  {
+    "id": "vacuo",
+    "nome": "estabilidade do vacuo",
+    "nota": "m_H e m_t indicam vacuo metaestavel"
+  },
+  {
+    "id": "unificacao",
+    "nome": "unificacao das forcas",
+    "nota": ""
+  },
+  {
+    "id": "anomalia_W_CDF",
+    "nome": "massa do W da CDF (80.4335 GeV)",
+    "nota": "medida isolada, incompativel com a media mundial"
+  },
+  {
+    "id": "g2_muon",
+    "nome": "g-2 do muon",
+    "nota": "resolvido em 2025: experimento 116592070.5(14.8)e-11 x teoria WP25 116592033(62)e-11"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "c": {
+    "valor": 299792458,
+    "unidade": "m/s",
+    "fonte": "SI 2019 (exata)",
+    "verificar": false
+  },
+  "h": {
+    "valor": 6.62607015e-34,
+    "unidade": "J s",
+    "fonte": "SI 2019 (exata)",
+    "verificar": false
+  },
+  "e": {
+    "valor": 1.602176634e-19,
+    "unidade": "C",
+    "fonte": "SI 2019 (exata)",
+    "verificar": false
+  },
+  "k_B": {
+    "valor": 1.380649e-23,
+    "unidade": "J/K",
+    "fonte": "SI 2019 (exata)",
+    "verificar": false
+  },
+  "N_A": {
+    "valor": 6.02214076e+23,
+    "unidade": "1/mol",
+    "fonte": "SI 2019 (exata)",
+    "verificar": false
+  },
+  "G": {
+    "valor": 6.6743e-11,
+    "incerteza": [
+      1.5e-15,
+      1.5e-15
+    ],
+    "unidade": "m^3 kg^-1 s^-2",
+    "fonte": "CODATA 2018",
+    "verificar": false
+  },
+  "hbar_c": {
+    "valor": 197.3269804,
+    "unidade": "MeV fm",
+    "fonte": "CODATA",
+    "verificar": false
+  },
+  "massa_de_Planck": {
+    "valor": 1.22089e+19,
+    "unidade": "GeV",
+    "fonte": "CODATA",
+    "verificar": false
+  },
+  "cosmologia_Planck2018": {
+    "H0": {
+      "valor": 67.4,
+      "incerteza": [
+        0.5,
+        0.5
+      ],
+      "unidade": "km/s/Mpc",
+      "fonte": "Planck 2018",
+      "verificar": false
+    },
+    "Omega_m": {
+      "valor": 0.315,
+      "incerteza": [
+        0.007,
+        0.007
+      ],
+      "unidade": "",
+      "fonte": "Planck 2018",
+      "verificar": false
+    },
+    "idade_universo": {
+      "valor": 13.8,
+      "incerteza": [
+        0.02,
+        0.02
+      ],
+      "unidade": "Gyr",
+      "fonte": "Planck 2018",
+      "verificar": false
+    }
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "fermions": [
+    {
+      "id": "u",
+      "nome": "up",
+      "tipo": "quark",
+      "geracao": 1,
+      "carga": "+2/3",
+      "spin": "1/2",
+      "cor": true,
+      "massa": {
+        "valor": 2.16,
+        "incerteza": [
+          0.26,
+          0.49
+        ],
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": false,
+        "esquema": "MSbar 2 GeV"
+      },
+      "descoberta": 1968
+    },
+    {
+      "id": "d",
+      "nome": "down",
+      "tipo": "quark",
+      "geracao": 1,
+      "carga": "-1/3",
+      "spin": "1/2",
+      "cor": true,
+      "massa": {
+        "valor": 4.7,
+        "incerteza": [
+          0.07,
+          0.07
+        ],
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": true,
+        "esquema": "MSbar 2 GeV"
+      },
+      "descoberta": 1968
+    },
+    {
+      "id": "c",
+      "nome": "charm",
+      "tipo": "quark",
+      "geracao": 2,
+      "carga": "+2/3",
+      "spin": "1/2",
+      "cor": true,
+      "massa": {
+        "valor": 1.273,
+        "incerteza": [
+          0.0046,
+          0.0046
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false,
+        "esquema": "MSbar m_c"
+      },
+      "descoberta": 1974
+    },
+    {
+      "id": "s",
+      "nome": "strange",
+      "tipo": "quark",
+      "geracao": 2,
+      "carga": "-1/3",
+      "spin": "1/2",
+      "cor": true,
+      "massa": {
+        "valor": 93.5,
+        "incerteza": [
+          0.8,
+          0.8
+        ],
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": false,
+        "esquema": "MSbar 2 GeV"
+      },
+      "descoberta": 1968
+    },
+    {
+      "id": "t",
+      "nome": "top",
+      "tipo": "quark",
+      "geracao": 3,
+      "carga": "+2/3",
+      "spin": "1/2",
+      "cor": true,
+      "massa": {
+        "valor": 172.56,
+        "incerteza": [
+          0.31,
+          0.31
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2025",
+        "verificar": false,
+        "esquema": "medidas diretas"
+      },
+      "largura": {
+        "valor": 1.42,
+        "incerteza": [
+          0.15,
+          0.19
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": true
+      },
+      "descoberta": 1995
+    },
+    {
+      "id": "b",
+      "nome": "bottom",
+      "tipo": "quark",
+      "geracao": 3,
+      "carga": "-1/3",
+      "spin": "1/2",
+      "cor": true,
+      "massa": {
+        "valor": 4.183,
+        "incerteza": [
+          0.007,
+          0.007
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false,
+        "esquema": "MSbar m_b"
+      },
+      "descoberta": 1977
+    },
+    {
+      "id": "e",
+      "nome": "eletron",
+      "tipo": "lepton",
+      "geracao": 1,
+      "carga": "-1",
+      "spin": "1/2",
+      "cor": false,
+      "massa": {
+        "valor": 0.51099895,
+        "incerteza": [
+          1.5e-10,
+          1.5e-10
+        ],
+        "unidade": "MeV",
+        "fonte": "CODATA",
+        "verificar": false
+      },
+      "descoberta": 1897
+    },
+    {
+      "id": "mu",
+      "nome": "muon",
+      "tipo": "lepton",
+      "geracao": 2,
+      "carga": "-1",
+      "spin": "1/2",
+      "cor": false,
+      "massa": {
+        "valor": 105.6583755,
+        "incerteza": [
+          2.3e-06,
+          2.3e-06
+        ],
+        "unidade": "MeV",
+        "fonte": "CODATA",
+        "verificar": false
+      },
+      "vida_media": {
+        "valor": 2.1969811e-06,
+        "incerteza": [
+          2.2e-12,
+          2.2e-12
+        ],
+        "unidade": "s",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "descoberta": 1936
+    },
+    {
+      "id": "tau",
+      "nome": "tau",
+      "tipo": "lepton",
+      "geracao": 3,
+      "carga": "-1",
+      "spin": "1/2",
+      "cor": false,
+      "massa": {
+        "valor": 1776.93,
+        "incerteza": [
+          0.09,
+          0.09
+        ],
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "vida_media": {
+        "valor": 2.903e-13,
+        "incerteza": [
+          5e-16,
+          5e-16
+        ],
+        "unidade": "s",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "descoberta": 1975
+    },
+    {
+      "id": "nu_e",
+      "nome": "neutrino do eletron",
+      "tipo": "lepton",
+      "geracao": 1,
+      "carga": "0",
+      "spin": "1/2",
+      "cor": false,
+      "massa": {
+        "valor": 0.45,
+        "limite": "superior",
+        "unidade": "eV",
+        "fonte": "KATRIN 2024, 90% CL",
+        "verificar": true
+      },
+      "descoberta": 1956
+    },
+    {
+      "id": "nu_mu",
+      "nome": "neutrino do muon",
+      "tipo": "lepton",
+      "geracao": 2,
+      "carga": "0",
+      "spin": "1/2",
+      "cor": false,
+      "soma_massas": {
+        "valor": 0.12,
+        "limite": "superior",
+        "unidade": "eV",
+        "fonte": "Planck 2018 (DESI 2024: ~0.07)",
+        "verificar": true
+      },
+      "descoberta": 1962
+    },
+    {
+      "id": "nu_tau",
+      "nome": "neutrino do tau",
+      "tipo": "lepton",
+      "geracao": 3,
+      "carga": "0",
+      "spin": "1/2",
+      "cor": false,
+      "descoberta": 2000
+    }
+  ],
+  "bosons": [
+    {
+      "id": "gamma",
+      "nome": "foton",
+      "spin": 1,
+      "carga": "0",
+      "massa": {
+        "valor": 1e-18,
+        "limite": "superior",
+        "unidade": "eV",
+        "fonte": "PDG",
+        "verificar": true
+      },
+      "interacao": "eletromagnetica",
+      "descoberta": 1923
+    },
+    {
+      "id": "g",
+      "nome": "gluon",
+      "spin": 1,
+      "carga": "0",
+      "estados_de_cor": 8,
+      "massa": {
+        "valor": 0,
+        "unidade": "GeV",
+        "fonte": "teoria",
+        "verificar": false
+      },
+      "interacao": "forte",
+      "descoberta": 1979
+    },
+    {
+      "id": "W",
+      "nome": "W",
+      "spin": 1,
+      "carga": "+-1",
+      "massa": {
+        "valor": 80.3692,
+        "incerteza": [
+          0.0133,
+          0.0133
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false,
+        "nota": "sem CDF 2022: ~80.3625 +- 0.0077 (verificar)"
+      },
+      "largura": {
+        "valor": 2.085,
+        "incerteza": [
+          0.042,
+          0.042
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "interacao": "fraca",
+      "descoberta": 1983
+    },
+    {
+      "id": "Z",
+      "nome": "Z",
+      "spin": 1,
+      "carga": "0",
+      "massa": {
+        "valor": 91.188,
+        "incerteza": [
+          0.002,
+          0.002
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "largura": {
+        "valor": 2.4955,
+        "incerteza": [
+          0.0023,
+          0.0023
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "interacao": "fraca",
+      "descoberta": 1983
+    },
+    {
+      "id": "H",
+      "nome": "Higgs",
+      "spin": 0,
+      "carga": "0",
+      "massa": {
+        "valor": 125.2,
+        "incerteza": [
+          0.11,
+          0.11
+        ],
+        "unidade": "GeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "largura": {
+        "valor": 3.7,
+        "incerteza": [
+          1.4,
+          1.9
+        ],
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": true,
+        "nota": "MP prevê 4.1 MeV"
+      },
+      "descoberta": 2012
+    }
+  ],
+  "numeros_quanticos": {
+    "convencao": "Q = T3 + Y",
+    "hipercarga": {
+      "Q_L": "1/6",
+      "u_R": "2/3",
+      "d_R": "-1/3",
+      "L_L": "-1/2",
+      "e_R": "-1",
+      "H": "1/2"
+    },
+    "numero_barionico_quark": "1/3",
+    "numero_leptonico_lepton": 1
+  },
+  "grupo_de_gauge": "SU(3)_c x SU(2)_L x U(1)_Y -> SU(3)_c x U(1)_em",
+  "hadrons_referencia": [
+    {
+      "id": "p",
+      "nome": "proton",
+      "massa": {
+        "valor": 938.27208816,
+        "incerteza": [
+          2.9e-07,
+          2.9e-07
+        ],
+        "unidade": "MeV",
+        "fonte": "CODATA",
+        "verificar": false
+      },
+      "vida_media": {
+        "valor": 2.4e+34,
+        "limite": "inferior",
+        "unidade": "anos",
+        "fonte": "Super-K"
+      },
+      "raio": {
+        "valor": 0.8409,
+        "incerteza": [
+          0.0004,
+          0.0004
+        ],
+        "unidade": "fm",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "id": "n",
+      "nome": "neutron",
+      "massa": {
+        "valor": 939.56542052,
+        "incerteza": [
+          5.4e-07,
+          5.4e-07
+        ],
+        "unidade": "MeV",
+        "fonte": "CODATA",
+        "verificar": false
+      },
+      "vida_media": {
+        "valor": 878.4,
+        "incerteza": [
+          0.5,
+          0.5
+        ],
+        "unidade": "s",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "id": "pi+",
+      "massa": {
+        "valor": 139.57,
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "vida_media": {
+        "valor": 2.6033e-08,
+        "unidade": "s",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "id": "pi0",
+      "massa": {
+        "valor": 134.98,
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      },
+      "vida_media": {
+        "valor": 8.43e-17,
+        "unidade": "s",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    },
+    {
+      "id": "K+",
+      "massa": {
+        "valor": 493.68,
+        "unidade": "MeV",
+        "fonte": "PDG 2024",
+        "verificar": false
+      }
+    }
+  ]
+}

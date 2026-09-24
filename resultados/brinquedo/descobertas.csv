@@ -1,0 +1,1682 @@
+rodada,ano,civilizacao,cultura,classe,score,primeira_do_universo,por_contato
+0,0,0,Empiristas,"nenhuma lei",0.505516,1,0
+0,0,1,Incrementalistas,"nenhuma lei",0.483973,0,0
+0,0,2,Evolucionistas,"nenhuma lei",0.503774,0,0
+0,0,3,Isolados,"nenhuma lei",0.572926,0,0
+0,0,3,Isolados,"Lei-B",0.648609,1,0
+0,2,3,Isolados,"Lei-C",0.578038,1,0
+0,3,0,Empiristas,"Lei-A",0.675564,1,0
+0,3,2,Evolucionistas,"Lei-C",0.727313,0,0
+0,8,0,Empiristas,"Lei-B",0.691125,0,0
+0,8,0,Empiristas,"Lei-C",0.737501,0,0
+0,8,1,Incrementalistas,"Lei-C",0.727313,0,1
+0,10,2,Evolucionistas,"Lei-A",0.766689,0,1
+0,12,1,Incrementalistas,"Lei-A",0.766689,0,1
+0,19,3,Isolados,"Lei-A",0.62513,0,0
+0,21,1,Incrementalistas,"Lei-B",0.691125,0,1
+0,26,3,Isolados,"Lei-D",0.699756,1,0
+0,29,2,Evolucionistas,"Lei-B",0.691125,0,1
+0,31,2,Evolucionistas,"Lei-D",0.658315,0,0
+0,32,0,Empiristas,"Lei-A+Lei-C",0.783052,1,0
+0,35,2,Evolucionistas,"Lei-B+Lei-C",0.896439,1,0
+0,36,3,Isolados,"Lei-B+Lei-C",0.733011,0,0
+0,41,2,Evolucionistas,"Lei-A+Lei-C",0.771779,0,0
+0,42,0,Empiristas,"Lei-D",0.605184,0,0
+0,46,0,Empiristas,"Lei-B+Lei-C",0.78995,0,0
+0,49,1,Incrementalistas,"Lei-B+Lei-C",0.896439,0,1
+0,49,1,Incrementalistas,"Lei-A+Lei-C",0.771779,0,1
+0,51,1,Incrementalistas,"Lei-D",0.605184,0,1
+0,59,3,Isolados,"Lei-A+Lei-C",0.744117,0,0
+0,63,3,Isolados,"Lei-A+Lei-C+Lei-D",0.854025,1,0
+0,70,3,Isolados,"Lei-C",0.632147,0,0
+0,70,3,Isolados,"Lei-B+Lei-C",0.786585,0,0
+0,74,3,Isolados,"Lei-A",0.687847,0,0
+0,82,1,Incrementalistas,"Lei-A+Lei-D",0.713428,1,0
+0,102,0,Empiristas,"Lei-A+Lei-D",0.713428,0,1
+0,109,3,Isolados,"Lei-C+Lei-D",0.817487,1,0
+0,109,2,Evolucionistas,"Lei-A+Lei-D",0.74334,0,1
+0,122,3,Isolados,"Lei-A+Lei-C+Lei-D",0.902948,0,0
+0,132,3,Isolados,"Lei-A+Lei-D",0.761436,0,0
+0,144,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.903136,0,0
+0,151,2,Evolucionistas,"Lei-C+Lei-D",0.833843,0,0
+0,157,0,Empiristas,"Lei-C+Lei-D",0.732223,0,0
+0,166,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.822558,0,0
+0,167,1,Incrementalistas,"Lei-C",0.768246,0,0
+0,167,1,Incrementalistas,"Lei-B+Lei-C",0.925475,0,0
+0,168,1,Incrementalistas,"Lei-D",0.651376,0,0
+0,177,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.922659,0,1
+0,196,1,Incrementalistas,"Lei-C+Lei-D",0.799896,0,0
+0,202,2,Evolucionistas,"Lei-B",0.779293,0,0
+0,202,2,Evolucionistas,"Lei-C",0.858169,0,0
+0,203,2,Evolucionistas,"Lei-A+Lei-D",0.808125,0,1
+0,233,0,Empiristas,"Lei-B+Lei-C",0.908206,0,0
+1,0,0,Empiristas,"nenhuma lei",0.473183,1,0
+1,0,1,Incrementalistas,"Lei-C",0.534418,1,0
+1,0,1,Incrementalistas,"nenhuma lei",0.487805,0,0
+1,0,2,Evolucionistas,"nenhuma lei",0.50896,0,0
+1,0,3,Isolados,"nenhuma lei",0.491843,0,0
+1,2,0,Empiristas,"Lei-C",0.609799,0,1
+1,5,2,Evolucionistas,"Lei-C",0.74223,0,1
+1,7,3,Isolados,"Lei-A",0.582984,1,0
+1,10,0,Empiristas,"Lei-D",0.585313,1,0
+1,12,1,Incrementalistas,"Lei-B+Lei-C",0.839982,1,0
+1,12,0,Empiristas,"Lei-B+Lei-C",0.839982,0,1
+1,13,1,Incrementalistas,"Lei-D",0.585313,0,1
+1,16,1,Incrementalistas,"Lei-B",0.689612,1,0
+1,17,0,Empiristas,"Lei-B",0.60003,0,0
+1,20,2,Evolucionistas,"Lei-B+Lei-C",0.839982,0,1
+1,22,3,Isolados,"Lei-C",0.745303,0,0
+1,27,2,Evolucionistas,"Lei-B",0.668108,0,0
+1,30,3,Isolados,"Lei-D",0.565932,0,0
+1,31,2,Evolucionistas,"Lei-A",0.641956,0,0
+1,36,0,Empiristas,"Lei-C+Lei-D",0.777765,1,0
+1,40,0,Empiristas,"Lei-A",0.641956,0,1
+1,50,1,Incrementalistas,"Lei-A",0.641956,0,1
+1,51,2,Evolucionistas,"Lei-D",0.757027,0,1
+1,54,1,Incrementalistas,"Lei-C+Lei-D",0.796496,0,0
+1,60,0,Empiristas,"Lei-A+Lei-D",0.667589,1,0
+1,62,3,Isolados,"Lei-B+Lei-C",0.95191,0,0
+1,64,3,Isolados,"nenhuma lei",0.4858,0,0
+1,64,1,Incrementalistas,"Lei-A+Lei-D",0.667589,0,1
+1,73,3,Isolados,"nenhuma lei",0.477419,0,0
+1,84,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.792109,1,0
+1,86,1,Incrementalistas,"Lei-B",0.751399,0,0
+1,86,1,Incrementalistas,"Lei-B+Lei-C",0.881247,0,0
+1,87,3,Isolados,"Lei-B",0.689629,0,0
+1,90,1,Incrementalistas,"Lei-D",0.757027,0,1
+1,91,3,Isolados,"Lei-B+Lei-C",0.828643,0,0
+1,97,2,Evolucionistas,"Lei-C+Lei-D",0.796496,0,1
+1,119,0,Empiristas,"Lei-A+Lei-C",0.772348,1,0
+1,127,3,Isolados,"Lei-C",0.754944,0,0
+1,131,2,Evolucionistas,"Lei-A+Lei-D",0.751173,0,1
+1,132,1,Incrementalistas,"Lei-A+Lei-D",0.751173,0,1
+1,132,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.808374,0,1
+1,151,1,Incrementalistas,"Lei-C",0.690374,0,0
+1,151,1,Incrementalistas,"Lei-A+Lei-C",0.786405,0,1
+1,152,3,Isolados,"Lei-C+Lei-D",0.722571,0,0
+1,153,1,Incrementalistas,"Lei-A+Lei-D",0.751173,0,1
+1,156,3,Isolados,"Lei-A+Lei-C",0.830866,0,0
+1,174,2,Evolucionistas,"Lei-A+Lei-C",0.789019,0,0
+1,178,3,Isolados,"Lei-A+Lei-D",0.766905,0,0
+1,205,3,Isolados,"Lei-A+Lei-C+Lei-D",0.82438,0,0
+1,217,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.923324,0,1
+1,277,3,Isolados,"Lei-B+Lei-C",0.94139,0,0
+1,277,3,Isolados,"Lei-A",0.801817,0,0
+1,278,3,Isolados,"Lei-A+Lei-C",0.870399,0,0
+1,286,3,Isolados,"Lei-C+Lei-D",0.873097,0,0
+2,0,0,Empiristas,"nenhuma lei",0.545352,1,0
+2,0,1,Incrementalistas,"nenhuma lei",0.479784,0,0
+2,0,2,Evolucionistas,"nenhuma lei",0.418561,0,0
+2,0,3,Isolados,"nenhuma lei",0.544257,0,0
+2,4,0,Empiristas,"Lei-A+Lei-C",0.733289,1,0
+2,5,2,Evolucionistas,"Lei-A+Lei-C",0.733289,0,1
+2,6,0,Empiristas,"Lei-D",0.748381,1,0
+2,6,0,Empiristas,"Lei-A",0.61727,1,0
+2,7,2,Evolucionistas,"Lei-C",0.623244,1,0
+2,9,3,Isolados,"Lei-D",0.705468,0,0
+2,11,1,Incrementalistas,"Lei-A+Lei-C",0.733289,0,1
+2,13,1,Incrementalistas,"Lei-C",0.623244,0,1
+2,14,1,Incrementalistas,"Lei-D",0.748381,0,1
+2,15,2,Evolucionistas,"Lei-D",0.748381,0,1
+2,19,1,Incrementalistas,"Lei-B",0.699608,1,0
+2,21,1,Incrementalistas,"Lei-B+Lei-C",0.814258,1,0
+2,21,2,Evolucionistas,"Lei-B+Lei-C",0.814258,0,1
+2,21,2,Evolucionistas,"Lei-B",0.699608,0,1
+2,23,2,Evolucionistas,"Lei-C+Lei-D",0.835668,1,0
+2,24,1,Incrementalistas,"Lei-A",0.68882,0,0
+2,24,0,Empiristas,"Lei-C",0.657806,0,1
+2,26,1,Incrementalistas,"Lei-C+Lei-D",0.835668,0,1
+2,27,0,Empiristas,"Lei-C+Lei-D",0.835668,0,1
+2,27,0,Empiristas,"Lei-B+Lei-C",0.82899,0,1
+2,28,0,Empiristas,"Lei-B",0.699608,0,1
+2,36,2,Evolucionistas,"Lei-A",0.74288,0,0
+2,38,3,Isolados,"Lei-A",0.598996,0,0
+2,44,3,Isolados,"Lei-C",0.702491,0,0
+2,54,3,Isolados,"Lei-B",0.620076,0,0
+2,62,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.828838,1,0
+2,64,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.934922,0,0
+2,65,3,Isolados,"Lei-A+Lei-C",0.766571,0,0
+2,65,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.828838,0,1
+2,75,1,Incrementalistas,"Lei-A+Lei-D",0.685569,1,0
+2,77,0,Empiristas,"Lei-A+Lei-D",0.774053,0,0
+2,79,2,Evolucionistas,"Lei-A+Lei-D",0.757531,0,0
+2,91,3,Isolados,"Lei-A+Lei-C+Lei-D",0.821733,0,0
+2,98,2,Evolucionistas,"Lei-A",0.748076,0,0
+2,98,2,Evolucionistas,"Lei-A+Lei-D",0.810044,0,1
+2,99,3,Isolados,"Lei-C+Lei-D",0.750799,0,0
+2,100,2,Evolucionistas,"Lei-A+Lei-C",0.880404,0,1
+2,104,3,Isolados,"Lei-A+Lei-D",0.707656,0,0
+2,110,3,Isolados,"Lei-B+Lei-C",0.886968,0,0
+2,130,2,Evolucionistas,"Lei-B",0.730956,0,0
+2,148,0,Empiristas,"Lei-C",0.583126,0,0
+2,149,0,Empiristas,"Lei-C+Lei-D",0.793218,0,0
+2,158,0,Empiristas,"Lei-B+Lei-C",0.935204,0,1
+2,227,0,Empiristas,"nenhuma lei",0.565023,0,0
+2,227,0,Empiristas,"Lei-B+Lei-C",0.78421,0,0
+2,227,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.886447,0,0
+2,227,0,Empiristas,"Lei-A+Lei-D",0.703849,0,0
+2,227,0,Empiristas,"Lei-C",0.711041,0,0
+2,227,0,Empiristas,"Lei-D",0.72879,0,0
+2,227,0,Empiristas,"Lei-C+Lei-D",0.785904,0,0
+2,235,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.939506,0,0
+2,235,1,Incrementalistas,"Lei-C+Lei-D",0.822934,0,0
+2,235,1,Incrementalistas,"Lei-A+Lei-D",0.832793,0,0
+2,235,1,Incrementalistas,"Lei-C",0.695253,0,0
+2,235,1,Incrementalistas,"Lei-A",0.674666,0,0
+2,272,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",1,0,0
+2,272,2,Evolucionistas,"Lei-C+Lei-D",0.819792,0,0
+2,272,2,Evolucionistas,"Lei-D",0.666371,0,0
+2,274,2,Evolucionistas,"Lei-A",0.625609,0,0
+3,0,0,Empiristas,"nenhuma lei",0.506646,1,0
+3,0,1,Incrementalistas,"nenhuma lei",0.540598,0,0
+3,0,2,Evolucionistas,"nenhuma lei",0.54589,0,0
+3,0,3,Isolados,"nenhuma lei",0.463376,0,0
+3,6,0,Empiristas,"Lei-A",0.658526,1,0
+3,6,1,Incrementalistas,"Lei-A",0.641871,0,0
+3,6,2,Evolucionistas,"Lei-B",0.716604,1,0
+3,6,0,Empiristas,"Lei-B",0.716604,0,1
+3,7,0,Empiristas,"Lei-D",0.6129,1,0
+3,7,2,Evolucionistas,"Lei-A",0.641871,0,1
+3,7,1,Incrementalistas,"Lei-B",0.716604,0,1
+3,14,0,Empiristas,"Lei-C",0.608047,1,0
+3,14,1,Incrementalistas,"Lei-B+Lei-C",0.821774,1,0
+3,14,0,Empiristas,"Lei-B+Lei-C",0.821774,0,1
+3,15,1,Incrementalistas,"Lei-C",0.674762,0,0
+3,17,2,Evolucionistas,"Lei-B+Lei-C",0.900226,0,0
+3,22,2,Evolucionistas,"Lei-C",0.692074,0,1
+3,24,2,Evolucionistas,"Lei-D",0.65466,0,1
+3,28,1,Incrementalistas,"Lei-D",0.65466,0,1
+3,30,1,Incrementalistas,"Lei-A+Lei-C",0.814291,1,0
+3,34,0,Empiristas,"Lei-A+Lei-C",0.71191,0,0
+3,36,3,Isolados,"Lei-D",0.616966,0,0
+3,39,2,Evolucionistas,"Lei-A+Lei-C",0.765195,0,0
+3,46,3,Isolados,"Lei-A",0.631506,0,0
+3,52,3,Isolados,"Lei-C",0.562777,0,0
+3,77,3,Isolados,"Lei-B",0.654076,0,0
+3,91,0,Empiristas,"Lei-C+Lei-D",0.721713,1,0
+3,91,0,Empiristas,"Lei-B+Lei-C",0.957404,0,1
+3,94,0,Empiristas,"Lei-C",0.683399,0,0
+3,98,1,Incrementalistas,"Lei-C+Lei-D",0.721713,0,1
+3,101,3,Isolados,"Lei-B+Lei-C",0.672819,0,0
+3,107,0,Empiristas,"Lei-A+Lei-D",0.778649,1,0
+3,107,3,Isolados,"Lei-A+Lei-C",0.695022,0,0
+3,148,1,Incrementalistas,"Lei-A+Lei-D",0.763108,0,0
+3,148,2,Evolucionistas,"Lei-C+Lei-D",0.735515,0,1
+3,167,2,Evolucionistas,"Lei-A+Lei-D",0.808134,0,1
+3,179,3,Isolados,"Lei-A+Lei-D",0.857543,0,0
+3,184,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.913002,1,0
+3,184,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.866143,0,0
+3,192,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.80697,0,0
+3,193,3,Isolados,"Lei-C+Lei-D",0.82333,0,0
+3,286,3,Isolados,"Lei-A+Lei-C+Lei-D",0.88609,0,0
+4,0,0,Empiristas,"nenhuma lei",0.539283,1,0
+4,0,1,Incrementalistas,"nenhuma lei",0.480205,0,0
+4,0,2,Evolucionistas,"nenhuma lei",0.49002,0,0
+4,0,2,Evolucionistas,"Lei-A",0.56516,1,0
+4,0,3,Isolados,"nenhuma lei",0.498904,0,0
+4,0,0,Empiristas,"Lei-A",0.56516,0,1
+4,2,1,Incrementalistas,"Lei-D",0.636867,1,0
+4,2,1,Incrementalistas,"Lei-A",0.622201,0,1
+4,2,2,Evolucionistas,"Lei-D",0.636867,0,1
+4,4,0,Empiristas,"Lei-D",0.640986,0,0
+4,13,0,Empiristas,"Lei-A+Lei-C",0.701309,1,0
+4,18,3,Isolados,"Lei-C",0.601501,1,0
+4,24,0,Empiristas,"Lei-B",0.675201,1,0
+4,24,2,Evolucionistas,"Lei-A+Lei-D",0.719586,1,0
+4,31,3,Isolados,"Lei-D",0.595032,0,0
+4,35,1,Incrementalistas,"Lei-B",0.640268,0,0
+4,37,3,Isolados,"Lei-A",0.697479,0,0
+4,38,1,Incrementalistas,"Lei-C+Lei-D",0.714367,1,0
+4,43,2,Evolucionistas,"Lei-C+Lei-D",0.800956,0,1
+4,43,2,Evolucionistas,"Lei-B",0.640314,0,1
+4,44,1,Incrementalistas,"Lei-C",0.60781,0,0
+4,44,0,Empiristas,"Lei-C+Lei-D",0.800956,0,1
+4,50,3,Isolados,"Lei-B+Lei-C",0.739396,1,0
+4,52,3,Isolados,"Lei-A+Lei-D",0.817887,0,0
+4,54,2,Evolucionistas,"Lei-C",0.671839,0,0
+4,54,3,Isolados,"Lei-A+Lei-C",0.737856,0,0
+4,54,0,Empiristas,"Lei-C",0.671839,0,1
+4,56,2,Evolucionistas,"Lei-A+Lei-C",0.71141,0,1
+4,57,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.867284,1,0
+4,57,1,Incrementalistas,"Lei-A+Lei-C",0.784921,0,0
+4,57,1,Incrementalistas,"Lei-A+Lei-D",0.815475,0,1
+4,59,3,Isolados,"Lei-B",0.733289,0,0
+4,60,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.867284,0,1
+4,61,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.867284,0,1
+4,68,0,Empiristas,"Lei-A+Lei-D",0.690503,0,0
+4,103,1,Incrementalistas,"Lei-B+Lei-C",0.783356,0,0
+4,128,2,Evolucionistas,"Lei-B+Lei-C",0.858178,0,1
+4,140,0,Empiristas,"Lei-B+Lei-C",0.858178,0,1
+4,150,3,Isolados,"Lei-C+Lei-D",0.716211,0,0
+5,0,0,Empiristas,"nenhuma lei",0.530607,1,0
+5,0,1,Incrementalistas,"nenhuma lei",0.509883,0,0
+5,0,2,Evolucionistas,"nenhuma lei",0.572758,0,0
+5,0,2,Evolucionistas,"Lei-A",0.586961,1,0
+5,0,3,Isolados,"nenhuma lei",0.489208,0,0
+5,4,1,Incrementalistas,"Lei-A",0.658647,0,1
+5,5,0,Empiristas,"Lei-B",0.648955,1,0
+5,5,0,Empiristas,"Lei-A",0.668393,0,0
+5,11,1,Incrementalistas,"Lei-B",0.648955,0,1
+5,12,2,Evolucionistas,"Lei-B",0.584343,0,0
+5,22,1,Incrementalistas,"Lei-B+Lei-C",0.770995,1,0
+5,25,2,Evolucionistas,"Lei-B+Lei-C",0.783969,0,1
+5,30,3,Isolados,"Lei-A",0.693104,0,0
+5,32,0,Empiristas,"Lei-D",0.732392,1,0
+5,32,1,Incrementalistas,"Lei-C",0.678421,1,0
+5,32,0,Empiristas,"Lei-B+Lei-C",0.798514,0,1
+5,33,1,Incrementalistas,"Lei-D",0.732392,0,1
+5,33,2,Evolucionistas,"Lei-D",0.732392,0,1
+5,37,0,Empiristas,"Lei-C",0.627083,0,0
+5,39,3,Isolados,"Lei-D",0.626669,0,0
+5,41,0,Empiristas,"Lei-C+Lei-D",0.648242,1,0
+5,48,2,Evolucionistas,"Lei-C",0.573974,0,0
+5,51,1,Incrementalistas,"Lei-C+Lei-D",0.648242,0,1
+5,54,3,Isolados,"Lei-B",0.676451,0,0
+5,55,3,Isolados,"Lei-A+Lei-D",0.651132,1,0
+5,60,2,Evolucionistas,"Lei-A",0.658998,0,0
+5,67,3,Isolados,"Lei-C",0.568536,0,0
+5,73,3,Isolados,"Lei-C+Lei-D",0.711999,0,0
+5,86,3,Isolados,"Lei-A+Lei-C",0.781955,1,0
+5,87,1,Incrementalistas,"Lei-A+Lei-C",0.800864,0,0
+5,89,0,Empiristas,"Lei-A+Lei-C",0.800864,0,1
+5,90,2,Evolucionistas,"Lei-A+Lei-C",0.800864,0,1
+5,106,0,Empiristas,"Lei-A+Lei-D",0.73424,0,0
+5,124,2,Evolucionistas,"Lei-C+Lei-D",0.749148,0,0
+5,151,2,Evolucionistas,"Lei-A+Lei-D",0.830543,0,1
+5,152,1,Incrementalistas,"Lei-A+Lei-D",0.830543,0,1
+5,157,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.900307,1,0
+5,167,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.906571,0,0
+5,167,3,Isolados,"Lei-B+Lei-C",0.846345,0,0
+5,178,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.906571,0,0
+5,187,3,Isolados,"Lei-A+Lei-C+Lei-D",0.886713,0,0
+5,190,2,Evolucionistas,"Lei-B+Lei-C",0.98783,0,0
+5,190,2,Evolucionistas,"nenhuma lei",0.661877,0,0
+5,190,2,Evolucionistas,"Lei-C",0.776057,0,0
+5,202,2,Evolucionistas,"Lei-C+Lei-D",0.908141,0,1
+6,0,0,Empiristas,"nenhuma lei",0.503688,1,0
+6,0,1,Incrementalistas,"nenhuma lei",0.455862,0,0
+6,0,2,Evolucionistas,"nenhuma lei",0.549682,0,0
+6,0,3,Isolados,"nenhuma lei",0.485962,0,0
+6,1,2,Evolucionistas,"Lei-A",0.687983,1,0
+6,3,2,Evolucionistas,"Lei-D",0.605753,1,0
+6,7,1,Incrementalistas,"Lei-A",0.723926,0,1
+6,8,0,Empiristas,"Lei-C",0.644317,1,0
+6,8,2,Evolucionistas,"Lei-A+Lei-C",0.797531,1,0
+6,9,0,Empiristas,"Lei-B",0.695985,1,0
+6,10,0,Empiristas,"Lei-A+Lei-C",0.80326,0,1
+6,10,2,Evolucionistas,"Lei-B",0.705374,0,1
+6,11,0,Empiristas,"Lei-A",0.723926,0,1
+6,11,1,Incrementalistas,"Lei-A+Lei-C",0.80326,0,1
+6,11,1,Incrementalistas,"Lei-C",0.644317,0,1
+6,14,2,Evolucionistas,"Lei-A+Lei-D",0.741283,1,0
+6,17,3,Isolados,"Lei-B",0.724609,0,0
+6,18,2,Evolucionistas,"Lei-C",0.667788,0,1
+6,19,1,Incrementalistas,"Lei-B",0.705374,0,1
+6,24,3,Isolados,"Lei-A",0.542026,0,0
+6,30,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.854841,1,0
+6,30,3,Isolados,"Lei-D",0.657879,0,0
+6,31,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.854841,0,1
+6,32,0,Empiristas,"Lei-D",0.600547,0,0
+6,32,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.854841,0,1
+6,32,0,Empiristas,"Lei-A+Lei-D",0.794338,0,1
+6,34,2,Evolucionistas,"Lei-B+Lei-C",0.811792,1,0
+6,35,1,Incrementalistas,"Lei-D",0.631775,0,0
+6,39,1,Incrementalistas,"Lei-A+Lei-D",0.794338,0,1
+6,41,3,Isolados,"Lei-C",0.716243,0,0
+6,42,1,Incrementalistas,"Lei-C+Lei-D",0.780605,1,0
+6,44,0,Empiristas,"Lei-C+Lei-D",0.69078,0,0
+6,44,2,Evolucionistas,"Lei-C+Lei-D",0.786097,0,0
+6,46,0,Empiristas,"Lei-B+Lei-C",0.794347,0,0
+6,53,1,Incrementalistas,"Lei-B+Lei-C",0.836421,0,1
+6,57,3,Isolados,"Lei-B+Lei-C",0.816212,0,0
+6,66,3,Isolados,"Lei-A+Lei-C",0.682424,0,0
+6,113,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.982376,0,0
+6,116,0,Empiristas,"Lei-C",0.693175,0,0
+6,134,0,Empiristas,"Lei-B+Lei-C",0.874668,0,1
+6,143,1,Incrementalistas,"Lei-A+Lei-D",0.740141,0,0
+6,143,1,Incrementalistas,"Lei-C+Lei-D",0.847342,0,0
+6,143,3,Isolados,"Lei-C+Lei-D",0.77056,0,0
+6,143,1,Incrementalistas,"Lei-A",0.780747,0,1
+6,145,1,Incrementalistas,"Lei-B",0.597665,0,0
+6,157,3,Isolados,"Lei-A+Lei-D",0.749186,0,0
+6,172,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.923992,0,0
+6,172,0,Empiristas,"nenhuma lei",0.59454,0,0
+6,176,0,Empiristas,"Lei-B+Lei-C",0.934832,0,1
+6,179,3,Isolados,"Lei-A+Lei-C+Lei-D",0.868786,0,0
+6,182,2,Evolucionistas,"Lei-B",0.548632,0,0
+6,182,2,Evolucionistas,"Lei-C+Lei-D",0.862831,0,0
+6,196,0,Empiristas,"Lei-A+Lei-D",0.803566,0,0
+6,196,0,Empiristas,"nenhuma lei",0.440182,0,0
+6,196,0,Empiristas,"Lei-A+Lei-C",0.816854,0,0
+6,230,2,Evolucionistas,"Lei-B",0.675645,0,0
+6,230,2,Evolucionistas,"Lei-A",0.705362,0,0
+6,231,2,Evolucionistas,"Lei-C+Lei-D",0.786246,0,0
+6,258,3,Isolados,"Lei-B",0.787506,0,0
+6,258,3,Isolados,"nenhuma lei",0.596299,0,0
+6,262,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.968614,0,0
+6,262,2,Evolucionistas,"Lei-A+Lei-D",0.847895,0,0
+6,262,2,Evolucionistas,"Lei-B+Lei-C",0.816294,0,0
+6,262,2,Evolucionistas,"Lei-A+Lei-C",0.760484,0,0
+6,262,2,Evolucionistas,"Lei-A",0.726371,0,0
+7,0,0,Empiristas,"nenhuma lei",0.4955,1,0
+7,0,0,Empiristas,"Lei-A",0.578827,1,0
+7,0,1,Incrementalistas,"nenhuma lei",0.601321,0,0
+7,0,2,Evolucionistas,"Lei-D",0.642995,1,0
+7,0,2,Evolucionistas,"nenhuma lei",0.545746,0,0
+7,0,3,Isolados,"nenhuma lei",0.594071,0,0
+7,0,2,Evolucionistas,"Lei-A",0.578827,0,1
+7,0,0,Empiristas,"Lei-D",0.642995,0,1
+7,2,0,Empiristas,"Lei-A+Lei-D",0.785688,1,0
+7,4,2,Evolucionistas,"Lei-A+Lei-D",0.820348,0,1
+7,7,0,Empiristas,"Lei-B",0.658113,1,0
+7,8,1,Incrementalistas,"Lei-A+Lei-D",0.820348,0,1
+7,8,1,Incrementalistas,"Lei-A",0.583061,0,1
+7,9,1,Incrementalistas,"Lei-D",0.659808,0,1
+7,11,0,Empiristas,"Lei-A+Lei-C",0.710112,1,0
+7,20,2,Evolucionistas,"Lei-C",0.689765,1,0
+7,22,2,Evolucionistas,"Lei-A",0.749641,0,0
+7,24,2,Evolucionistas,"nenhuma lei",0.471368,0,0
+7,25,2,Evolucionistas,"Lei-A+Lei-C",0.812797,0,0
+7,27,1,Incrementalistas,"Lei-A+Lei-C",0.830169,0,1
+7,29,1,Incrementalistas,"Lei-C",0.679157,0,0
+7,31,2,Evolucionistas,"Lei-D",0.61132,0,0
+7,32,0,Empiristas,"Lei-C",0.646395,0,0
+7,35,2,Evolucionistas,"Lei-C+Lei-D",0.771478,1,0
+7,38,1,Incrementalistas,"Lei-B",0.66812,0,0
+7,44,3,Isolados,"Lei-D",0.594771,0,0
+7,52,2,Evolucionistas,"nenhuma lei",0.526594,0,0
+7,52,3,Isolados,"Lei-A",0.666098,0,0
+7,53,2,Evolucionistas,"Lei-A",0.636924,0,0
+7,53,2,Evolucionistas,"Lei-A+Lei-D",0.760978,0,0
+7,54,2,Evolucionistas,"Lei-B",0.701109,0,1
+7,55,3,Isolados,"Lei-A+Lei-D",0.676051,0,0
+7,56,2,Evolucionistas,"Lei-C",0.691298,0,0
+7,57,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.878909,1,0
+7,58,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.84128,0,0
+7,58,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.878909,0,1
+7,59,0,Empiristas,"Lei-C+Lei-D",0.811196,0,0
+7,67,0,Empiristas,"Lei-B+Lei-C",0.739701,1,0
+7,69,1,Incrementalistas,"Lei-C+Lei-D",0.807405,0,0
+7,75,2,Evolucionistas,"Lei-B+Lei-C",0.739701,0,1
+7,77,3,Isolados,"Lei-B",0.534875,0,0
+7,78,1,Incrementalistas,"Lei-B+Lei-C",0.739701,0,1
+7,87,2,Evolucionistas,"nenhuma lei",0.453153,0,0
+7,88,2,Evolucionistas,"Lei-D",0.734692,0,1
+7,91,2,Evolucionistas,"Lei-B+Lei-C",0.801714,0,1
+7,92,3,Isolados,"Lei-C",0.657217,0,0
+7,96,3,Isolados,"Lei-A+Lei-C",0.811297,0,0
+7,105,3,Isolados,"Lei-A+Lei-C+Lei-D",0.853771,0,0
+7,111,3,Isolados,"Lei-B+Lei-C",0.805906,0,0
+7,113,0,Empiristas,"nenhuma lei",0.479044,0,0
+7,114,3,Isolados,"Lei-C+Lei-D",0.633314,0,0
+7,118,0,Empiristas,"Lei-A+Lei-D",0.891859,0,0
+7,192,0,Empiristas,"nenhuma lei",0.49564,0,0
+7,194,0,Empiristas,"Lei-B+Lei-C",0.781037,0,0
+7,282,2,Evolucionistas,"Lei-D",0.540885,0,0
+7,282,2,Evolucionistas,"Lei-C+Lei-D",0.798926,0,0
+7,290,2,Evolucionistas,"Lei-B+Lei-C",0.91192,0,1
+8,0,0,Empiristas,"nenhuma lei",0.487689,1,0
+8,0,1,Incrementalistas,"Lei-B+Lei-C",0.734578,1,0
+8,0,1,Incrementalistas,"nenhuma lei",0.4605,0,0
+8,0,2,Evolucionistas,"nenhuma lei",0.532126,0,0
+8,0,3,Isolados,"Lei-C",0.639144,1,0
+8,0,3,Isolados,"nenhuma lei",0.495627,0,0
+8,0,2,Evolucionistas,"Lei-B+Lei-C",0.734578,0,1
+8,1,1,Incrementalistas,"Lei-C",0.634032,0,0
+8,1,2,Evolucionistas,"Lei-B",0.672003,1,0
+8,1,0,Empiristas,"Lei-B+Lei-C",0.734578,0,1
+8,2,1,Incrementalistas,"Lei-B",0.627213,0,0
+8,3,0,Empiristas,"Lei-C",0.618219,0,0
+8,4,0,Empiristas,"Lei-B",0.634371,0,0
+8,5,2,Evolucionistas,"Lei-C",0.583262,0,0
+8,9,1,Incrementalistas,"Lei-A+Lei-C",0.737231,1,0
+8,12,0,Empiristas,"Lei-A+Lei-C",0.761002,0,0
+8,14,2,Evolucionistas,"Lei-A+Lei-C",0.737231,0,1
+8,19,1,Incrementalistas,"Lei-C+Lei-D",0.76815,1,0
+8,21,1,Incrementalistas,"Lei-D",0.618299,1,0
+8,22,0,Empiristas,"Lei-A",0.549522,1,0
+8,23,1,Incrementalistas,"Lei-A",0.569881,0,0
+8,23,2,Evolucionistas,"Lei-A",0.549522,0,1
+8,25,3,Isolados,"Lei-B",0.664476,0,0
+8,41,0,Empiristas,"Lei-D",0.649779,0,0
+8,41,3,Isolados,"Lei-A+Lei-C",0.783357,0,0
+8,41,2,Evolucionistas,"Lei-C+Lei-D",0.803772,0,1
+8,47,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.85744,1,0
+8,49,3,Isolados,"Lei-B+Lei-C",0.768002,0,0
+8,50,2,Evolucionistas,"Lei-D",0.499249,0,0
+8,57,0,Empiristas,"Lei-C+Lei-D",0.812633,0,1
+8,60,3,Isolados,"Lei-A",0.598429,0,0
+8,62,0,Empiristas,"Lei-A+Lei-D",0.739214,1,0
+8,63,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.878926,0,0
+8,68,2,Evolucionistas,"Lei-A+Lei-D",0.739214,0,1
+8,76,1,Incrementalistas,"Lei-A+Lei-D",0.724193,0,0
+8,76,3,Isolados,"Lei-D",0.559302,0,0
+8,104,3,Isolados,"Lei-A",0.462429,0,0
+8,106,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.910215,0,1
+8,109,3,Isolados,"nenhuma lei",0.514407,0,0
+8,151,3,Isolados,"Lei-A+Lei-D",0.750878,0,0
+8,164,2,Evolucionistas,"Lei-B",0.762432,0,0
+8,185,3,Isolados,"Lei-C+Lei-D",0.779598,0,0
+8,204,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.938466,0,1
+8,205,1,Incrementalistas,"Lei-B+Lei-C",0.868968,0,0
+8,205,1,Incrementalistas,"Lei-B",0.759173,0,0
+8,205,1,Incrementalistas,"Lei-A+Lei-D",0.798568,0,0
+8,276,2,Evolucionistas,"nenhuma lei",0.545166,0,0
+8,276,2,Evolucionistas,"Lei-C",0.688803,0,0
+8,299,2,Evolucionistas,"Lei-C+Lei-D",0.730556,0,0
+9,0,0,Empiristas,"nenhuma lei",0.606236,1,0
+9,0,1,Incrementalistas,"nenhuma lei",0.527418,0,0
+9,0,2,Evolucionistas,"nenhuma lei",0.548389,0,0
+9,0,3,Isolados,"nenhuma lei",0.508014,0,0
+9,1,1,Incrementalistas,"Lei-D",0.624729,1,0
+9,1,2,Evolucionistas,"Lei-B",0.739518,1,0
+9,4,2,Evolucionistas,"Lei-D",0.649756,0,1
+9,4,1,Incrementalistas,"Lei-B",0.739518,0,1
+9,8,0,Empiristas,"Lei-B",0.57772,0,0
+9,12,0,Empiristas,"Lei-D",0.673622,0,1
+9,15,0,Empiristas,"Lei-C",0.636681,1,0
+9,27,2,Evolucionistas,"Lei-C",0.636681,0,1
+9,32,2,Evolucionistas,"Lei-B+Lei-C",0.761801,1,0
+9,33,3,Isolados,"Lei-B",0.66412,0,0
+9,35,0,Empiristas,"Lei-B+Lei-C",0.761801,0,1
+9,36,0,Empiristas,"Lei-A",0.624878,1,0
+9,37,3,Isolados,"Lei-A",0.642368,0,0
+9,40,1,Incrementalistas,"Lei-B+Lei-C",0.761801,0,1
+9,42,1,Incrementalistas,"Lei-C",0.636681,0,1
+9,43,1,Incrementalistas,"Lei-A",0.730377,0,1
+9,46,3,Isolados,"Lei-C",0.690873,0,0
+9,49,3,Isolados,"Lei-D",0.648642,0,0
+9,55,2,Evolucionistas,"Lei-A",0.730377,0,1
+9,57,3,Isolados,"Lei-B+Lei-C",0.793637,0,0
+9,80,2,Evolucionistas,"Lei-A+Lei-C",0.747978,1,0
+9,96,3,Isolados,"Lei-A+Lei-C",0.747663,0,0
+9,101,1,Incrementalistas,"Lei-A+Lei-C",0.776533,0,0
+9,114,1,Incrementalistas,"Lei-A+Lei-D",0.664976,1,0
+9,115,2,Evolucionistas,"Lei-A+Lei-D",0.664976,0,1
+9,137,0,Empiristas,"Lei-A+Lei-D",0.741649,0,1
+9,141,0,Empiristas,"Lei-A+Lei-C",0.779825,0,0
+9,143,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.845664,1,0
+9,149,1,Incrementalistas,"Lei-C+Lei-D",0.755272,1,0
+9,150,1,Incrementalistas,"Lei-C",0.720815,0,0
+9,160,1,Incrementalistas,"Lei-A+Lei-D",0.831748,0,1
+9,161,1,Incrementalistas,"Lei-A+Lei-C",0.885061,0,0
+9,162,0,Empiristas,"Lei-C+Lei-D",0.80499,0,0
+9,168,2,Evolucionistas,"Lei-C+Lei-D",0.776833,0,0
+9,175,3,Isolados,"Lei-A+Lei-D",0.842891,0,0
+9,191,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.708602,0,0
+9,205,3,Isolados,"Lei-A+Lei-C+Lei-D",0.848715,0,0
+9,207,3,Isolados,"Lei-C+Lei-D",0.768147,0,0
+9,213,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.862096,0,0
+9,224,1,Incrementalistas,"Lei-C+Lei-D",0.730209,0,0
+9,234,1,Incrementalistas,"nenhuma lei",0.640671,0,0
+9,234,1,Incrementalistas,"Lei-D",0.671963,0,0
+9,235,1,Incrementalistas,"Lei-A+Lei-C",0.835824,0,0
+9,251,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.944247,0,0
+9,251,1,Incrementalistas,"Lei-C+Lei-D",0.862869,0,0
+9,296,0,Empiristas,"Lei-C",0.768246,0,0
+9,296,0,Empiristas,"nenhuma lei",0.465717,0,0
+9,296,0,Empiristas,"Lei-B+Lei-C",0.912604,0,0
+10,0,0,Empiristas,"nenhuma lei",0.427324,1,0
+10,0,0,Empiristas,"Lei-A",0.580893,1,0
+10,0,1,Incrementalistas,"nenhuma lei",0.493501,0,0
+10,0,2,Evolucionistas,"nenhuma lei",0.492111,0,0
+10,0,3,Isolados,"Lei-D",0.638616,1,0
+10,0,3,Isolados,"nenhuma lei",0.464837,0,0
+10,1,2,Evolucionistas,"nenhuma lei",0.539523,0,0
+10,9,1,Incrementalistas,"Lei-C",0.653773,1,0
+10,9,3,Isolados,"Lei-A",0.705352,0,0
+10,9,2,Evolucionistas,"Lei-C",0.653773,0,1
+10,11,1,Incrementalistas,"Lei-A",0.667612,0,1
+10,11,0,Empiristas,"Lei-C",0.653773,0,1
+10,11,2,Evolucionistas,"Lei-A",0.667612,0,1
+10,15,0,Empiristas,"Lei-A+Lei-C",0.760545,1,0
+10,16,2,Evolucionistas,"Lei-D",0.669603,0,0
+10,16,0,Empiristas,"Lei-D",0.669603,0,1
+10,16,2,Evolucionistas,"Lei-A+Lei-C",0.760545,0,1
+10,18,0,Empiristas,"Lei-B",0.665741,1,0
+10,20,3,Isolados,"Lei-C+Lei-D",0.809353,1,0
+10,20,1,Incrementalistas,"Lei-A+Lei-C",0.760545,0,1
+10,23,3,Isolados,"Lei-A+Lei-D",0.662991,1,0
+10,26,3,Isolados,"Lei-C",0.729036,0,0
+10,31,3,Isolados,"Lei-B",0.748481,0,0
+10,33,2,Evolucionistas,"Lei-B",0.637843,0,0
+10,33,1,Incrementalistas,"Lei-D",0.669603,0,1
+10,43,2,Evolucionistas,"Lei-A+Lei-D",0.798869,0,0
+10,47,1,Incrementalistas,"Lei-B",0.603378,0,0
+10,49,1,Incrementalistas,"Lei-A+Lei-D",0.798869,0,1
+10,51,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.820566,1,0
+10,54,2,Evolucionistas,"Lei-C+Lei-D",0.676102,0,0
+10,54,0,Empiristas,"Lei-A+Lei-D",0.851199,0,1
+10,58,3,Isolados,"Lei-B+Lei-C",0.835157,1,0
+10,65,1,Incrementalistas,"Lei-C+Lei-D",0.745817,0,1
+10,67,3,Isolados,"Lei-A+Lei-C+Lei-D",0.790446,0,0
+10,69,2,Evolucionistas,"Lei-B+Lei-C",0.785608,0,0
+10,75,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.899138,0,1
+10,76,3,Isolados,"Lei-A+Lei-C",0.702315,0,0
+10,81,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.899138,0,1
+10,82,0,Empiristas,"Lei-B+Lei-C",0.795967,0,0
+10,86,1,Incrementalistas,"Lei-B+Lei-C",0.785608,0,1
+10,87,0,Empiristas,"Lei-C+Lei-D",0.745817,0,1
+10,194,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.915632,0,0
+10,194,1,Incrementalistas,"Lei-C+Lei-D",0.815233,0,0
+10,194,1,Incrementalistas,"Lei-C",0.64845,0,0
+10,194,1,Incrementalistas,"nenhuma lei",0.450056,0,0
+10,195,1,Incrementalistas,"Lei-A",0.806777,0,0
+10,196,1,Incrementalistas,"Lei-B+Lei-C",0.878272,0,0
+10,215,0,Empiristas,"Lei-A",0.658268,0,0
+10,215,0,Empiristas,"Lei-C",0.606485,0,0
+10,217,0,Empiristas,"Lei-B",0.617537,0,0
+11,0,0,Empiristas,"nenhuma lei",0.539894,1,0
+11,0,1,Incrementalistas,"nenhuma lei",0.606382,0,0
+11,0,2,Evolucionistas,"nenhuma lei",0.476561,0,0
+11,0,3,Isolados,"nenhuma lei",0.522735,0,0
+11,4,3,Isolados,"Lei-B",0.704042,1,0
+11,12,2,Evolucionistas,"Lei-C",0.579667,1,0
+11,13,0,Empiristas,"Lei-A",0.671057,1,0
+11,16,0,Empiristas,"Lei-D",0.593095,1,0
+11,16,1,Incrementalistas,"Lei-A",0.671057,0,1
+11,19,2,Evolucionistas,"Lei-A",0.671057,0,1
+11,19,2,Evolucionistas,"Lei-D",0.593095,0,1
+11,20,1,Incrementalistas,"nenhuma lei",0.581867,0,0
+11,21,1,Incrementalistas,"Lei-D",0.593095,0,1
+11,22,0,Empiristas,"Lei-C",0.567296,0,0
+11,24,2,Evolucionistas,"Lei-A+Lei-C",0.738828,1,0
+11,27,3,Isolados,"Lei-A+Lei-D",0.768432,1,0
+11,32,1,Incrementalistas,"Lei-A+Lei-C",0.76132,0,0
+11,32,0,Empiristas,"Lei-A+Lei-C",0.77831,0,1
+11,35,3,Isolados,"Lei-D",0.650105,0,0
+11,43,1,Incrementalistas,"Lei-C",0.608774,0,0
+11,50,1,Incrementalistas,"Lei-B",0.754879,0,0
+11,51,0,Empiristas,"Lei-B",0.679769,0,0
+11,56,3,Isolados,"Lei-A",0.603641,0,0
+11,58,1,Incrementalistas,"Lei-B+Lei-C",0.956708,1,0
+11,59,0,Empiristas,"Lei-A+Lei-D",0.879753,0,0
+11,60,2,Evolucionistas,"Lei-B+Lei-C",0.956708,0,1
+11,61,1,Incrementalistas,"Lei-A+Lei-D",0.879753,0,1
+11,61,0,Empiristas,"Lei-B+Lei-C",0.956708,0,1
+11,69,2,Evolucionistas,"Lei-B",0.55732,0,0
+11,79,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.921225,1,0
+11,80,2,Evolucionistas,"Lei-A+Lei-D",0.879753,0,1
+11,92,3,Isolados,"Lei-C",0.677952,0,0
+11,97,2,Evolucionistas,"Lei-C+Lei-D",0.868831,1,0
+11,97,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.921225,0,1
+11,100,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.921225,0,1
+11,107,1,Incrementalistas,"Lei-C+Lei-D",0.824854,0,0
+11,112,3,Isolados,"Lei-A+Lei-C+Lei-D",0.876977,0,0
+11,115,3,Isolados,"Lei-B+Lei-C",0.795428,0,0
+11,117,3,Isolados,"Lei-C+Lei-D",0.661575,0,0
+11,121,3,Isolados,"Lei-A+Lei-C",0.678619,0,0
+11,133,0,Empiristas,"Lei-C+Lei-D",0.699605,0,0
+11,146,2,Evolucionistas,"Lei-B+Lei-C",0.942698,0,0
+11,146,2,Evolucionistas,"Lei-A+Lei-C",0.879933,0,0
+11,149,2,Evolucionistas,"Lei-D",0.694229,0,0
+11,198,2,Evolucionistas,"Lei-D",0.779887,0,0
+11,223,2,Evolucionistas,"Lei-C+Lei-D",0.750696,0,0
+11,248,3,Isolados,"Lei-A+Lei-C+Lei-D",0.846412,0,0
+11,248,3,Isolados,"Lei-D",0.693642,0,0
+11,265,0,Empiristas,"Lei-D",0.641937,0,0
+11,265,0,Empiristas,"Lei-B",0.792325,0,0
+11,267,0,Empiristas,"Lei-A+Lei-C",0.829891,0,0
+12,0,0,Empiristas,"Lei-C",0.746926,1,0
+12,0,0,Empiristas,"nenhuma lei",0.516247,1,0
+12,0,1,Incrementalistas,"nenhuma lei",0.525007,0,0
+12,0,2,Evolucionistas,"nenhuma lei",0.622246,0,0
+12,0,3,Isolados,"nenhuma lei",0.435504,0,0
+12,4,1,Incrementalistas,"Lei-C",0.638339,0,0
+12,5,1,Incrementalistas,"Lei-D",0.629576,1,0
+12,5,0,Empiristas,"Lei-D",0.629576,0,1
+12,9,2,Evolucionistas,"Lei-C",0.76474,0,1
+12,10,2,Evolucionistas,"Lei-D",0.629576,0,1
+12,12,3,Isolados,"Lei-A",0.676661,1,0
+12,14,2,Evolucionistas,"Lei-A",0.587084,0,0
+12,24,2,Evolucionistas,"Lei-B",0.72298,1,0
+12,25,1,Incrementalistas,"Lei-C+Lei-D",0.77472,1,0
+12,28,3,Isolados,"Lei-C",0.623454,0,0
+12,28,2,Evolucionistas,"Lei-C+Lei-D",0.77472,0,1
+12,28,1,Incrementalistas,"Lei-A",0.587084,0,1
+12,30,0,Empiristas,"Lei-B",0.629596,0,0
+12,30,3,Isolados,"Lei-D",0.683687,0,0
+12,30,0,Empiristas,"Lei-C+Lei-D",0.77472,0,1
+12,39,3,Isolados,"Lei-A+Lei-C",0.740247,1,0
+12,39,3,Isolados,"Lei-B",0.650587,0,0
+12,40,0,Empiristas,"Lei-A",0.609555,0,0
+12,49,2,Evolucionistas,"Lei-D",0.61639,0,0
+12,55,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.917594,1,0
+12,55,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.917594,0,1
+12,56,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.917594,0,1
+12,58,0,Empiristas,"Lei-A+Lei-D",0.6869,1,0
+12,59,0,Empiristas,"Lei-A+Lei-C",0.821612,0,0
+12,60,1,Incrementalistas,"Lei-A+Lei-C",0.766476,0,0
+12,62,1,Incrementalistas,"Lei-B+Lei-C",0.826343,1,0
+12,62,1,Incrementalistas,"Lei-B",0.656443,0,0
+12,63,2,Evolucionistas,"Lei-A+Lei-C",0.743161,0,0
+12,66,0,Empiristas,"Lei-B+Lei-C",0.826343,0,1
+12,69,1,Incrementalistas,"Lei-A+Lei-D",0.7427,0,0
+12,71,2,Evolucionistas,"Lei-B",0.656905,0,1
+12,75,2,Evolucionistas,"Lei-A+Lei-D",0.740317,0,0
+12,79,2,Evolucionistas,"Lei-B+Lei-C",0.826343,0,1
+12,100,3,Isolados,"Lei-B+Lei-C",0.857813,0,0
+12,148,1,Incrementalistas,"Lei-C",0.777483,0,0
+12,151,3,Isolados,"Lei-A+Lei-D",0.656966,0,0
+12,154,1,Incrementalistas,"Lei-B",0.562455,0,0
+12,157,1,Incrementalistas,"Lei-B+Lei-C",0.831009,0,0
+12,165,0,Empiristas,"nenhuma lei",0.526549,0,0
+12,165,0,Empiristas,"Lei-C",0.719135,0,0
+12,165,0,Empiristas,"Lei-A",0.7107,0,0
+12,166,0,Empiristas,"Lei-D",0.602187,0,0
+12,166,0,Empiristas,"Lei-B",0.617191,0,0
+12,181,3,Isolados,"Lei-C+Lei-D",0.763789,0,0
+12,186,0,Empiristas,"Lei-B+Lei-C",0.756903,0,0
+12,230,0,Empiristas,"nenhuma lei",0.465823,0,0
+12,230,0,Empiristas,"Lei-C+Lei-D",0.797619,0,0
+12,248,0,Empiristas,"Lei-B+Lei-C",0.694875,0,0
+12,296,3,Isolados,"Lei-A+Lei-C+Lei-D",0.867436,0,0
+13,0,0,Empiristas,"nenhuma lei",0.511866,1,0
+13,0,1,Incrementalistas,"nenhuma lei",0.531212,0,0
+13,0,2,Evolucionistas,"nenhuma lei",0.472524,0,0
+13,0,3,Isolados,"nenhuma lei",0.570121,0,0
+13,7,0,Empiristas,"Lei-A",0.628348,1,0
+13,9,0,Empiristas,"Lei-D",0.644452,1,0
+13,10,1,Incrementalistas,"Lei-D",0.644452,0,1
+13,13,0,Empiristas,"Lei-A+Lei-C",0.760307,1,0
+13,13,2,Evolucionistas,"Lei-D",0.644452,0,1
+13,16,0,Empiristas,"Lei-A+Lei-D",0.665438,1,0
+13,16,2,Evolucionistas,"Lei-A+Lei-D",0.736485,0,0
+13,16,1,Incrementalistas,"Lei-A+Lei-C",0.760307,0,1
+13,18,1,Incrementalistas,"Lei-A",0.648713,0,0
+13,19,3,Isolados,"Lei-B",0.723227,1,0
+13,19,2,Evolucionistas,"Lei-A+Lei-C",0.760307,0,1
+13,19,2,Evolucionistas,"Lei-A",0.648713,0,1
+13,19,1,Incrementalistas,"Lei-A+Lei-D",0.736485,0,1
+13,25,0,Empiristas,"Lei-C",0.634054,1,0
+13,28,1,Incrementalistas,"Lei-C",0.694497,0,0
+13,30,2,Evolucionistas,"Lei-C",0.69086,0,0
+13,34,0,Empiristas,"Lei-B+Lei-C",0.82084,1,0
+13,34,1,Incrementalistas,"Lei-B+Lei-C",0.82084,0,1
+13,34,2,Evolucionistas,"Lei-B+Lei-C",0.82084,0,1
+13,35,0,Empiristas,"Lei-B",0.67775,0,0
+13,37,1,Incrementalistas,"Lei-A+Lei-C",0.777019,0,0
+13,37,2,Evolucionistas,"Lei-B",0.596361,0,0
+13,42,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.763747,1,0
+13,44,2,Evolucionistas,"Lei-C+Lei-D",0.709039,1,0
+13,45,3,Isolados,"Lei-B+Lei-C",0.702918,0,0
+13,48,3,Isolados,"Lei-A",0.568377,0,0
+13,53,1,Incrementalistas,"Lei-B",0.755593,0,1
+13,54,1,Incrementalistas,"Lei-C+Lei-D",0.799013,0,0
+13,56,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.794949,0,0
+13,57,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.794949,0,1
+13,64,0,Empiristas,"Lei-C+Lei-D",0.711919,0,0
+13,66,3,Isolados,"Lei-C",0.599941,0,0
+13,70,3,Isolados,"Lei-D",0.684828,0,0
+13,91,3,Isolados,"Lei-A+Lei-C",0.78197,0,0
+13,153,3,Isolados,"Lei-C+Lei-D",0.72129,0,0
+13,161,1,Incrementalistas,"Lei-B",0.73407,0,0
+13,161,1,Incrementalistas,"Lei-C",0.749896,0,0
+13,162,3,Isolados,"Lei-A+Lei-C+Lei-D",0.876938,0,0
+13,164,3,Isolados,"Lei-A+Lei-D",0.826307,0,0
+13,167,1,Incrementalistas,"Lei-A+Lei-C",0.847007,0,0
+13,241,2,Evolucionistas,"Lei-B+Lei-C",0.98602,0,0
+13,242,2,Evolucionistas,"Lei-A",0.690231,0,0
+14,0,0,Empiristas,"nenhuma lei",0.535946,1,0
+14,0,1,Incrementalistas,"nenhuma lei",0.464511,0,0
+14,0,2,Evolucionistas,"Lei-C",0.595268,1,0
+14,0,2,Evolucionistas,"nenhuma lei",0.512884,0,0
+14,0,3,Isolados,"nenhuma lei",0.523938,0,0
+14,1,0,Empiristas,"Lei-A",0.524402,1,0
+14,1,1,Incrementalistas,"Lei-C",0.646828,0,0
+14,2,1,Incrementalistas,"Lei-B+Lei-C",0.770003,1,0
+14,2,2,Evolucionistas,"Lei-B+Lei-C",0.713342,0,0
+14,4,0,Empiristas,"Lei-B+Lei-C",0.770003,0,1
+14,4,1,Incrementalistas,"Lei-A",0.524402,0,1
+14,9,0,Empiristas,"Lei-D",0.631019,1,0
+14,13,0,Empiristas,"Lei-B",0.646552,1,0
+14,13,1,Incrementalistas,"Lei-B",0.697483,0,0
+14,14,0,Empiristas,"Lei-C",0.606665,0,0
+14,15,2,Evolucionistas,"Lei-A",0.616318,0,0
+14,17,2,Evolucionistas,"Lei-B",0.698011,0,0
+14,34,3,Isolados,"Lei-C",0.655719,0,0
+14,34,1,Incrementalistas,"Lei-D",0.679387,0,1
+14,43,2,Evolucionistas,"Lei-B+Lei-C",0.744612,0,0
+14,44,2,Evolucionistas,"Lei-D",0.694096,0,1
+14,46,2,Evolucionistas,"Lei-C",0.684452,0,0
+14,47,2,Evolucionistas,"nenhuma lei",0.530006,0,0
+14,61,3,Isolados,"Lei-A",0.693169,0,0
+14,64,3,Isolados,"Lei-D",0.663187,0,0
+14,71,2,Evolucionistas,"Lei-B+Lei-C",0.910021,0,0
+14,71,2,Evolucionistas,"nenhuma lei",0.539394,0,0
+14,72,1,Incrementalistas,"Lei-C+Lei-D",0.729178,1,0
+14,77,2,Evolucionistas,"Lei-C+Lei-D",0.729178,0,1
+14,79,3,Isolados,"Lei-B+Lei-C",0.815985,0,0
+14,82,3,Isolados,"Lei-A+Lei-C",0.782327,1,0
+14,84,3,Isolados,"Lei-B",0.660845,0,0
+14,91,0,Empiristas,"Lei-A+Lei-D",0.834303,1,0
+14,95,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.821945,1,0
+14,96,1,Incrementalistas,"Lei-A+Lei-D",0.719731,0,0
+14,104,2,Evolucionistas,"Lei-A+Lei-D",0.823153,0,0
+14,112,3,Isolados,"Lei-A+Lei-C+Lei-D",0.854765,0,0
+14,112,3,Isolados,"Lei-A+Lei-D",0.632867,0,0
+14,120,0,Empiristas,"Lei-A+Lei-C",0.800936,0,0
+14,121,2,Evolucionistas,"Lei-A+Lei-C",0.724115,0,0
+14,122,3,Isolados,"Lei-C+Lei-D",0.795947,0,0
+14,129,1,Incrementalistas,"Lei-A+Lei-C",0.802332,0,1
+14,153,0,Empiristas,"Lei-C+Lei-D",0.731848,0,0
+14,212,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.805202,0,0
+14,225,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.935089,0,1
+14,295,1,Incrementalistas,"Lei-A",0.736181,0,0
+14,295,1,Incrementalistas,"Lei-C",0.752522,0,0
+14,299,1,Incrementalistas,"Lei-D",0.692491,0,0
+15,0,0,Empiristas,"nenhuma lei",0.484925,1,0
+15,0,1,Incrementalistas,"nenhuma lei",0.445296,0,0
+15,0,2,Evolucionistas,"nenhuma lei",0.472464,0,0
+15,0,3,Isolados,"nenhuma lei",0.41602,0,0
+15,3,0,Empiristas,"Lei-C",0.548281,1,0
+15,3,1,Incrementalistas,"Lei-B",0.634008,1,0
+15,6,3,Isolados,"Lei-C",0.650194,0,0
+15,6,2,Evolucionistas,"Lei-C",0.548281,0,1
+15,6,2,Evolucionistas,"Lei-B",0.634008,0,1
+15,9,3,Isolados,"Lei-A",0.618532,1,0
+15,11,0,Empiristas,"Lei-B",0.739898,0,1
+15,13,1,Incrementalistas,"Lei-C",0.548281,0,1
+15,15,0,Empiristas,"Lei-D",0.735378,1,0
+15,20,2,Evolucionistas,"nenhuma lei",0.617057,0,0
+15,21,2,Evolucionistas,"Lei-B",0.81295,0,1
+15,22,0,Empiristas,"Lei-A",0.668788,0,0
+15,23,1,Incrementalistas,"Lei-A",0.668788,0,1
+15,25,1,Incrementalistas,"Lei-D",0.735378,0,1
+15,28,2,Evolucionistas,"Lei-A",0.668788,0,1
+15,32,3,Isolados,"Lei-A+Lei-C",0.765057,1,0
+15,51,2,Evolucionistas,"Lei-B+Lei-C",0.855958,1,0
+15,51,0,Empiristas,"Lei-B+Lei-C",0.855958,0,1
+15,52,3,Isolados,"Lei-B",0.673422,0,0
+15,54,1,Incrementalistas,"Lei-B+Lei-C",0.868768,0,0
+15,59,3,Isolados,"Lei-A+Lei-C+Lei-D",0.779196,1,0
+15,65,0,Empiristas,"Lei-A+Lei-D",0.834662,1,0
+15,68,3,Isolados,"Lei-A+Lei-D",0.596295,0,0
+15,75,3,Isolados,"Lei-B+Lei-C",0.722676,0,0
+15,76,2,Evolucionistas,"Lei-D",0.671082,0,0
+15,78,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.916679,0,0
+15,79,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.916679,0,1
+15,79,2,Evolucionistas,"Lei-A+Lei-D",0.834662,0,1
+15,80,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.916679,0,1
+15,81,3,Isolados,"Lei-D",0.639546,0,0
+15,83,3,Isolados,"Lei-C+Lei-D",0.708692,1,0
+15,84,0,Empiristas,"Lei-A+Lei-C",0.744858,0,0
+15,85,0,Empiristas,"Lei-C+Lei-D",0.780786,0,0
+15,85,1,Incrementalistas,"Lei-C+Lei-D",0.833334,0,0
+15,85,2,Evolucionistas,"Lei-C+Lei-D",0.742555,0,0
+15,88,1,Incrementalistas,"Lei-A+Lei-C",0.749142,0,0
+15,89,1,Incrementalistas,"Lei-A+Lei-D",0.756844,0,0
+15,90,2,Evolucionistas,"Lei-A+Lei-C",0.715979,0,0
+15,159,1,Incrementalistas,"Lei-A+Lei-C",0.860623,0,0
+15,160,1,Incrementalistas,"Lei-D",0.635246,0,0
+15,293,3,Isolados,"Lei-B",0.59519,0,0
+15,293,3,Isolados,"Lei-A+Lei-D",0.759033,0,0
+15,293,3,Isolados,"Lei-A+Lei-C",0.83701,0,0
+15,294,3,Isolados,"Lei-A",0.74489,0,0
+16,0,0,Empiristas,"nenhuma lei",0.516093,1,0
+16,0,1,Incrementalistas,"nenhuma lei",0.48128,0,0
+16,0,2,Evolucionistas,"nenhuma lei",0.522363,0,0
+16,0,3,Isolados,"nenhuma lei",0.515872,0,0
+16,3,2,Evolucionistas,"Lei-D",0.591887,1,0
+16,6,1,Incrementalistas,"Lei-C",0.67188,1,0
+16,8,0,Empiristas,"Lei-C",0.682081,0,1
+16,9,0,Empiristas,"Lei-B",0.617562,1,0
+16,9,2,Evolucionistas,"Lei-C",0.682081,0,1
+16,12,0,Empiristas,"Lei-D",0.694115,0,1
+16,13,1,Incrementalistas,"Lei-D",0.694115,0,1
+16,15,1,Incrementalistas,"Lei-C+Lei-D",0.824824,1,0
+16,18,2,Evolucionistas,"Lei-C+Lei-D",0.824824,0,1
+16,19,0,Empiristas,"Lei-C+Lei-D",0.824824,0,1
+16,20,0,Empiristas,"Lei-A",0.772382,1,0
+16,26,3,Isolados,"Lei-B",0.614534,0,0
+16,29,2,Evolucionistas,"Lei-B",0.66633,0,1
+16,30,3,Isolados,"Lei-A",0.529407,0,0
+16,34,1,Incrementalistas,"Lei-B",0.66633,0,1
+16,48,2,Evolucionistas,"Lei-A",0.530449,0,0
+16,49,3,Isolados,"Lei-D",0.611432,0,0
+16,50,1,Incrementalistas,"Lei-A+Lei-D",0.756086,1,0
+16,50,1,Incrementalistas,"Lei-A",0.626544,0,0
+16,58,3,Isolados,"Lei-B+Lei-C",0.829668,1,0
+16,63,2,Evolucionistas,"Lei-A+Lei-D",0.756086,0,1
+16,65,0,Empiristas,"Lei-A+Lei-D",0.756086,0,1
+16,71,0,Empiristas,"Lei-B+Lei-C",0.800197,0,0
+16,73,3,Isolados,"Lei-C",0.703597,0,0
+16,74,1,Incrementalistas,"Lei-C",0.766163,0,0
+16,74,1,Incrementalistas,"Lei-D",0.658061,0,0
+16,74,1,Incrementalistas,"Lei-C+Lei-D",0.819204,0,0
+16,81,1,Incrementalistas,"Lei-B+Lei-C",0.855707,0,0
+16,82,3,Isolados,"Lei-A+Lei-C",0.831184,1,0
+16,84,3,Isolados,"Lei-A+Lei-D",0.828114,0,0
+16,87,2,Evolucionistas,"Lei-A+Lei-C",0.792926,0,0
+16,89,2,Evolucionistas,"Lei-B+Lei-C",0.724985,0,0
+16,101,0,Empiristas,"nenhuma lei",0.584406,0,0
+16,103,0,Empiristas,"Lei-D",0.725436,0,0
+16,103,3,Isolados,"Lei-A+Lei-C+Lei-D",0.85689,1,0
+16,104,0,Empiristas,"Lei-B",0.774747,0,1
+16,105,0,Empiristas,"Lei-B+Lei-C",0.820232,0,0
+16,115,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.934406,0,0
+16,118,3,Isolados,"Lei-C+Lei-D",0.781886,0,0
+16,121,1,Incrementalistas,"Lei-A+Lei-C",0.824369,0,0
+16,124,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.934406,0,1
+16,128,0,Empiristas,"Lei-A+Lei-C",0.775821,0,0
+16,150,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.912319,0,0
+17,0,0,Empiristas,"nenhuma lei",0.476496,1,0
+17,0,1,Incrementalistas,"nenhuma lei",0.53547,0,0
+17,0,2,Evolucionistas,"nenhuma lei",0.412125,0,0
+17,0,3,Isolados,"nenhuma lei",0.551514,0,0
+17,3,2,Evolucionistas,"Lei-A",0.66611,1,0
+17,4,1,Incrementalistas,"Lei-A",0.66611,0,1
+17,6,0,Empiristas,"Lei-C+Lei-D",0.70153,1,0
+17,8,0,Empiristas,"Lei-A",0.709881,0,0
+17,8,0,Empiristas,"Lei-B",0.61678,1,0
+17,12,0,Empiristas,"Lei-C",0.573199,1,0
+17,14,2,Evolucionistas,"Lei-C+Lei-D",0.736148,0,1
+17,14,2,Evolucionistas,"Lei-B",0.647718,0,1
+17,15,0,Empiristas,"Lei-D",0.580249,1,0
+17,16,2,Evolucionistas,"Lei-D",0.589978,0,0
+17,17,1,Incrementalistas,"Lei-C+Lei-D",0.784405,0,1
+17,17,1,Incrementalistas,"Lei-D",0.589978,0,1
+17,20,3,Isolados,"Lei-B",0.713979,0,0
+17,21,2,Evolucionistas,"Lei-C",0.661756,0,0
+17,22,3,Isolados,"Lei-D",0.673474,0,0
+17,29,0,Empiristas,"Lei-A+Lei-D",0.818422,1,0
+17,31,1,Incrementalistas,"Lei-C",0.727637,0,0
+17,31,2,Evolucionistas,"Lei-A+Lei-D",0.818422,0,1
+17,31,1,Incrementalistas,"Lei-A+Lei-D",0.818422,0,1
+17,35,1,Incrementalistas,"Lei-B",0.671822,0,1
+17,36,1,Incrementalistas,"Lei-B+Lei-C",0.79244,1,0
+17,38,0,Empiristas,"Lei-A+Lei-C",0.734015,1,0
+17,39,1,Incrementalistas,"Lei-A+Lei-C",0.709511,0,0
+17,45,2,Evolucionistas,"Lei-A+Lei-C",0.755126,0,0
+17,52,0,Empiristas,"Lei-B+Lei-C",0.794126,0,0
+17,55,2,Evolucionistas,"Lei-B+Lei-C",0.794126,0,1
+17,59,3,Isolados,"Lei-A+Lei-D",0.678469,0,0
+17,59,3,Isolados,"Lei-C",0.586778,0,0
+17,63,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.853661,1,0
+17,64,3,Isolados,"Lei-A",0.686269,0,0
+17,66,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.853661,0,1
+17,82,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.946453,0,0
+17,114,3,Isolados,"Lei-A+Lei-C+Lei-D",0.869335,0,0
+17,115,3,Isolados,"Lei-A+Lei-C",0.708342,0,0
+17,128,3,Isolados,"Lei-B+Lei-C",0.847028,0,0
+17,135,3,Isolados,"Lei-C+Lei-D",0.747935,0,0
+17,149,1,Incrementalistas,"Lei-D",0.693209,0,0
+17,149,1,Incrementalistas,"Lei-C+Lei-D",0.804529,0,0
+17,149,1,Incrementalistas,"nenhuma lei",0.522523,0,0
+17,150,1,Incrementalistas,"Lei-A+Lei-D",0.790963,0,0
+17,152,1,Incrementalistas,"Lei-B+Lei-C",0.889412,0,0
+17,153,1,Incrementalistas,"Lei-A",0.599905,0,0
+17,224,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.837753,0,0
+17,224,1,Incrementalistas,"Lei-C",0.664439,0,0
+17,224,1,Incrementalistas,"Lei-B",0.806014,0,0
+17,224,1,Incrementalistas,"Lei-B+Lei-C",0.918656,0,0
+17,224,1,Incrementalistas,"Lei-C+Lei-D",0.723233,0,0
+17,224,1,Incrementalistas,"Lei-A",0.577465,0,0
+17,252,2,Evolucionistas,"Lei-C",0.715556,0,0
+17,252,2,Evolucionistas,"Lei-B+Lei-C",0.922777,0,0
+17,252,2,Evolucionistas,"Lei-A",0.694384,0,0
+17,253,2,Evolucionistas,"Lei-A+Lei-C",0.87378,0,0
+17,254,2,Evolucionistas,"Lei-B",0.651176,0,0
+17,292,3,Isolados,"Lei-A+Lei-D",0.789493,0,0
+17,292,3,Isolados,"Lei-A+Lei-C+Lei-D",1,0,0
+17,293,3,Isolados,"Lei-A",0.751838,0,0
+18,0,0,Empiristas,"Lei-C",0.700436,1,0
+18,0,0,Empiristas,"nenhuma lei",0.439349,1,0
+18,0,1,Incrementalistas,"nenhuma lei",0.590828,0,0
+18,0,2,Evolucionistas,"nenhuma lei",0.483454,0,0
+18,0,3,Isolados,"nenhuma lei",0.430711,0,0
+18,1,0,Empiristas,"Lei-B",0.696674,1,0
+18,1,1,Incrementalistas,"Lei-B",0.7286,0,0
+18,1,1,Incrementalistas,"Lei-C",0.700436,0,1
+18,3,0,Empiristas,"Lei-A+Lei-D",0.661991,1,0
+18,3,2,Evolucionistas,"Lei-B",0.745492,0,1
+18,4,2,Evolucionistas,"Lei-A+Lei-D",0.661991,0,1
+18,5,1,Incrementalistas,"Lei-A+Lei-D",0.661991,0,1
+18,5,2,Evolucionistas,"Lei-C",0.700436,0,1
+18,11,1,Incrementalistas,"Lei-D",0.552235,1,0
+18,12,3,Isolados,"Lei-B",0.764622,0,0
+18,19,0,Empiristas,"Lei-C+Lei-D",0.776789,1,0
+18,20,1,Incrementalistas,"Lei-C+Lei-D",0.776789,0,1
+18,22,2,Evolucionistas,"Lei-C+Lei-D",0.776789,0,1
+18,23,0,Empiristas,"Lei-D",0.680701,0,0
+18,23,2,Evolucionistas,"Lei-D",0.590241,0,0
+18,29,1,Incrementalistas,"Lei-A",0.61186,1,0
+18,29,2,Evolucionistas,"Lei-A",0.61186,0,1
+18,31,0,Empiristas,"Lei-A",0.736833,0,0
+18,40,2,Evolucionistas,"Lei-B+Lei-C",0.850019,1,0
+18,40,0,Empiristas,"Lei-B+Lei-C",0.850019,0,1
+18,42,1,Incrementalistas,"Lei-B+Lei-C",0.850019,0,1
+18,46,3,Isolados,"Lei-C",0.750279,0,0
+18,56,3,Isolados,"Lei-A",0.676413,0,0
+18,81,3,Isolados,"Lei-B+Lei-C",0.883002,0,0
+18,82,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.858563,1,0
+18,83,3,Isolados,"Lei-D",0.679833,0,0
+18,89,0,Empiristas,"nenhuma lei",0.43213,0,0
+18,90,0,Empiristas,"Lei-B+Lei-C",0.762816,0,0
+18,93,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.851104,0,0
+18,98,0,Empiristas,"Lei-A+Lei-C",0.699004,1,0
+18,108,2,Evolucionistas,"Lei-A+Lei-C",0.768049,0,0
+18,111,3,Isolados,"Lei-A",0.652828,0,0
+18,111,3,Isolados,"Lei-B",0.772233,0,0
+18,115,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.868814,0,1
+18,123,3,Isolados,"Lei-A+Lei-C",0.758202,0,0
+18,124,3,Isolados,"Lei-A+Lei-D",0.706738,0,0
+18,137,3,Isolados,"Lei-C+Lei-D",0.798153,0,0
+18,140,1,Incrementalistas,"Lei-A+Lei-C",0.850546,0,1
+18,161,3,Isolados,"nenhuma lei",0.541116,0,0
+18,161,3,Isolados,"Lei-B",0.616967,0,0
+18,161,3,Isolados,"Lei-C",0.670327,0,0
+18,182,3,Isolados,"Lei-A+Lei-C",0.761699,0,0
+18,193,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.894245,0,0
+18,193,1,Incrementalistas,"Lei-C",0.767369,0,0
+18,193,1,Incrementalistas,"Lei-A",0.699728,0,0
+18,198,3,Isolados,"Lei-A+Lei-C+Lei-D",0.929084,0,0
+18,198,3,Isolados,"Lei-A+Lei-D",0.693812,0,0
+18,217,0,Empiristas,"Lei-D",0.717569,0,0
+18,217,0,Empiristas,"Lei-B+Lei-C",0.886073,0,0
+18,217,0,Empiristas,"Lei-A",0.660741,0,0
+18,237,1,Incrementalistas,"Lei-A+Lei-D",0.8342,0,0
+18,280,3,Isolados,"Lei-B+Lei-C",0.961796,0,0
+18,280,3,Isolados,"Lei-C+Lei-D",0.744356,0,0
+19,0,0,Empiristas,"nenhuma lei",0.565313,1,0
+19,0,1,Incrementalistas,"Lei-B",0.646131,1,0
+19,0,2,Evolucionistas,"nenhuma lei",0.494841,0,0
+19,0,3,Isolados,"nenhuma lei",0.593733,0,0
+19,3,1,Incrementalistas,"nenhuma lei",0.623936,0,0
+19,3,2,Evolucionistas,"Lei-A",0.697236,1,0
+19,5,0,Empiristas,"Lei-B",0.734732,0,1
+19,6,2,Evolucionistas,"Lei-B",0.734732,0,1
+19,13,1,Incrementalistas,"Lei-B+Lei-C",0.848123,1,0
+19,15,1,Incrementalistas,"Lei-C",0.717359,1,0
+19,16,3,Isolados,"Lei-C",0.638082,0,0
+19,17,2,Evolucionistas,"Lei-C",0.713808,0,0
+19,17,0,Empiristas,"Lei-B+Lei-C",0.923134,0,1
+19,18,2,Evolucionistas,"Lei-B+Lei-C",0.830498,0,0
+19,20,0,Empiristas,"Lei-C",0.702125,0,0
+19,21,0,Empiristas,"Lei-D",0.6811,1,0
+19,21,3,Isolados,"nenhuma lei",0.603859,0,0
+19,21,1,Incrementalistas,"Lei-A",0.709181,0,1
+19,25,0,Empiristas,"Lei-A+Lei-C",0.739604,1,0
+19,26,0,Empiristas,"Lei-A",0.595784,0,0
+19,26,1,Incrementalistas,"Lei-A+Lei-C",0.752359,0,0
+19,31,2,Evolucionistas,"Lei-D",0.6811,0,1
+19,32,2,Evolucionistas,"Lei-A+Lei-C",0.784158,0,0
+19,33,3,Isolados,"Lei-B",0.666286,0,0
+19,37,1,Incrementalistas,"Lei-D",0.6811,0,1
+19,48,3,Isolados,"Lei-D",0.65275,0,0
+19,52,3,Isolados,"Lei-C",0.601925,0,0
+19,75,3,Isolados,"Lei-B+Lei-C",0.712005,0,0
+19,103,0,Empiristas,"Lei-C+Lei-D",0.677587,1,0
+19,103,2,Evolucionistas,"Lei-C+Lei-D",0.677587,0,1
+19,106,3,Isolados,"Lei-A",0.544239,0,0
+19,114,3,Isolados,"Lei-A+Lei-D",0.742999,1,0
+19,132,0,Empiristas,"Lei-A+Lei-D",0.727036,0,0
+19,134,1,Incrementalistas,"Lei-C+Lei-D",0.677587,0,1
+19,139,1,Incrementalistas,"Lei-A+Lei-D",0.727036,0,1
+19,146,3,Isolados,"Lei-A+Lei-C",0.799255,0,0
+19,156,2,Evolucionistas,"Lei-A+Lei-D",0.727036,0,1
+19,160,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.853427,1,0
+19,170,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.88609,0,0
+19,181,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.850003,0,0
+19,184,3,Isolados,"Lei-C+Lei-D",0.715705,0,0
+19,232,3,Isolados,"Lei-A+Lei-C+Lei-D",0.900269,0,0
+20,0,0,Empiristas,"nenhuma lei",0.690668,1,0
+20,0,1,Incrementalistas,"nenhuma lei",0.421773,0,0
+20,0,2,Evolucionistas,"nenhuma lei",0.451594,0,0
+20,0,3,Isolados,"nenhuma lei",0.523724,0,0
+20,2,0,Empiristas,"Lei-B",0.734449,1,0
+20,2,1,Incrementalistas,"Lei-B",0.734449,0,1
+20,3,3,Isolados,"Lei-A",0.697209,1,0
+20,5,1,Incrementalistas,"Lei-A",0.747858,0,0
+20,5,2,Evolucionistas,"nenhuma lei",0.564699,0,0
+20,5,0,Empiristas,"Lei-A",0.778445,0,1
+20,6,2,Evolucionistas,"Lei-A",0.778445,0,1
+20,6,2,Evolucionistas,"Lei-B",0.740078,0,1
+20,11,3,Isolados,"Lei-B",0.666811,0,0
+20,13,0,Empiristas,"Lei-D",0.590514,1,0
+20,13,2,Evolucionistas,"Lei-D",0.590514,0,1
+20,14,0,Empiristas,"Lei-A+Lei-C",0.713167,1,0
+20,20,2,Evolucionistas,"Lei-C",0.630857,1,0
+20,21,0,Empiristas,"Lei-B+Lei-C",0.742272,1,0
+20,21,1,Incrementalistas,"Lei-A",0.703821,0,0
+20,22,1,Incrementalistas,"Lei-C",0.630857,0,1
+20,34,0,Empiristas,"Lei-C",0.689913,0,0
+20,34,2,Evolucionistas,"Lei-A+Lei-D",0.740209,1,0
+20,35,1,Incrementalistas,"Lei-B+Lei-C",0.84562,0,0
+20,38,2,Evolucionistas,"Lei-B+Lei-C",0.84562,0,1
+20,43,3,Isolados,"Lei-B+Lei-C",0.828857,0,0
+20,44,1,Incrementalistas,"Lei-D",0.763027,0,0
+20,45,3,Isolados,"Lei-C",0.707327,0,0
+20,49,2,Evolucionistas,"Lei-A+Lei-C",0.772903,0,0
+20,57,1,Incrementalistas,"Lei-A+Lei-C",0.713167,0,1
+20,63,3,Isolados,"Lei-D",0.630487,0,0
+20,64,3,Isolados,"Lei-A+Lei-C",0.815085,0,0
+20,72,0,Empiristas,"Lei-A+Lei-D",0.59774,0,0
+20,76,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.876883,1,0
+20,78,1,Incrementalistas,"Lei-A+Lei-D",0.731172,0,0
+20,78,1,Incrementalistas,"Lei-C",0.769242,0,0
+20,79,1,Incrementalistas,"Lei-B",0.634135,0,0
+20,83,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.876883,0,1
+20,95,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.876883,0,1
+20,102,1,Incrementalistas,"nenhuma lei",0.553771,0,0
+20,102,1,Incrementalistas,"Lei-B",0.712052,0,0
+20,103,1,Incrementalistas,"Lei-D",0.586226,0,0
+20,103,1,Incrementalistas,"Lei-C",0.658448,0,0
+20,117,3,Isolados,"Lei-C",0.795526,0,0
+20,118,3,Isolados,"Lei-B",0.6858,0,0
+20,141,3,Isolados,"Lei-A+Lei-D",0.710255,0,0
+20,165,1,Incrementalistas,"Lei-C+Lei-D",0.839868,1,0
+20,166,2,Evolucionistas,"Lei-C+Lei-D",0.839868,0,1
+20,175,3,Isolados,"Lei-C+Lei-D",0.754033,0,0
+20,180,3,Isolados,"Lei-B+Lei-C",0.941808,0,0
+20,180,3,Isolados,"Lei-C",0.83537,0,0
+20,180,3,Isolados,"Lei-B",0.790164,0,0
+20,181,0,Empiristas,"Lei-D",0.671196,0,0
+20,186,0,Empiristas,"Lei-C+Lei-D",0.726437,0,0
+20,198,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.921501,0,1
+20,226,0,Empiristas,"Lei-C+Lei-D",0.748247,0,0
+20,241,3,Isolados,"Lei-A+Lei-C+Lei-D",0.849596,0,0
+20,276,2,Evolucionistas,"Lei-B+Lei-C",0.982287,0,0
+20,276,2,Evolucionistas,"Lei-C",0.757342,0,0
+20,276,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.954329,0,1
+20,277,2,Evolucionistas,"Lei-D",0.723048,0,0
+20,277,2,Evolucionistas,"Lei-A+Lei-D",0.790318,0,0
+20,285,2,Evolucionistas,"Lei-C+Lei-D",0.833769,0,0
+21,0,0,Empiristas,"nenhuma lei",0.599838,1,0
+21,0,1,Incrementalistas,"nenhuma lei",0.373197,0,0
+21,0,2,Evolucionistas,"nenhuma lei",0.574496,0,0
+21,0,3,Isolados,"nenhuma lei",0.530797,0,0
+21,4,0,Empiristas,"Lei-A",0.653184,1,0
+21,4,1,Incrementalistas,"Lei-A",0.653184,0,1
+21,8,1,Incrementalistas,"Lei-A+Lei-D",0.706089,1,0
+21,9,0,Empiristas,"Lei-C+Lei-D",0.7477,1,0
+21,9,2,Evolucionistas,"Lei-D",0.59712,1,0
+21,10,0,Empiristas,"Lei-D",0.617814,0,0
+21,11,0,Empiristas,"Lei-C",0.621199,1,0
+21,11,2,Evolucionistas,"Lei-A+Lei-D",0.79681,0,1
+21,11,2,Evolucionistas,"Lei-A",0.676304,0,1
+21,12,0,Empiristas,"Lei-A+Lei-D",0.79681,0,1
+21,14,1,Incrementalistas,"Lei-D",0.648173,0,0
+21,17,1,Incrementalistas,"Lei-A+Lei-C",0.68902,1,0
+21,17,3,Isolados,"Lei-B",0.576902,1,0
+21,19,0,Empiristas,"Lei-B+Lei-C",0.758267,1,0
+21,23,1,Incrementalistas,"Lei-C",0.538808,0,0
+21,24,0,Empiristas,"Lei-B",0.601586,0,0
+21,28,2,Evolucionistas,"Lei-A+Lei-C",0.702251,0,0
+21,34,2,Evolucionistas,"Lei-C",0.730088,0,0
+21,34,1,Incrementalistas,"Lei-B",0.648304,0,1
+21,35,2,Evolucionistas,"Lei-C+Lei-D",0.7477,0,1
+21,38,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.860132,1,0
+21,38,0,Empiristas,"Lei-A+Lei-C",0.800808,0,1
+21,38,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.860132,0,1
+21,39,3,Isolados,"Lei-D",0.711489,0,0
+21,40,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.9157,0,1
+21,43,3,Isolados,"Lei-A",0.717508,0,0
+21,44,1,Incrementalistas,"Lei-C+Lei-D",0.673278,0,0
+21,45,1,Incrementalistas,"Lei-B+Lei-C",0.772721,0,1
+21,45,2,Evolucionistas,"Lei-B+Lei-C",0.772721,0,1
+21,65,2,Evolucionistas,"Lei-B",0.742568,0,0
+21,67,3,Isolados,"Lei-C",0.642113,0,0
+21,70,3,Isolados,"Lei-A+Lei-D",0.775423,0,0
+21,73,3,Isolados,"Lei-A+Lei-C",0.802233,0,0
+21,85,3,Isolados,"Lei-B+Lei-C",0.881367,0,0
+21,161,3,Isolados,"Lei-C+Lei-D",0.872235,0,0
+21,189,3,Isolados,"Lei-A+Lei-C+Lei-D",0.871619,0,0
+21,248,2,Evolucionistas,"Lei-D",0.675652,0,0
+21,252,2,Evolucionistas,"Lei-B",0.635974,0,0
+21,264,3,Isolados,"Lei-C",0.854234,0,0
+21,264,3,Isolados,"Lei-B",0.802621,0,0
+21,264,3,Isolados,"Lei-D",0.730727,0,0
+21,265,3,Isolados,"Lei-A+Lei-C",0.870399,0,0
+21,266,3,Isolados,"Lei-A",0.816891,0,0
+21,272,0,Empiristas,"Lei-C",0.68689,0,0
+21,272,0,Empiristas,"Lei-A+Lei-C",0.776053,0,0
+21,272,0,Empiristas,"Lei-B",0.6178,0,0
+21,276,3,Isolados,"Lei-C+Lei-D",0.772105,0,0
+21,281,2,Evolucionistas,"Lei-B+Lei-C",0.79623,0,0
+22,0,0,Empiristas,"Lei-B",0.615219,1,0
+22,0,0,Empiristas,"nenhuma lei",0.57116,1,0
+22,0,1,Incrementalistas,"nenhuma lei",0.40018,0,0
+22,0,1,Incrementalistas,"Lei-A",0.579121,1,0
+22,0,2,Evolucionistas,"nenhuma lei",0.464329,0,0
+22,0,2,Evolucionistas,"Lei-B+Lei-C",0.648186,1,0
+22,0,3,Isolados,"nenhuma lei",0.461672,0,0
+22,1,0,Empiristas,"Lei-C",0.610912,1,0
+22,2,1,Incrementalistas,"Lei-A+Lei-D",0.677209,1,0
+22,2,2,Evolucionistas,"Lei-B",0.630471,0,0
+22,2,1,Incrementalistas,"Lei-B",0.615219,0,1
+22,2,0,Empiristas,"Lei-A+Lei-D",0.677209,0,1
+22,3,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.845997,1,0
+22,4,1,Incrementalistas,"Lei-D",0.575724,1,0
+22,5,0,Empiristas,"Lei-A",0.637117,0,0
+22,5,2,Evolucionistas,"Lei-C",0.650328,0,0
+22,7,3,Isolados,"Lei-D",0.662433,0,0
+22,8,1,Incrementalistas,"Lei-A+Lei-C",0.79805,1,0
+22,10,1,Incrementalistas,"Lei-C+Lei-D",0.760908,1,0
+22,12,1,Incrementalistas,"Lei-C",0.650031,0,0
+22,14,2,Evolucionistas,"Lei-A+Lei-C",0.717555,0,0
+22,15,2,Evolucionistas,"Lei-A",0.610883,0,0
+22,15,3,Isolados,"Lei-C+Lei-D",0.724822,0,0
+22,15,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.879472,0,1
+22,17,0,Empiristas,"Lei-B+Lei-C",0.730526,0,1
+22,17,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.879472,0,1
+22,19,1,Incrementalistas,"Lei-B+Lei-C",0.754658,0,1
+22,20,3,Isolados,"Lei-B+Lei-C",0.665524,0,0
+22,20,0,Empiristas,"Lei-A+Lei-C",0.717555,0,1
+22,27,2,Evolucionistas,"Lei-A+Lei-D",0.805069,0,0
+22,31,2,Evolucionistas,"Lei-C+Lei-D",0.65632,0,0
+22,31,0,Empiristas,"Lei-D",0.699893,0,1
+22,33,3,Isolados,"Lei-C",0.620212,0,0
+22,40,3,Isolados,"Lei-A+Lei-C+Lei-D",0.751804,0,0
+22,41,0,Empiristas,"Lei-C+Lei-D",0.799753,0,0
+22,42,3,Isolados,"Lei-A+Lei-D",0.837623,0,0
+22,43,2,Evolucionistas,"Lei-D",0.712972,0,0
+22,45,3,Isolados,"Lei-B",0.57575,0,0
+22,45,3,Isolados,"Lei-A",0.722718,0,0
+22,55,3,Isolados,"Lei-A+Lei-C",0.729831,0,0
+22,144,1,Incrementalistas,"Lei-B+Lei-C",0.809441,0,0
+22,144,1,Incrementalistas,"Lei-A+Lei-D",0.773995,0,0
+22,145,1,Incrementalistas,"Lei-A",0.675588,0,0
+22,146,1,Incrementalistas,"Lei-A+Lei-C",0.770005,0,0
+22,193,2,Evolucionistas,"nenhuma lei",0.57054,0,0
+22,193,2,Evolucionistas,"Lei-B",0.861221,0,0
+22,210,2,Evolucionistas,"Lei-C",0.778875,0,0
+22,210,2,Evolucionistas,"Lei-B",0.802865,0,0
+22,212,2,Evolucionistas,"Lei-D",0.633592,0,0
+22,217,2,Evolucionistas,"Lei-B+Lei-C",0.970008,0,0
+22,217,2,Evolucionistas,"Lei-C",0.689053,0,0
+22,217,2,Evolucionistas,"nenhuma lei",0.635127,0,0
+22,218,2,Evolucionistas,"Lei-C+Lei-D",0.786043,0,0
+22,268,0,Empiristas,"Lei-B+Lei-C",0.890046,0,0
+22,269,0,Empiristas,"Lei-D",0.75003,0,0
+22,269,0,Empiristas,"Lei-A+Lei-C",0.888438,0,0
+23,0,0,Empiristas,"nenhuma lei",0.456267,1,0
+23,0,1,Incrementalistas,"nenhuma lei",0.495664,0,0
+23,0,1,Incrementalistas,"Lei-A",0.72736,1,0
+23,0,2,Evolucionistas,"nenhuma lei",0.451115,0,0
+23,0,3,Isolados,"nenhuma lei",0.364977,0,0
+23,2,2,Evolucionistas,"Lei-A",0.72736,0,1
+23,3,0,Empiristas,"Lei-C",0.58427,1,0
+23,6,0,Empiristas,"Lei-B+Lei-C",0.751298,1,0
+23,6,3,Isolados,"Lei-D",0.63155,1,0
+23,8,0,Empiristas,"Lei-A",0.607629,0,0
+23,8,1,Incrementalistas,"Lei-B+Lei-C",0.751298,0,1
+23,10,2,Evolucionistas,"Lei-B+Lei-C",0.751298,0,1
+23,11,1,Incrementalistas,"Lei-C",0.595707,0,0
+23,11,3,Isolados,"Lei-B",0.682701,1,0
+23,13,0,Empiristas,"Lei-D",0.5522,0,0
+23,14,1,Incrementalistas,"Lei-D",0.713727,0,0
+23,15,1,Incrementalistas,"Lei-A+Lei-D",0.740533,1,0
+23,16,1,Incrementalistas,"Lei-B",0.643031,0,0
+23,17,3,Isolados,"Lei-A",0.63444,0,0
+23,20,2,Evolucionistas,"Lei-A+Lei-C",0.754302,1,0
+23,22,2,Evolucionistas,"Lei-C",0.681948,0,1
+23,25,0,Empiristas,"Lei-A+Lei-C",0.686056,0,0
+23,31,0,Empiristas,"Lei-B",0.734106,0,0
+23,31,1,Incrementalistas,"Lei-A+Lei-C",0.768548,0,0
+23,34,2,Evolucionistas,"Lei-D",0.713727,0,1
+23,35,3,Isolados,"Lei-A+Lei-C",0.730653,0,0
+23,36,2,Evolucionistas,"Lei-B",0.628759,0,0
+23,46,0,Empiristas,"Lei-A+Lei-D",0.751441,0,1
+23,52,3,Isolados,"Lei-B+Lei-C",0.809053,0,0
+23,60,3,Isolados,"Lei-C",0.601042,0,0
+23,76,2,Evolucionistas,"Lei-A+Lei-D",0.787585,0,1
+23,90,2,Evolucionistas,"Lei-B",0.636799,0,0
+23,94,2,Evolucionistas,"Lei-A+Lei-D",0.787585,0,1
+23,110,1,Incrementalistas,"Lei-C+Lei-D",0.761751,1,0
+23,111,3,Isolados,"Lei-A+Lei-D",0.849216,0,0
+23,111,2,Evolucionistas,"Lei-A+Lei-C",0.824385,0,1
+23,126,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.803813,1,0
+23,137,0,Empiristas,"Lei-C+Lei-D",0.797659,0,0
+23,138,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.879273,0,0
+23,154,2,Evolucionistas,"Lei-C+Lei-D",0.695052,0,0
+23,176,3,Isolados,"Lei-C+Lei-D",0.730695,0,0
+23,180,1,Incrementalistas,"nenhuma lei",0.651321,0,0
+23,180,3,Isolados,"Lei-A+Lei-C+Lei-D",0.791046,0,0
+23,183,1,Incrementalistas,"Lei-A",0.754728,0,0
+23,193,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.811971,0,0
+23,265,2,Evolucionistas,"nenhuma lei",0.501702,0,0
+23,268,2,Evolucionistas,"Lei-C+Lei-D",0.877471,0,1
+23,275,2,Evolucionistas,"Lei-D",0.730427,0,0
+23,288,1,Incrementalistas,"Lei-B+Lei-C",0.952206,0,0
+23,288,1,Incrementalistas,"Lei-A+Lei-C",0.889992,0,0
+23,288,1,Incrementalistas,"Lei-A+Lei-D",0.801373,0,0
+23,288,1,Incrementalistas,"Lei-A",0.839506,0,1
+24,0,0,Empiristas,"nenhuma lei",0.49022,1,0
+24,0,0,Empiristas,"Lei-A",0.638714,1,0
+24,0,1,Incrementalistas,"nenhuma lei",0.450888,0,0
+24,0,2,Evolucionistas,"nenhuma lei",0.441181,0,0
+24,0,3,Isolados,"nenhuma lei",0.508231,0,0
+24,3,2,Evolucionistas,"Lei-A",0.676326,0,1
+24,4,1,Incrementalistas,"Lei-A",0.6961,0,1
+24,9,1,Incrementalistas,"Lei-A+Lei-D",0.797188,1,0
+24,10,1,Incrementalistas,"Lei-D",0.571536,1,0
+24,15,0,Empiristas,"Lei-A+Lei-D",0.797188,0,1
+24,18,2,Evolucionistas,"Lei-A+Lei-D",0.697765,0,0
+24,21,0,Empiristas,"Lei-D",0.598637,0,0
+24,25,3,Isolados,"Lei-D",0.607242,0,0
+24,26,0,Empiristas,"Lei-A+Lei-C",0.755393,1,0
+24,29,2,Evolucionistas,"Lei-B",0.645432,1,0
+24,30,0,Empiristas,"Lei-C",0.652848,1,0
+24,31,2,Evolucionistas,"Lei-A+Lei-C",0.755393,0,1
+24,32,2,Evolucionistas,"Lei-C",0.572393,0,0
+24,32,1,Incrementalistas,"Lei-A+Lei-C",0.755393,0,1
+24,33,2,Evolucionistas,"Lei-D",0.646637,0,0
+24,38,3,Isolados,"Lei-A",0.654493,0,0
+24,39,1,Incrementalistas,"Lei-C",0.591836,0,0
+24,40,0,Empiristas,"Lei-B",0.646168,0,0
+24,50,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.872539,1,0
+24,54,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.872539,0,1
+24,55,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.872539,0,1
+24,56,3,Isolados,"Lei-A",0.651856,0,0
+24,59,1,Incrementalistas,"Lei-C+Lei-D",0.73842,1,0
+24,61,0,Empiristas,"Lei-C+Lei-D",0.73842,0,1
+24,64,0,Empiristas,"Lei-C",0.632124,0,0
+24,65,0,Empiristas,"Lei-A",0.711761,0,0
+24,66,1,Incrementalistas,"Lei-A+Lei-D",0.815575,0,0
+24,68,1,Incrementalistas,"Lei-D",0.720629,0,0
+24,70,1,Incrementalistas,"Lei-B",0.664192,0,0
+24,70,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.897761,0,1
+24,80,3,Isolados,"Lei-C",0.711965,0,0
+24,82,2,Evolucionistas,"Lei-C+Lei-D",0.741991,0,0
+24,84,1,Incrementalistas,"Lei-C+Lei-D",0.798173,0,0
+24,84,1,Incrementalistas,"Lei-A+Lei-C",0.830752,0,1
+24,97,3,Isolados,"Lei-B+Lei-C",0.773248,1,0
+24,100,0,Empiristas,"Lei-B+Lei-C",0.78768,0,0
+24,100,3,Isolados,"Lei-B",0.634279,0,0
+24,100,1,Incrementalistas,"Lei-C",0.693515,0,1
+24,101,3,Isolados,"Lei-A+Lei-C",0.766808,0,0
+24,111,3,Isolados,"Lei-C+Lei-D",0.830731,0,0
+24,115,3,Isolados,"Lei-A+Lei-C+Lei-D",0.786976,0,0
+24,116,3,Isolados,"Lei-A+Lei-D",0.697189,0,0
+24,119,1,Incrementalistas,"Lei-B+Lei-C",0.81839,0,0
+24,159,3,Isolados,"Lei-C",0.810084,0,0
+24,164,3,Isolados,"Lei-D",0.643451,0,0
+24,168,3,Isolados,"Lei-A+Lei-D",0.697063,0,0
+24,175,2,Evolucionistas,"Lei-B+Lei-C",0.819471,0,0
+24,185,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.910215,0,0
+24,185,1,Incrementalistas,"Lei-A+Lei-C",0.847918,0,0
+24,185,1,Incrementalistas,"Lei-A",0.685649,0,0
+24,187,3,Isolados,"Lei-C+Lei-D",0.784891,0,0
+24,193,2,Evolucionistas,"Lei-C+Lei-D",0.816429,0,0
+24,193,2,Evolucionistas,"Lei-A+Lei-C",0.778235,0,0
+24,193,2,Evolucionistas,"Lei-D",0.721125,0,0
+24,193,2,Evolucionistas,"Lei-A+Lei-D",0.828961,0,0
+24,197,2,Evolucionistas,"Lei-A",0.741854,0,0
+25,0,0,Empiristas,"nenhuma lei",0.4832,1,0
+25,0,1,Incrementalistas,"nenhuma lei",0.596614,0,0
+25,0,2,Evolucionistas,"Lei-A",0.713357,1,0
+25,0,2,Evolucionistas,"nenhuma lei",0.500286,0,0
+25,0,3,Isolados,"nenhuma lei",0.55892,0,0
+25,1,1,Incrementalistas,"Lei-B",0.637196,1,0
+25,2,2,Evolucionistas,"Lei-B",0.637196,0,1
+25,2,1,Incrementalistas,"Lei-A",0.713357,0,1
+25,4,0,Empiristas,"Lei-A",0.713357,0,1
+25,9,0,Empiristas,"Lei-B",0.621854,0,0
+25,14,3,Isolados,"Lei-C",0.48166,1,0
+25,25,0,Empiristas,"Lei-C",0.588987,0,0
+25,28,1,Incrementalistas,"Lei-D",0.689055,1,0
+25,28,3,Isolados,"Lei-B",0.646088,0,0
+25,30,0,Empiristas,"Lei-D",0.61822,0,0
+25,32,2,Evolucionistas,"Lei-C",0.588987,0,1
+25,35,2,Evolucionistas,"Lei-D",0.61822,0,1
+25,44,2,Evolucionistas,"Lei-B+Lei-C",0.774788,1,0
+25,48,0,Empiristas,"Lei-B+Lei-C",0.884665,0,1
+25,50,1,Incrementalistas,"Lei-B+Lei-C",0.884665,0,1
+25,59,1,Incrementalistas,"Lei-C",0.725579,0,0
+25,64,2,Evolucionistas,"Lei-A+Lei-C",0.890351,1,0
+25,65,0,Empiristas,"Lei-A+Lei-C",0.852959,0,0
+25,68,1,Incrementalistas,"Lei-A+Lei-C",0.844805,0,0
+25,70,3,Isolados,"Lei-A",0.701854,0,0
+25,91,3,Isolados,"Lei-D",0.561212,0,0
+25,93,3,Isolados,"Lei-A+Lei-C",0.758431,0,0
+25,120,0,Empiristas,"Lei-A+Lei-D",0.729309,1,0
+25,132,0,Empiristas,"Lei-B+Lei-C",0.806458,0,0
+25,132,0,Empiristas,"Lei-D",0.591951,0,0
+25,132,3,Isolados,"Lei-B+Lei-C",0.762561,0,0
+25,138,0,Empiristas,"Lei-A+Lei-C",0.74061,0,0
+25,146,2,Evolucionistas,"Lei-A+Lei-D",0.774951,0,1
+25,150,3,Isolados,"Lei-A+Lei-D",0.714089,0,0
+25,153,3,Isolados,"Lei-A+Lei-C+Lei-D",0.807781,1,0
+25,156,3,Isolados,"Lei-C+Lei-D",0.704017,1,0
+25,163,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.835703,0,0
+25,169,2,Evolucionistas,"Lei-C+Lei-D",0.709326,0,0
+25,169,1,Incrementalistas,"Lei-A+Lei-D",0.774951,0,1
+25,171,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.861027,0,0
+25,172,1,Incrementalistas,"Lei-C+Lei-D",0.793735,0,0
+25,174,0,Empiristas,"Lei-C+Lei-D",0.709326,0,1
+25,203,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.876515,0,0
+26,0,0,Empiristas,"nenhuma lei",0.512193,1,0
+26,0,0,Empiristas,"Lei-C",0.66616,1,0
+26,0,1,Incrementalistas,"Lei-C",0.542781,0,0
+26,0,1,Incrementalistas,"nenhuma lei",0.482102,0,0
+26,0,2,Evolucionistas,"nenhuma lei",0.494032,0,0
+26,0,3,Isolados,"Lei-D",0.616081,1,0
+26,0,3,Isolados,"Lei-C",0.653494,0,0
+26,0,2,Evolucionistas,"Lei-C",0.542781,0,1
+26,1,0,Empiristas,"Lei-D",0.653977,0,0
+26,2,2,Evolucionistas,"Lei-D",0.631931,0,0
+26,2,3,Isolados,"nenhuma lei",0.534328,0,0
+26,4,1,Incrementalistas,"Lei-D",0.653977,0,1
+26,6,0,Empiristas,"Lei-B+Lei-C",0.799834,1,0
+26,9,2,Evolucionistas,"Lei-B+Lei-C",0.799834,0,1
+26,9,1,Incrementalistas,"Lei-B+Lei-C",0.799834,0,1
+26,12,2,Evolucionistas,"Lei-B",0.684142,1,0
+26,13,0,Empiristas,"Lei-A",0.59939,1,0
+26,14,3,Isolados,"Lei-A",0.570201,0,0
+26,14,0,Empiristas,"Lei-B",0.684142,0,1
+26,19,1,Incrementalistas,"Lei-A",0.59939,0,1
+26,20,1,Incrementalistas,"Lei-B",0.699114,0,0
+26,25,3,Isolados,"Lei-B",0.596063,0,0
+26,29,0,Empiristas,"Lei-A+Lei-D",0.79455,1,0
+26,31,3,Isolados,"Lei-A+Lei-D",0.664293,0,0
+26,33,0,Empiristas,"Lei-C+Lei-D",0.789293,1,0
+26,34,2,Evolucionistas,"Lei-C+Lei-D",0.689831,0,0
+26,39,2,Evolucionistas,"Lei-A",0.642308,0,1
+26,45,1,Incrementalistas,"Lei-C+Lei-D",0.766499,0,0
+26,49,1,Incrementalistas,"Lei-A+Lei-C",0.831998,1,0
+26,52,0,Empiristas,"Lei-A+Lei-C",0.856257,0,1
+26,53,2,Evolucionistas,"Lei-A+Lei-C",0.856257,0,1
+26,55,2,Evolucionistas,"nenhuma lei",0.524691,0,0
+26,55,2,Evolucionistas,"Lei-A+Lei-C",0.856257,0,1
+26,55,2,Evolucionistas,"Lei-B",0.703284,0,1
+26,56,2,Evolucionistas,"Lei-D",0.71969,0,1
+26,61,3,Isolados,"Lei-A+Lei-C",0.707269,0,0
+26,69,1,Incrementalistas,"nenhuma lei",0.574395,0,0
+26,69,1,Incrementalistas,"Lei-B",0.711716,0,0
+26,86,3,Isolados,"Lei-C+Lei-D",0.686829,0,0
+26,89,3,Isolados,"Lei-A+Lei-C+Lei-D",0.807184,1,0
+26,94,1,Incrementalistas,"Lei-A+Lei-D",0.79536,0,0
+26,108,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.842305,0,0
+26,110,3,Isolados,"Lei-B+Lei-C",0.717936,0,0
+26,129,2,Evolucionistas,"nenhuma lei",0.532083,0,0
+26,130,2,Evolucionistas,"Lei-C",0.78263,0,1
+26,131,2,Evolucionistas,"Lei-D",0.579802,0,0
+26,135,2,Evolucionistas,"Lei-A+Lei-D",0.79536,0,1
+26,136,2,Evolucionistas,"Lei-A+Lei-C",0.785805,0,0
+26,148,2,Evolucionistas,"Lei-C+Lei-D",0.801399,0,0
+26,172,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.832152,0,0
+26,182,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.869171,0,0
+26,266,3,Isolados,"nenhuma lei",0.467042,0,0
+26,266,3,Isolados,"Lei-B",0.670298,0,0
+26,266,3,Isolados,"Lei-A+Lei-D",0.781816,0,0
+26,275,3,Isolados,"Lei-D",0.645839,0,0
+27,0,0,Empiristas,"Lei-B",0.581248,1,0
+27,0,0,Empiristas,"nenhuma lei",0.501561,1,0
+27,0,1,Incrementalistas,"Lei-C",0.642644,1,0
+27,0,1,Incrementalistas,"nenhuma lei",0.589462,0,0
+27,0,2,Evolucionistas,"Lei-A",0.637129,1,0
+27,0,2,Evolucionistas,"nenhuma lei",0.561747,0,0
+27,0,3,Isolados,"nenhuma lei",0.511965,0,0
+27,0,1,Incrementalistas,"Lei-B",0.581248,0,1
+27,0,0,Empiristas,"Lei-C",0.642644,0,1
+27,0,0,Empiristas,"Lei-A",0.637129,0,1
+27,0,2,Evolucionistas,"Lei-C",0.642644,0,1
+27,0,2,Evolucionistas,"Lei-B",0.581248,0,1
+27,3,1,Incrementalistas,"Lei-A",0.758211,0,1
+27,4,3,Isolados,"Lei-A",0.648903,0,0
+27,11,3,Isolados,"Lei-B",0.683344,0,0
+27,16,0,Empiristas,"Lei-D",0.698346,1,0
+27,17,2,Evolucionistas,"Lei-A+Lei-C",0.746032,1,0
+27,21,0,Empiristas,"Lei-A+Lei-C",0.753658,0,1
+27,23,3,Isolados,"Lei-C",0.682874,0,0
+27,28,0,Empiristas,"Lei-B+Lei-C",0.843622,1,0
+27,35,2,Evolucionistas,"Lei-B+Lei-C",0.843622,0,1
+27,36,3,Isolados,"Lei-D",0.633931,0,0
+27,37,1,Incrementalistas,"Lei-B+Lei-C",0.843622,0,1
+27,42,3,Isolados,"Lei-B+Lei-C",0.831058,0,0
+27,44,3,Isolados,"Lei-A+Lei-C",0.838059,0,0
+27,44,1,Incrementalistas,"Lei-A+Lei-C",0.774449,0,1
+27,47,2,Evolucionistas,"Lei-A+Lei-D",0.728466,1,0
+27,49,2,Evolucionistas,"Lei-D",0.728074,0,1
+27,57,2,Evolucionistas,"Lei-C+Lei-D",0.770262,1,0
+27,60,3,Isolados,"Lei-A+Lei-C+Lei-D",0.852749,1,0
+27,63,1,Incrementalistas,"Lei-D",0.728074,0,1
+27,64,0,Empiristas,"Lei-A+Lei-D",0.747405,0,0
+27,94,3,Isolados,"Lei-C+Lei-D",0.647461,0,0
+27,98,3,Isolados,"Lei-A+Lei-D",0.788417,0,0
+27,104,1,Incrementalistas,"Lei-A+Lei-D",0.678749,0,0
+27,111,1,Incrementalistas,"Lei-C+Lei-D",0.876165,0,1
+27,112,0,Empiristas,"Lei-C+Lei-D",0.876165,0,1
+27,160,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.852526,0,0
+27,161,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.852526,0,1
+27,176,1,Incrementalistas,"Lei-B+Lei-C",0.867535,0,0
+27,177,1,Incrementalistas,"Lei-A",0.629116,0,0
+27,188,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.916683,0,0
+27,191,1,Incrementalistas,"Lei-A+Lei-D",0.827511,0,1
+27,239,1,Incrementalistas,"Lei-A+Lei-C",0.821433,0,0
+27,239,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.909951,0,0
+27,239,1,Incrementalistas,"Lei-C+Lei-D",0.81419,0,0
+27,296,0,Empiristas,"Lei-D",0.737168,0,0
+27,296,0,Empiristas,"Lei-B+Lei-C",0.899898,0,0
+27,296,0,Empiristas,"Lei-C+Lei-D",0.714899,0,0
+27,296,0,Empiristas,"Lei-A+Lei-D",0.840261,0,0
+28,0,0,Empiristas,"nenhuma lei",0.497554,1,0
+28,0,1,Incrementalistas,"nenhuma lei",0.477449,0,0
+28,0,2,Evolucionistas,"nenhuma lei",0.539065,0,0
+28,0,3,Isolados,"nenhuma lei",0.572053,0,0
+28,0,3,Isolados,"Lei-D",0.596792,1,0
+28,1,0,Empiristas,"Lei-A",0.626504,1,0
+28,1,2,Evolucionistas,"Lei-A",0.626504,0,1
+28,2,0,Empiristas,"Lei-A+Lei-C",0.743631,1,0
+28,2,1,Incrementalistas,"Lei-A+Lei-C",0.743631,0,1
+28,2,2,Evolucionistas,"Lei-A+Lei-C",0.743631,0,1
+28,3,1,Incrementalistas,"Lei-A",0.644201,0,0
+28,4,0,Empiristas,"Lei-D",0.53393,0,0
+28,4,3,Isolados,"Lei-A",0.606072,0,0
+28,10,2,Evolucionistas,"Lei-C",0.664406,1,0
+28,11,1,Incrementalistas,"Lei-C",0.693548,0,0
+28,14,0,Empiristas,"Lei-B",0.721812,1,0
+28,17,0,Empiristas,"Lei-C",0.620253,0,0
+28,21,3,Isolados,"Lei-A+Lei-D",0.796036,1,0
+28,22,1,Incrementalistas,"Lei-D",0.60277,0,0
+28,22,1,Incrementalistas,"nenhuma lei",0.463706,0,0
+28,24,1,Incrementalistas,"Lei-B",0.721812,0,1
+28,41,3,Isolados,"Lei-C",0.591889,0,0
+28,43,2,Evolucionistas,"Lei-D",0.6177,0,1
+28,46,1,Incrementalistas,"Lei-A+Lei-C",0.867475,0,1
+28,46,1,Incrementalistas,"nenhuma lei",0.645873,0,1
+28,47,1,Incrementalistas,"Lei-D",0.6177,0,1
+28,51,3,Isolados,"Lei-B",0.641561,0,0
+28,52,2,Evolucionistas,"Lei-B",0.721812,0,1
+28,55,1,Incrementalistas,"Lei-B",0.721812,0,1
+28,56,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.946615,1,0
+28,56,2,Evolucionistas,"Lei-A+Lei-D",0.759263,0,0
+28,58,0,Empiristas,"Lei-A+Lei-D",0.759263,0,1
+28,59,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.946615,0,1
+28,64,1,Incrementalistas,"Lei-C+Lei-D",0.735762,1,0
+28,65,1,Incrementalistas,"Lei-A+Lei-D",0.783486,0,0
+28,70,2,Evolucionistas,"Lei-C+Lei-D",0.774753,0,0
+28,70,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.977454,0,1
+28,77,0,Empiristas,"Lei-C+Lei-D",0.765803,0,1
+28,91,2,Evolucionistas,"Lei-B+Lei-C",0.752963,1,0
+28,120,1,Incrementalistas,"Lei-B+Lei-C",0.752963,0,1
+28,122,0,Empiristas,"Lei-B+Lei-C",0.752963,0,1
+28,124,3,Isolados,"Lei-B+Lei-C",0.703561,0,0
+28,130,3,Isolados,"Lei-C+Lei-D",0.82274,0,0
+28,134,1,Incrementalistas,"nenhuma lei",0.499255,0,0
+28,134,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.961233,0,0
+28,136,1,Incrementalistas,"Lei-D",0.650265,0,0
+28,145,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.926367,0,0
+28,145,1,Incrementalistas,"Lei-C+Lei-D",0.856555,0,0
+28,145,1,Incrementalistas,"Lei-A+Lei-D",0.76177,0,0
+28,146,3,Isolados,"Lei-A+Lei-C+Lei-D",0.928252,0,0
+28,149,3,Isolados,"Lei-A+Lei-C",0.82893,0,0
+28,165,1,Incrementalistas,"Lei-D",0.700413,0,0
+28,165,1,Incrementalistas,"Lei-A+Lei-C",0.737497,0,0
+28,165,1,Incrementalistas,"nenhuma lei",0.589302,0,0
+28,180,1,Incrementalistas,"Lei-A+Lei-C",0.797038,0,0
+28,180,1,Incrementalistas,"Lei-D",0.68922,0,0
+28,180,1,Incrementalistas,"nenhuma lei",0.710906,0,0
+28,180,1,Incrementalistas,"Lei-A+Lei-D",0.822238,0,0
+28,189,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.874786,0,0
+28,189,1,Incrementalistas,"Lei-C",0.671808,0,0
+28,191,1,Incrementalistas,"Lei-A",0.576639,0,0
+28,204,1,Incrementalistas,"Lei-A+Lei-D",0.711519,0,0
+28,204,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",1,0,0
+28,204,1,Incrementalistas,"Lei-A+Lei-C",0.822367,0,0
+28,204,1,Incrementalistas,"Lei-C",0.669548,0,0
+28,204,2,Evolucionistas,"Lei-A+Lei-D",0.823766,0,0
+28,204,2,Evolucionistas,"Lei-C+Lei-D",0.809733,0,0
+28,204,2,Evolucionistas,"Lei-A",0.739382,0,0
+28,204,2,Evolucionistas,"nenhuma lei",0.50658,0,0
+28,204,2,Evolucionistas,"Lei-C",0.649559,0,0
+28,204,2,Evolucionistas,"Lei-D",0.723521,0,0
+28,205,1,Incrementalistas,"nenhuma lei",0.545548,0,0
+28,213,2,Evolucionistas,"Lei-B",0.71482,0,0
+29,0,0,Empiristas,"nenhuma lei",0.505822,1,0
+29,0,1,Incrementalistas,"Lei-A",0.625811,1,0
+29,0,2,Evolucionistas,"nenhuma lei",0.495859,0,0
+29,0,3,Isolados,"nenhuma lei",0.578032,0,0
+29,1,1,Incrementalistas,"nenhuma lei",0.564725,0,0
+29,3,0,Empiristas,"Lei-B",0.659078,1,0
+29,3,2,Evolucionistas,"Lei-A",0.658375,0,1
+29,4,0,Empiristas,"Lei-D",0.692144,1,0
+29,7,0,Empiristas,"Lei-A",0.682074,0,1
+29,7,1,Incrementalistas,"Lei-D",0.697308,0,1
+29,8,3,Isolados,"Lei-C",0.648737,1,0
+29,12,2,Evolucionistas,"Lei-D",0.697308,0,1
+29,12,2,Evolucionistas,"Lei-B",0.688139,0,1
+29,14,0,Empiristas,"Lei-C",0.679041,0,0
+29,15,1,Incrementalistas,"Lei-B",0.688139,0,1
+29,23,1,Incrementalistas,"Lei-C",0.679041,0,1
+29,24,0,Empiristas,"Lei-B+Lei-C",0.801019,1,0
+29,27,2,Evolucionistas,"Lei-C",0.679041,0,1
+29,28,3,Isolados,"Lei-B+Lei-C",0.819168,0,0
+29,28,2,Evolucionistas,"Lei-B+Lei-C",0.801019,0,1
+29,28,1,Incrementalistas,"Lei-B+Lei-C",0.801019,0,1
+29,32,2,Evolucionistas,"Lei-A+Lei-D",0.746195,1,0
+29,39,1,Incrementalistas,"Lei-C+Lei-D",0.76103,1,0
+29,41,3,Isolados,"Lei-B",0.610625,0,0
+29,42,1,Incrementalistas,"Lei-A+Lei-D",0.809025,0,0
+29,44,2,Evolucionistas,"Lei-A+Lei-C",0.730142,1,0
+29,48,0,Empiristas,"Lei-C+Lei-D",0.76103,0,1
+29,49,3,Isolados,"Lei-D",0.733064,0,0
+29,54,0,Empiristas,"Lei-A+Lei-D",0.809025,0,1
+29,60,3,Isolados,"Lei-C+Lei-D",0.748749,0,0
+29,60,2,Evolucionistas,"Lei-C+Lei-D",0.801782,0,1
+29,61,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.86251,1,0
+29,63,0,Empiristas,"Lei-A+Lei-C",0.770299,0,1
+29,64,3,Isolados,"Lei-A",0.637738,0,0
+29,74,1,Incrementalistas,"Lei-A+Lei-C",0.742576,0,0
+29,79,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.86251,0,1
+29,94,2,Evolucionistas,"Lei-D",0.631293,0,0
+29,106,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.881997,0,1
+29,113,2,Evolucionistas,"Lei-A+Lei-D",0.809025,0,1
+29,115,2,Evolucionistas,"Lei-C+Lei-D",0.809882,0,0
+29,128,1,Incrementalistas,"Lei-B+Lei-C",0.824326,0,0
+29,128,1,Incrementalistas,"Lei-C",0.799604,0,0
+29,129,1,Incrementalistas,"Lei-D",0.676237,0,0
+29,133,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.907441,0,0
+29,134,3,Isolados,"Lei-A+Lei-C",0.858523,0,0
+29,134,1,Incrementalistas,"Lei-A+Lei-D",0.809025,0,1
+29,137,1,Incrementalistas,"Lei-B",0.773473,0,0
+29,137,1,Incrementalistas,"Lei-B+Lei-C",0.884177,0,0
+29,157,1,Incrementalistas,"Lei-A+Lei-D",0.871568,0,1
+29,162,1,Incrementalistas,"Lei-A+Lei-D",0.871568,0,1
+29,164,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.881997,0,1
+29,170,1,Incrementalistas,"Lei-C+Lei-D",0.837004,0,1
+29,211,3,Isolados,"Lei-A+Lei-C+Lei-D",0.944146,0,0
+29,217,3,Isolados,"Lei-A+Lei-D",0.843947,0,0
+29,259,1,Incrementalistas,"Lei-B+Lei-C",0.884373,0,0
+29,259,1,Incrementalistas,"Lei-C",0.723303,0,0
+29,265,1,Incrementalistas,"Lei-A",0.736181,0,0
+29,286,0,Empiristas,"nenhuma lei",0.549948,0,0
+29,286,0,Empiristas,"Lei-C",0.726966,0,0
+29,286,0,Empiristas,"Lei-B+Lei-C",0.805722,0,0
+29,287,0,Empiristas,"Lei-D",0.758613,0,0
+30,0,0,Empiristas,"nenhuma lei",0.542321,1,0
+30,0,1,Incrementalistas,"nenhuma lei",0.481023,0,0
+30,0,2,Evolucionistas,"nenhuma lei",0.520263,0,0
+30,0,3,Isolados,"nenhuma lei",0.566614,0,0
+30,4,2,Evolucionistas,"Lei-B",0.701867,1,0
+30,5,1,Incrementalistas,"Lei-A",0.500173,1,0
+30,5,1,Incrementalistas,"Lei-B",0.640774,0,0
+30,5,0,Empiristas,"Lei-B",0.701867,0,1
+30,8,2,Evolucionistas,"Lei-A",0.67092,0,0
+30,8,0,Empiristas,"Lei-A",0.500173,0,1
+30,10,1,Incrementalistas,"Lei-C",0.50766,1,0
+30,10,2,Evolucionistas,"Lei-C",0.50766,0,1
+30,11,0,Empiristas,"Lei-C",0.646521,0,0
+30,28,0,Empiristas,"Lei-B+Lei-C",0.729547,1,0
+30,30,3,Isolados,"Lei-A",0.569696,0,0
+30,34,2,Evolucionistas,"Lei-B+Lei-C",0.729547,0,1
+30,37,1,Incrementalistas,"Lei-B+Lei-C",0.729547,0,1
+30,42,1,Incrementalistas,"Lei-D",0.704441,1,0
+30,50,3,Isolados,"Lei-C",0.615779,0,0
+30,50,3,Isolados,"Lei-B",0.724731,0,0
+30,52,2,Evolucionistas,"Lei-A+Lei-C",0.765606,1,0
+30,53,1,Incrementalistas,"Lei-A+Lei-C",0.782626,0,0
+30,56,0,Empiristas,"Lei-D",0.570397,0,0
+30,56,0,Empiristas,"Lei-A+Lei-C",0.765606,0,1
+30,57,2,Evolucionistas,"Lei-D",0.570397,0,1
+30,66,3,Isolados,"Lei-C+Lei-D",0.728106,1,0
+30,71,1,Incrementalistas,"Lei-A+Lei-D",0.771722,1,0
+30,76,3,Isolados,"Lei-D",0.584236,0,0
+30,76,3,Isolados,"Lei-A+Lei-C",0.748777,0,0
+30,89,3,Isolados,"Lei-B+Lei-C",0.743124,0,0
+30,100,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.942549,1,0
+30,101,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.942549,0,1
+30,104,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.942549,0,1
+30,106,0,Empiristas,"Lei-A+Lei-D",0.843432,0,0
+30,108,1,Incrementalistas,"Lei-C+Lei-D",0.74765,0,0
+30,109,2,Evolucionistas,"Lei-C+Lei-D",0.772926,0,0
+30,111,2,Evolucionistas,"Lei-A+Lei-D",0.843779,0,0
+30,113,0,Empiristas,"Lei-C+Lei-D",0.796501,0,0
+30,192,3,Isolados,"Lei-A+Lei-C+Lei-D",0.858749,0,0
+30,194,3,Isolados,"Lei-A+Lei-D",0.710055,0,0
+30,285,3,Isolados,"Lei-B+Lei-C",0.853563,0,0
+30,285,3,Isolados,"Lei-B",0.744297,0,0
+30,285,3,Isolados,"Lei-D",0.798285,0,0
+30,286,3,Isolados,"Lei-A+Lei-C",0.828333,0,0
+31,0,0,Empiristas,"Lei-B",0.645908,1,0
+31,0,0,Empiristas,"nenhuma lei",0.54705,1,0
+31,0,1,Incrementalistas,"nenhuma lei",0.54403,0,0
+31,0,1,Incrementalistas,"Lei-A",0.537248,1,0
+31,0,2,Evolucionistas,"nenhuma lei",0.53459,0,0
+31,0,3,Isolados,"nenhuma lei",0.589521,0,0
+31,4,0,Empiristas,"Lei-C",0.641251,1,0
+31,4,1,Incrementalistas,"Lei-A+Lei-C",0.729362,1,0
+31,4,1,Incrementalistas,"Lei-C",0.587776,0,0
+31,5,0,Empiristas,"Lei-D",0.657914,1,0
+31,5,0,Empiristas,"Lei-A+Lei-C",0.729362,0,1
+31,6,0,Empiristas,"Lei-B+Lei-C",0.692779,1,0
+31,6,2,Evolucionistas,"Lei-A+Lei-C",0.729362,0,1
+31,6,2,Evolucionistas,"Lei-C",0.608527,0,1
+31,8,2,Evolucionistas,"Lei-D",0.722791,0,0
+31,8,1,Incrementalistas,"Lei-D",0.657914,0,1
+31,9,1,Incrementalistas,"Lei-B+Lei-C",0.692779,0,1
+31,12,0,Empiristas,"Lei-A",0.69857,0,0
+31,17,2,Evolucionistas,"Lei-B+Lei-C",0.747487,0,1
+31,19,1,Incrementalistas,"Lei-B",0.662685,0,0
+31,19,3,Isolados,"Lei-D",0.576796,0,0
+31,22,0,Empiristas,"Lei-A",0.599809,0,0
+31,22,2,Evolucionistas,"Lei-B",0.658223,0,1
+31,26,2,Evolucionistas,"Lei-A",0.586367,0,0
+31,29,3,Isolados,"Lei-C",0.661477,0,0
+31,31,3,Isolados,"Lei-C+Lei-D",0.795097,1,0
+31,52,3,Isolados,"Lei-A+Lei-D",0.733863,1,0
+31,53,3,Isolados,"Lei-B+Lei-C",0.757674,0,0
+31,57,3,Isolados,"Lei-A",0.649385,0,0
+31,61,3,Isolados,"Lei-B",0.612716,0,0
+31,83,3,Isolados,"Lei-A+Lei-C",0.780316,0,0
+31,87,3,Isolados,"Lei-A+Lei-C+Lei-D",0.844897,1,0
+31,111,3,Isolados,"Lei-B",0.564801,0,0
+31,118,2,Evolucionistas,"Lei-A+Lei-D",0.657823,0,0
+31,121,3,Isolados,"Lei-A",0.608908,0,0
+31,123,0,Empiristas,"Lei-A+Lei-D",0.657786,0,0
+31,127,0,Empiristas,"Lei-C+Lei-D",0.755285,0,0
+31,131,1,Incrementalistas,"Lei-A+Lei-D",0.657823,0,1
+31,133,0,Empiristas,"nenhuma lei",0.554581,0,0
+31,141,0,Empiristas,"Lei-A+Lei-C",0.896244,0,1
+31,142,0,Empiristas,"Lei-A",0.676676,0,0
+31,144,3,Isolados,"Lei-A+Lei-C+Lei-D",0.86054,0,0
+31,153,3,Isolados,"Lei-A+Lei-D",0.760824,0,0
+31,163,0,Empiristas,"nenhuma lei",0.581036,0,0
+31,163,0,Empiristas,"Lei-A+Lei-C",0.782586,0,0
+31,163,2,Evolucionistas,"Lei-A+Lei-C+Lei-D",0.83434,0,0
+31,166,2,Evolucionistas,"Lei-C+Lei-D",0.727412,0,0
+31,167,0,Empiristas,"Lei-D",0.526714,0,0
+31,169,0,Empiristas,"Lei-A+Lei-C+Lei-D",0.87273,0,1
+31,173,1,Incrementalistas,"Lei-A+Lei-C+Lei-D",0.87273,0,1
+31,184,1,Incrementalistas,"Lei-C+Lei-D",0.763128,0,0

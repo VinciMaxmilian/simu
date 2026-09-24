@@ -1,0 +1,405 @@
+{
+  "descricao": "Grafo historico: no, tipo, ano_previsto, ano_confirmado, requer (pre-requisitos), energia_necessaria_GeV (escala tipica do experimento; 0 = nao se aplica).",
+  "nos": [
+    {
+      "id": "eletron",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1897,
+      "requer": [
+        "vacuo_tubo_catodico"
+      ],
+      "energia_necessaria_GeV": 1e-05
+    },
+    {
+      "id": "vacuo_tubo_catodico",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1870,
+      "requer": [],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "radioatividade",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1896,
+      "requer": [],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "nucleo",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1911,
+      "requer": [
+        "radioatividade"
+      ],
+      "energia_necessaria_GeV": 0.005
+    },
+    {
+      "id": "foton",
+      "tipo": "teoria",
+      "ano_previsto": 1905,
+      "ano_confirmado": 1923,
+      "requer": [
+        "eletron"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "proton",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1919,
+      "requer": [
+        "nucleo"
+      ],
+      "energia_necessaria_GeV": 0.005
+    },
+    {
+      "id": "mecanica_quantica",
+      "tipo": "teoria",
+      "ano_previsto": 1925,
+      "ano_confirmado": 1927,
+      "requer": [
+        "foton",
+        "eletron"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "camara_de_nuvens",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1911,
+      "requer": [],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "positron",
+      "tipo": "experimento",
+      "ano_previsto": 1928,
+      "ano_confirmado": 1932,
+      "requer": [
+        "mecanica_quantica",
+        "camara_de_nuvens"
+      ],
+      "energia_necessaria_GeV": 0.001
+    },
+    {
+      "id": "neutron",
+      "tipo": "experimento",
+      "ano_previsto": 1920,
+      "ano_confirmado": 1932,
+      "requer": [
+        "proton"
+      ],
+      "energia_necessaria_GeV": 0.005
+    },
+    {
+      "id": "neutrino",
+      "tipo": "experimento",
+      "ano_previsto": 1930,
+      "ano_confirmado": 1956,
+      "requer": [
+        "reator_nuclear"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "reator_nuclear",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1942,
+      "requer": [
+        "neutron"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "muon",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1936,
+      "requer": [
+        "camara_de_nuvens"
+      ],
+      "energia_necessaria_GeV": 0.1
+    },
+    {
+      "id": "pion",
+      "tipo": "experimento",
+      "ano_previsto": 1935,
+      "ano_confirmado": 1947,
+      "requer": [
+        "emulsoes_fotograficas"
+      ],
+      "energia_necessaria_GeV": 0.14
+    },
+    {
+      "id": "emulsoes_fotograficas",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1937,
+      "requer": [],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "kaon_estranheza",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1947,
+      "requer": [
+        "emulsoes_fotograficas"
+      ],
+      "energia_necessaria_GeV": 0.5
+    },
+    {
+      "id": "violacao_de_paridade",
+      "tipo": "experimento",
+      "ano_previsto": 1956,
+      "ano_confirmado": 1957,
+      "requer": [
+        "neutrino"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "neutrino_mu",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1962,
+      "requer": [
+        "neutrino",
+        "acelerador_GeV"
+      ],
+      "energia_necessaria_GeV": 1
+    },
+    {
+      "id": "acelerador_GeV",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1952,
+      "requer": [],
+      "energia_necessaria_GeV": 1
+    },
+    {
+      "id": "violacao_CP",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1964,
+      "requer": [
+        "kaon_estranheza"
+      ],
+      "energia_necessaria_GeV": 1
+    },
+    {
+      "id": "modelo_de_quarks",
+      "tipo": "teoria",
+      "ano_previsto": 1964,
+      "ano_confirmado": 1968,
+      "requer": [
+        "kaon_estranheza",
+        "acelerador_linear_20GeV"
+      ],
+      "energia_necessaria_GeV": 20
+    },
+    {
+      "id": "acelerador_linear_20GeV",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1966,
+      "requer": [
+        "acelerador_GeV"
+      ],
+      "energia_necessaria_GeV": 20
+    },
+    {
+      "id": "eletrofraca",
+      "tipo": "teoria",
+      "ano_previsto": 1967,
+      "ano_confirmado": 1983,
+      "requer": [
+        "violacao_de_paridade"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "mecanismo_de_Higgs",
+      "tipo": "teoria",
+      "ano_previsto": 1964,
+      "ano_confirmado": 2012,
+      "requer": [
+        "eletrofraca"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "renormalizabilidade",
+      "tipo": "teoria",
+      "ano_previsto": 1971,
+      "ano_confirmado": 1971,
+      "requer": [
+        "eletrofraca"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "liberdade_assintotica_QCD",
+      "tipo": "teoria",
+      "ano_previsto": 1973,
+      "ano_confirmado": 1979,
+      "requer": [
+        "modelo_de_quarks"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "charm",
+      "tipo": "experimento",
+      "ano_previsto": 1970,
+      "ano_confirmado": 1974,
+      "requer": [
+        "modelo_de_quarks",
+        "colisor_ee"
+      ],
+      "energia_necessaria_GeV": 3.1
+    },
+    {
+      "id": "colisor_ee",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1972,
+      "requer": [
+        "acelerador_GeV"
+      ],
+      "energia_necessaria_GeV": 3
+    },
+    {
+      "id": "tau",
+      "tipo": "experimento",
+      "ano_previsto": null,
+      "ano_confirmado": 1975,
+      "requer": [
+        "colisor_ee"
+      ],
+      "energia_necessaria_GeV": 3.6
+    },
+    {
+      "id": "bottom",
+      "tipo": "experimento",
+      "ano_previsto": 1973,
+      "ano_confirmado": 1977,
+      "requer": [
+        "violacao_CP",
+        "acelerador_GeV"
+      ],
+      "energia_necessaria_GeV": 10
+    },
+    {
+      "id": "gluon",
+      "tipo": "experimento",
+      "ano_previsto": 1973,
+      "ano_confirmado": 1979,
+      "requer": [
+        "liberdade_assintotica_QCD",
+        "colisor_ee"
+      ],
+      "energia_necessaria_GeV": 30
+    },
+    {
+      "id": "W_Z",
+      "tipo": "experimento",
+      "ano_previsto": 1968,
+      "ano_confirmado": 1983,
+      "requer": [
+        "eletrofraca",
+        "colisor_ppbar"
+      ],
+      "energia_necessaria_GeV": 91
+    },
+    {
+      "id": "colisor_ppbar",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1981,
+      "requer": [
+        "acelerador_GeV"
+      ],
+      "energia_necessaria_GeV": 540
+    },
+    {
+      "id": "top",
+      "tipo": "experimento",
+      "ano_previsto": 1973,
+      "ano_confirmado": 1995,
+      "requer": [
+        "bottom",
+        "tevatron"
+      ],
+      "energia_necessaria_GeV": 175
+    },
+    {
+      "id": "tevatron",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1987,
+      "requer": [
+        "colisor_ppbar"
+      ],
+      "energia_necessaria_GeV": 1960
+    },
+    {
+      "id": "neutrino_tau",
+      "tipo": "experimento",
+      "ano_previsto": 1975,
+      "ano_confirmado": 2000,
+      "requer": [
+        "tau",
+        "tevatron"
+      ],
+      "energia_necessaria_GeV": 800
+    },
+    {
+      "id": "oscilacao_de_neutrinos",
+      "tipo": "experimento",
+      "ano_previsto": 1957,
+      "ano_confirmado": 1998,
+      "requer": [
+        "neutrino",
+        "detector_Cherenkov_gigante"
+      ],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "detector_Cherenkov_gigante",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 1996,
+      "requer": [],
+      "energia_necessaria_GeV": 0
+    },
+    {
+      "id": "LHC",
+      "tipo": "tecnologia",
+      "ano_previsto": null,
+      "ano_confirmado": 2008,
+      "requer": [
+        "tevatron"
+      ],
+      "energia_necessaria_GeV": 8000
+    },
+    {
+      "id": "higgs",
+      "tipo": "experimento",
+      "ano_previsto": 1964,
+      "ano_confirmado": 2012,
+      "requer": [
+        "mecanismo_de_Higgs",
+        "LHC"
+      ],
+      "energia_necessaria_GeV": 125
+    }
+  ]
+}
