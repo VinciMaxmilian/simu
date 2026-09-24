@@ -276,9 +276,14 @@ def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksy
         mf.max_cycle = 50
         mf.kernel(dm0=mf.make_rdm1())
         solver = "DIIS + Newton"
-    # Estabilidade: se a solução for um ponto de sela (inclui violação de aufbau), segue a instabilidade.
-    stable = None
-    for rnd in range(stability_rounds):
+    # Estabilidade: só quando há sinal de problema (SCF sem convergir ou violação de aufbau). Com o chute
+    # do Hubbard, a análise completa confirmou soluções estáveis no cálice de Clar e custou ~85 min por
+    # estado; por isso não roda à toa. Se rodar e achar instabilidade, recomeça pela direção instável.
+    def aufbau_ok():
+        e, o = np.concatenate(mf.mo_energy), np.concatenate(mf.mo_occ)
+        return e[o > 0.5].max() < e[o < 0.5].min()
+    stable = None if (mf.converged and aufbau_ok()) else False
+    for rnd in range(stability_rounds if stable is False else 0):
         mo1, _, stable, _ = mf.stability(return_status=True)
         if stable:
             break
@@ -296,7 +301,8 @@ def dft_single_point(symbols, coords, spin2s, basis="6-31g", xc="b3lyp", breaksy
     homo, lumo = mo_e[occ > 0.5].max(), mo_e[occ < 0.5].min()
     guess = "Hubbard" if spin_guess is not None else ("densidade anterior" if dm0 is not None else
                                                        ("quebra de simetria" if breaksym else "minao"))
-    res = {"2S": spin2s, "chute_inicial": guess, "estavel": bool(stable), "aufbau_ok": bool(homo < lumo),
+    res = {"2S": spin2s, "chute_inicial": guess, "estabilidade_verificada": stable is not None,
+           "estavel": None if stable is None else bool(stable), "aufbau_ok": bool(homo < lumo),
            "metodo": f"U{xc.upper()}/{basis} (ajuste de densidade)", "solver": solver,
            "energia_Ha": float(mf.e_tot), "convergiu": bool(mf.converged), "S2": float(s2),
            "gap_somo_lumo_eV": float(27.2114 * (lumo - homo)), "densidade_spin_atomos": per_atom.tolist()}
@@ -332,7 +338,7 @@ def run_dft_only(name, struct, spins, extra_low=None):
         r["tempo_min"] = (time.time() - t0) / 60
         data["dft"][f"2S={spin2s}"] = r
         print(f"  DFT 2S={spin2s}: E={r['energia_Ha']:.6f} Ha, <S²>={r['S2']:.3f}, conv={r['convergiu']}, "
-              f"estável={r['estavel']}, aufbau={r['aufbau_ok']} ({r['solver']}, {r['tempo_min']:.1f} min)", flush=True)
+              f"estável={r['estavel'] if r['estabilidade_verificada'] else 'não verificada'}, aufbau={r['aufbau_ok']} ({r['solver']}, {r['tempo_min']:.1f} min)", flush=True)
     if extra_low:  # resultado de spin baixo de uma execução anterior (mesma geometria e método)
         data["dft"][f"2S={extra_low['2S']}"] = extra_low
     e0 = min(r["energia_Ha"] for r in data["dft"].values())
