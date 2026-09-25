@@ -1,4 +1,4 @@
-# Relatório do simu — 3ª rodada
+# Relatório do simu — 3ª rodada (atualizado com a DFT)
 
 24 set 2026 · branch `claude/determined-tesla-nkx3fz` · também na `main`
 
@@ -13,8 +13,9 @@
 3. **Com o filtro de planaridade surgiu um candidato melhor, o C₄₉H₂₁**: plano (0,03 Å no xTB),
    mínimo estável (sem frequências imaginárias) e com acoplamento de spin mais forte (21,3 meV),
    encontrado em 28 dos 32 universos.
-4. **A DFT ainda não é confiável.** Os cálculos convergiram para soluções erradas (detalhes abaixo). É
-   o próximo passo do trabalho.
+4. **A DFT confirma o C₄₉H₂₁.** Depois de corrigida e validada no cálice de Clar, a DFT
+   spin-polarizada dá o mesmo estado fundamental do Hubbard e, calibrada pelo cálice de Clar, o
+   mesmo acoplamento (~21,5 meV contra 21,3 meV). Hückel, Hubbard e DFT concordam.
 5. **Bioquímicas alternativas** acrescentam ~36% de civilizações às de carbono/água; o silício, só ~5%.
 
 ## Camada A — surgimento
@@ -79,23 +80,37 @@ O limiar de planaridade (H–H ≥ 1,5 Å) também foi validado: fenantreno e c�
 | xTB: planaridade | torcido, 2,1 Å | plano, 0,03 Å |
 | xTB: spin 3/2 − spin 1/2 | +0,55 eV | +0,10 eV |
 | xTB: frequências | nenhuma imaginária | nenhuma imaginária (menor: 24,7 cm⁻¹) |
-| DFT (UB3LYP/6-31G) | **não confiável** | **não confiável** |
+| DFT: estado fundamental | spin 1/2 (simetria quebrada) | spin 1/2 (simetria quebrada) |
+| DFT: spin 3/2 − spin 1/2 | +334 meV (projetado +440) | +50 meV (projetado +82) |
+| DFT calibrada pelo cálice de Clar (÷3,8) | ~116 meV: **não bate** com o Hubbard | **~21,5 meV: bate** com o Hubbard |
 
 Registros completos, com anéis, coordenadas, grafo, genoma, semente e comando, estão em
 `data/candidatos/`. A busca química reproduz bit a bit com a mesma semente.
 
-### Por que a DFT ainda não vale
+### DFT: correção, validação e resultado
 
-- **C₄₉H₂₁:** o spin 1/2 convergiu para uma solução quase de camada fechada (⟨S²⟩ = 0,81), e não
-  para o estado de simetria quebrada que o Hubbard indica como fundamental. Com isso, o quarteto sai
-  657 meV "abaixo", o que é artefato.
-- **Quartetos dos dois candidatos:** o PySCF avisou "HOMO ≥ LUMO", ou seja, convergiram para uma
-  configuração excitada. Isso infla o gap do C₅₁H₂₅ (461 meV contra 13,9 meV no Hubbard).
+A primeira tentativa convergiu para soluções erradas (camada quase fechada e configurações excitadas).
+Correção: **chute inicial com a densidade de spin do Hubbard**, mais análise de estabilidade quando há
+sinal de problema.
 
-Correção em andamento:
-1. análise de estabilidade da função de onda, reiniciando o cálculo a partir das instabilidades;
-2. chute de simetria quebrada guiado pela densidade de spin do Hubbard;
-3. validar a DFT no cálice de Clar (J experimental de 23 meV) antes de confiar nos candidatos.
+**Validação no cálice de Clar:** o estado fundamental (singleto de simetria quebrada) saiu correto,
+com soluções estáveis, mas a distância até o tripleto foi 87,5 meV (projeção de Yamaguchi) contra
+23 meV medidos. O UB3LYP/6-31G superestima ~3,8×, um desvio comum de funcionais híbridos nessas
+moléculas. Por isso o número quantitativo de referência continua sendo o Hubbard-CAS, e a DFT confirma
+estado fundamental, geometria e distribuição de spin.
+
+**C₄₉H₂₁:** a razão DFT/Hubbard é 3,8×, a mesma do cálice de Clar. Três métodos diferentes concordam:
+spin 1/2 fundamental, spin 3/2 a ~21 meV (~250 K). A densidade de spin mostra dois domínios
+antiparalelos, os dois triângulos da molécula, como no cálice de Clar
+(`resultados/candidatos/C49H21_eta3_plano/densidade_spin_dft.png`).
+
+**C₅₁H₂₅:** a DFT dá um acoplamento ~8× maior que o Hubbard calibrado. A causa provável é a torção
+de 2,1 Å (hélices de [4]- e [5]heliceno), que o Hubbard plano não inclui. Ele fica em segundo plano
+porque não é plano.
+
+Limites: base pequena (6-31G), um só funcional e estabilidade verificada só no cálice de Clar. Um
+cálculo publicável pediria base maior (def2-TZVP), outros funcionais e métodos multirreferência
+(CASSCF/NEVPT2).
 
 ### Literatura
 
@@ -114,7 +129,7 @@ acima na PubChem ou no CAS SciFinder.
 
 ## Próximos passos
 
-1. Corrigir e validar a DFT (acima).
+1. Refazer o Hubbard do C₅₁H₂₅ com saltos corrigidos pela torção (t·cos φ).
 2. Levar os candidatos planos com maior acoplamento de spin a um critério de busca: avaliar os
    melhores de cada universo com Hubbard-CAS dentro da simulação.
 3. Liberar `pubchem.ncbi.nlm.nih.gov` na rede do ambiente para a checagem de literatura.
