@@ -1,0 +1,84 @@
+[
+ {
+  "formula": "C49H21",
+  "inchikey": "SZADRCVFNYKXMY-UHFFFAOYSA-N",
+  "classe": "eta=3 (desbalanco=1, oculto=2)",
+  "aneis": 14,
+  "vezes": 265,
+  "universos": 86,
+  "sementes": [
+   7,
+   42,
+   2026
+  ],
+  "hubbard_gap_meV": 21.291427535534257,
+  "S_fundamental": 0.5
+ },
+ {
+  "formula": "C38H18",
+  "inchikey": "IQSWLUPJXFHUKA-UHFFFAOYSA-N",
+  "classe": "eta=2 (desbalanco=0, oculto=2)",
+  "aneis": 11,
+  "vezes": 6,
+  "universos": 4,
+  "sementes": [
+   42,
+   2026
+  ],
+  "hubbard_gap_meV": 23.479366161762492,
+  "S_fundamental": 0.0
+ },
+ {
+  "formula": "C55H25",
+  "inchikey": "ONDYYYOZKMTRRY-UHFFFAOYSA-N",
+  "classe": "eta=3 (desbalanco=1, oculto=2)",
+  "aneis": 15,
+  "vezes": 4,
+  "universos": 2,
+  "sementes": [
+   7,
+   42
+  ],
+  "hubbard_gap_meV": 7.5101172495593005,
+  "S_fundamental": 0.5
+ },
+ {
+  "formula": "C50H20",
+  "inchikey": "JOIPVWSJTCAJRK-UHFFFAOYSA-N",
+  "classe": "eta=2 (desbalanco=0, oculto=2)",
+  "aneis": 14,
+  "vezes": 2,
+  "universos": 2,
+  "sementes": [
+   2026
+  ],
+  "hubbard_gap_meV": 24.103048091356438,
+  "S_fundamental": 0.0
+ },
+ {
+  "formula": "C53H23",
+  "inchikey": "CRCBVLJGTUJWTH-UHFFFAOYSA-N",
+  "classe": "eta=3 (desbalanco=1, oculto=2)",
+  "aneis": 15,
+  "vezes": 1,
+  "universos": 1,
+  "sementes": [
+   7
+  ],
+  "hubbard_gap_meV": 16.635257048756014,
+  "S_fundamental": 0.5
+ },
+ {
+  "formula": "C53H25",
+  "inchikey": "HUEHVUCUZKSIOZ-UHFFFAOYSA-N",
+  "classe": "eta=3 (desbalanco=1, oculto=2)",
+  "aneis": 15,
+  "vezes": 1,
+  "universos": 1,
+  "sementes": [
+   2026
+  ],
+  "hubbard_gap_meV": 6.358064709793609,
+  "S_fundamental": 0.5
+ }
+]

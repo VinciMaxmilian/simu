@@ -24,6 +24,7 @@
 
 #include "core/emergence.hpp"
 #include "core/research.hpp"
+#include "labs/enumerate.hpp"
 #include "labs/labs.hpp"
 
 namespace fs = std::filesystem;
@@ -412,6 +413,22 @@ int cmd_research(const Args& args) {
     md << buf;
   }
   write_catalog_json(dir / "catalogo.json", *lab, cultures, cfg, args, seed, runs, items);
+  // Melhor resultado final de cada civilização em cada universo (para contar isômeros distintos).
+  {
+    std::ofstream js(dir / "melhores_finais.json");
+    js << "[\n";
+    bool first = true;
+    for (const auto& res : results)
+      for (size_t c = 0; c < res.best_genome.size(); ++c) {
+        if (res.best_genome[c].empty()) continue;
+        const Evaluation e = lab->evaluate(res.best_genome[c]);
+        js << (first ? "" : ",\n") << "{\"rodada\": " << (&res - results.data()) << ", \"civilizacao\": \""
+           << cultures[c].name << "\", \"classe\": \"" << e.label << "\", \"score\": " << e.score
+           << ", \"genoma_hex\": \"" << hex(res.best_genome[c]) << "\", \"estrutura\": " << lab->export_json(res.best_genome[c]) << "}";
+        first = false;
+      }
+    js << "\n]\n";
+  }
 
   md << "\n## Melhores exemplares\n\n";
   const int show = std::min<int>(8, items.size());
@@ -429,6 +446,63 @@ int cmd_research(const Args& args) {
   return 0;
 }
 
+// ---------------------------------------------------------------- enumeração exaustiva
+int cmd_enumerate(const Args& args) {
+  const int max_h = std::stoi(args.get("aneis", "12"));
+  const fs::path dir = args.get("saida", "resultados/enumeracao");
+  fs::create_directories(dir);
+  // OEIS A001207 (poli-hexágonos fixos) e A000228 (livres), para validar a enumeração.
+  const long oeis_fixed[] = {0, 1, 3, 11, 44, 186, 814, 3652, 16689, 77359, 362671, 1716033, 8182213, 39267086, 189492795};
+  const long oeis_free[] = {0, 1, 1, 3, 7, 22, 82, 333, 1448, 6572, 30490, 143552, 683101, 3274826, 15796897};
+  struct Stat { long total = 0, planar = 0, hidden = 0, concealed = 0, target = 0; };
+  std::vector<Stat> stat(max_h + 1);
+  std::vector<BenzenoidInfo> keep;  // planas com modos ocultos: η > |N_A − N_B|
+  const auto t0 = std::chrono::steady_clock::now();
+  const EnumerationResult er = enumerate_benzenoids(max_h, [&](const BenzenoidInfo& b) {
+    Stat& s = stat[b.rings];
+    ++s.total;
+    if (b.min_hh < 1.5) return;
+    ++s.planar;
+    const int delta = std::abs(b.n_a - b.n_b), hidden = b.eta - delta;
+    if (hidden <= 0) return;
+    ++s.hidden;
+    if (delta == 0) ++s.concealed;
+    if (delta == 1 && hidden == 2) ++s.target;
+    keep.push_back(b);
+  });
+  const double secs = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();
+
+  std::ofstream md(dir / "resumo.md");
+  md << "# Enumeração exaustiva de benzenoides até " << max_h << " anéis\n\n";
+  md << "Algoritmo de Redelmeier na rede hexagonal; cada forma livre avaliada uma vez (12 simetrias). "
+     << "Plana = menor distância H–H ≥ 1,5 Å. Modos ocultos = η − |N_A − N_B| > 0. Tempo: " << std::fixed
+     << std::setprecision(0) << secs << " s.\n\n";
+  md << "| anéis | fixos (OEIS A001207) | livres (OEIS A000228) | planos | com modos ocultos | "
+        "ocultos com N_A = N_B | classe do C49H21 (Δ=1, 2 ocultos) |\n|---|---|---|---|---|---|---|\n";
+  bool ok = true;
+  for (int h = 1; h <= max_h; ++h) {
+    const bool fx = h < 15 && er.fixed[h] == oeis_fixed[h], fr = h < 15 && er.free[h] == oeis_free[h];
+    ok = ok && fx && fr;
+    md << "| " << h << " | " << er.fixed[h] << (fx ? " ✓" : " ✗") << " | " << er.free[h] << (fr ? " ✓" : " ✗") << " | "
+       << stat[h].planar << " | " << stat[h].hidden << " | " << stat[h].concealed << " | " << stat[h].target << " |\n";
+  }
+  md << "\nContagens " << (ok ? "idênticas" : "DIFERENTES") << " às da OEIS.\n";
+  std::ofstream js(dir / "planas_com_modos_ocultos.json");
+  js << "[\n";
+  for (size_t i = 0; i < keep.size(); ++i) {
+    const auto& b = keep[i];
+    js << "{\"aneis\": " << b.rings << ", \"formula\": \"C" << b.carbons << "H" << b.hydrogens << "\", \"n_A\": " << b.n_a
+       << ", \"n_B\": " << b.n_b << ", \"eta\": " << b.eta << ", \"menor_HH\": " << std::setprecision(3) << b.min_hh
+       << ", \"anel_coordenadas_axiais_q_r\": [";
+    for (size_t k = 0; k < b.cells.size(); ++k)
+      js << (k ? ", " : "") << "[" << b.cells[k].first << ", " << b.cells[k].second << "]";
+    js << "]}" << (i + 1 < keep.size() ? ",\n" : "\n");
+  }
+  js << "]\n";
+  std::cout << "Enumeração até " << max_h << " anéis em " << secs << " s; OEIS " << (ok ? "ok" : "DIFERENTE") << "\n";
+  return ok ? 0 : 2;
+}
+
 int cmd_validate(const Args& args) {
   const auto lab = make_lab(args.get("lab", "brinquedo"), 42);
   std::cout << lab->title() << "\n";
@@ -444,6 +518,7 @@ int main(int argc, char** argv) {
     if (args.command == "emergencia") return cmd_emergence(args);
     if (args.command == "pesquisa") return cmd_research(args);
     if (args.command == "bioquimica") return cmd_biochemistry(args);
+    if (args.command == "enumerar") return cmd_enumerate(args);
     if (args.command == "validar") return cmd_validate(args);
   } catch (const std::exception& e) {
     std::cerr << "erro: " << e.what() << "\n";

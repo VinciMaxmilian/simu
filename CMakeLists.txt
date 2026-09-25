@@ -19,6 +19,7 @@ add_executable(simu
   src/labs/chemistry.cpp
   src/labs/materials.cpp
   src/labs/nuclear.cpp
+  src/labs/enumerate.cpp
 )
 target_include_directories(simu PRIVATE src)
 target_compile_options(simu PRIVATE -Wall -Wextra)

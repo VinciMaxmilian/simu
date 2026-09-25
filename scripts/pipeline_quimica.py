@@ -321,40 +321,44 @@ def yamaguchi_gap(high, low):
     return 27211.4 * (e_hs - e_pure)  # meV
 
 
-def run_dft_only(name, struct, spins, extra_low=None):
-    """Etapa DFT isolada, reaproveitando a geometria xTB já calculada em resultados/candidatos/<nome>."""
+def run_dft_only(name, struct, spins, extra_low=None, xc="b3lyp"):
+    """Etapa DFT isolada, reaproveitando a geometria xTB já calculada em resultados/candidatos/<nome>.
+    Resultados de B3LYP ficam em data["dft"]; outros funcionais em data["dft_<xc>"]."""
     out = OUT / name
     data = json.load(open(out / "dados.json"))
     best_mult = min(data["xtb"], key=lambda k: data["xtb"][k]["energia_eV"])
     lines = open(out / f"geometria_xtb_mult{best_mult}.xyz").read().split("\n")[2:]
     symbols = [l.split()[0] for l in lines if l.strip()]
     coords = np.array([[float(v) for v in l.split()[1:4]] for l in lines if l.strip()])
-    data["dft"] = {}
+    key = "dft" if xc == "b3lyp" else f"dft_{xc}"
+    data[key] = {}
     mf_scan = hubbard_mf_scan(struct, len(struct["carbonos"]))
     for spin2s in spins:
         t0 = time.time()
         guess = mf_scan[spin2s / 2]["densidade_spin"]  # padrão de spin do Hubbard para este Sz
-        r, _ = dft_single_point(symbols, coords, spin2s, spin_guess=guess, log=out / f"dft_2S{spin2s}.log")
+        r, _ = dft_single_point(symbols, coords, spin2s, xc=xc, spin_guess=guess,
+                                log=out / f"dft_{xc}_2S{spin2s}.log")
         r["tempo_min"] = (time.time() - t0) / 60
-        data["dft"][f"2S={spin2s}"] = r
+        data[key][f"2S={spin2s}"] = r
         print(f"  DFT 2S={spin2s}: E={r['energia_Ha']:.6f} Ha, <S²>={r['S2']:.3f}, conv={r['convergiu']}, "
               f"estável={r['estavel'] if r['estabilidade_verificada'] else 'não verificada'}, aufbau={r['aufbau_ok']} ({r['solver']}, {r['tempo_min']:.1f} min)", flush=True)
     if extra_low:  # resultado de spin baixo de uma execução anterior (mesma geometria e método)
-        data["dft"][f"2S={extra_low['2S']}"] = extra_low
-    e0 = min(r["energia_Ha"] for r in data["dft"].values())
-    for r in data["dft"].values():
+        data[key][f"2S={extra_low['2S']}"] = extra_low
+    e0 = min(r["energia_Ha"] for r in data[key].values())
+    for r in data[key].values():
         r["energia_rel_meV"] = 27211.4 * (r["energia_Ha"] - e0)
-    keys = sorted(data["dft"], key=lambda k: data["dft"][k]["2S"])
-    low, high = data["dft"][keys[0]], data["dft"][keys[-1]]
-    data["dft_gap_projetado_meV"] = yamaguchi_gap(high, low)
-    data["dft_fundamental"] = min(data["dft"], key=lambda k: data["dft"][k]["energia_Ha"])
-    data["dft_geometria"] = f"xTB mult={best_mult}"
+    keys = sorted(data[key], key=lambda k: data[key][k]["2S"])
+    low, high = data[key][keys[0]], data[key][keys[-1]]
+    data[key + "_gap_projetado_meV"] = yamaguchi_gap(high, low)
+    data[key + "_fundamental"] = min(data[key], key=lambda k: data[key][k]["energia_Ha"])
+    data[key + "_geometria"] = f"xTB mult={best_mult}"
     n_c = len(struct["carbonos"])
-    gs = data["dft_fundamental"]
-    if "densidade_spin_atomos" in data["dft"][gs]:
-        spin_density_plot(out / "densidade_spin_dft.png", struct, data["dft"][gs]["densidade_spin_atomos"][:n_c],
-                          f"{data['formula']} — densidade de spin, UB3LYP/6-31G ({gs})")
-    print(f"  gap spin baixo→alto (projeção de Yamaguchi): {data['dft_gap_projetado_meV']:.1f} meV", flush=True)
+    gs = data[key + "_fundamental"]
+    if "densidade_spin_atomos" in data[key][gs]:
+        spin_density_plot(out / ("densidade_spin_dft.png" if xc == "b3lyp" else f"densidade_spin_dft_{xc}.png"),
+                          struct, data[key][gs]["densidade_spin_atomos"][:n_c],
+                          f"{data['formula']} — densidade de spin, U{xc.upper()}/6-31G ({gs})")
+    print(f"  gap spin baixo→alto (projeção de Yamaguchi, {xc}): {data[key + '_gap_projetado_meV']:.1f} meV", flush=True)
     json.dump(data, open(out / "dados.json", "w"), indent=1, ensure_ascii=False)
 
 
@@ -457,6 +461,7 @@ def main():
     ap.add_argument("--sem-dft", action="store_true")
     ap.add_argument("--sem-freq", action="store_true")
     ap.add_argument("--so-dft", action="store_true", help="só a etapa DFT, reaproveitando a geometria xTB salva")
+    ap.add_argument("--xc", default="b3lyp", help="funcional da DFT (b3lyp, pbe0, ...)")
     ap.add_argument("--nome", default=None, help="pasta de saída em resultados/candidatos (padrão: nome do arquivo)")
     ap.add_argument("--estados", default=None, help="2S a calcular, em ordem (ex.: 3,1)")
     ap.add_argument("--spin-baixo-anterior", default=None,
@@ -482,7 +487,7 @@ def main():
             spins = [int(x) for x in args.estados.split(",")] if args.estados else [base + 2, base]
             extra = json.loads(args.spin_baixo_anterior) if args.spin_baixo_anterior else None
             print(f"[{name}] só DFT, estados 2S={spins}", flush=True)
-            run_dft_only(name, struct, spins, extra)
+            run_dft_only(name, struct, spins, extra, xc=args.xc)
         else:
             run(name, struct, args)
 
