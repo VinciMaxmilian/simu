@@ -1,22 +1,26 @@
-# Relatório do simu — 3ª rodada (atualizado com a DFT)
+# Relatório do simu — 4ª rodada: verificação do C₄₉H₂₁
 
-24 set 2026 · branch `claude/determined-tesla-nkx3fz` · também na `main`
+25 set 2026 · branch `claude/determined-tesla-nkx3fz` · também na `main`
 
 ## Resumo
 
-1. **O magnetismo dos candidatos sobrevive à interação elétron-elétron.** No modelo de Hubbard
-   (validado contra o experimento do cálice de Clar: 23,5 meV calculado × 23 meV medido), os dois
-   candidatos têm estado fundamental de spin 1/2 e um estado de spin 3/2 logo acima.
-2. **O C₅₁H₂₅ original não é plano.** Ele contém uma enseada de [4]heliceno e um fiorde de
-   [5]heliceno (H–H de 0,57 e 0,76 Å na geometria plana). O xTB torce a molécula 2,1 Å. O laboratório
-   de química agora rejeita estruturas não planas.
-3. **Com o filtro de planaridade surgiu um candidato melhor, o C₄₉H₂₁**: plano (0,03 Å no xTB),
-   mínimo estável (sem frequências imaginárias) e com acoplamento de spin mais forte (21,3 meV),
-   encontrado em 28 dos 32 universos.
-4. **A DFT confirma o C₄₉H₂₁.** Depois de corrigida e validada no cálice de Clar, a DFT
-   spin-polarizada dá o mesmo estado fundamental do Hubbard e, calibrada pelo cálice de Clar, o
-   mesmo acoplamento (~21,5 meV contra 21,3 meV). Hückel, Hubbard e DFT concordam.
+1. **O C₄₉H₂₁ é o único benzenoide plano de até 14 anéis que combina as duas origens de magnetismo**
+   (desbalanço de subredes e frustração topológica). A enumeração exaustiva de todos os 15,8 milhões
+   de benzenoides de até 14 anéis, validada contra a OEIS, encontra exatamente um, com a mesma
+   InChIKey da molécula que as civilizações acharam. Nenhum de até 13 anéis tem essa propriedade.
+2. **A busca converge para ele:** foi o resultado final em 265 de 384 civilizações, 86 de 96
+   universos, com 3 sementes independentes.
+3. **O acoplamento magnético é robusto:** o C₄₉H₂₁ tem estado fundamental de spin 1/2 e um estado de
+   spin 3/2 a **~21 meV (faixa 18–22 meV)**. A razão em relação ao cálice de Clar (23 meV medidos)
+   fica entre 0,79 e 0,97 em todos os testes: U variado, espaço ativo maior, geometria real,
+   saltos pelo espaço, B3LYP e PBE0.
+4. **O C₅₁H₂₅ reage consigo mesmo.** O xTB forma uma ligação σ C7–C26 (1,558 Å) no fiorde, o que
+   apaga o magnetismo. A diferença grande que a DFT mostrava vinha de ter calculado essa outra
+   molécula. A forma helicoidal sem a ligação existe, mas está 0,84 eV acima.
 5. **Bioquímicas alternativas** acrescentam ~36% de civilizações às de carbono/água; o silício, só ~5%.
+
+**O que ainda falta:** saber se o C₄₉H₂₁ já foi descrito na literatura. Ele é único dentro do
+modelo, mas isso não prova que seja inédito. A PubChem está bloqueada neste ambiente.
 
 ## Camada A — surgimento
 
@@ -72,7 +76,7 @@ O limiar de planaridade (H–H ≥ 1,5 Å) também foi validado: fenantreno e c�
 
 | | C₅₁H₂₅ (1ª busca) | C₄₉H₂₁ (busca plana) |
 |---|---|---|
-| origem | Empiristas, universo 1, ano 63 | Evolucionistas, universo 1, ano 218 |
+| origem | Empiristas, universo 1, ano 63 | Evolucionistas, universo 1, ano 218; final em 86/96 universos (3 sementes) |
 | InChIKey | `LSGYJUYIXKPRHI-UHFFFAOYSA-N` | `SZADRCVFNYKXMY-UHFFFAOYSA-N` |
 | Hückel | η = 3 (1 por desbalanço, 2 ocultos) | η = 3 (1 por desbalanço, 2 ocultos) |
 | Hubbard | S = 1/2; S = 3/2 a +13,9 meV | S = 1/2; S = 3/2 a +21,3 meV |
@@ -82,7 +86,7 @@ O limiar de planaridade (H–H ≥ 1,5 Å) também foi validado: fenantreno e c�
 | xTB: frequências | nenhuma imaginária | nenhuma imaginária (menor: 24,7 cm⁻¹) |
 | DFT: estado fundamental | spin 1/2 (simetria quebrada) | spin 1/2 (simetria quebrada) |
 | DFT: spin 3/2 − spin 1/2 | +334 meV (projetado +440) | +50 meV (projetado +82) |
-| DFT calibrada pelo cálice de Clar (÷3,8) | ~116 meV: **não bate** com o Hubbard | **~21,5 meV: bate** com o Hubbard |
+| DFT calibrada pelo cálice de Clar (÷3,8) | não se aplica: calculada na forma ciclizada | **~21,5 meV: bate** com o Hubbard |
 
 Registros completos, com anéis, coordenadas, grafo, genoma, semente e comando, estão em
 `data/candidatos/`. A busca química reproduz bit a bit com a mesma semente.
@@ -104,13 +108,69 @@ spin 1/2 fundamental, spin 3/2 a ~21 meV (~250 K). A densidade de spin mostra do
 antiparalelos, os dois triângulos da molécula, como no cálice de Clar
 (`resultados/candidatos/C49H21_eta3_plano/densidade_spin_dft.png`).
 
-**C₅₁H₂₅:** a DFT dá um acoplamento ~8× maior que o Hubbard calibrado. A causa provável é a torção
-de 2,1 Å (hélices de [4]- e [5]heliceno), que o Hubbard plano não inclui. Ele fica em segundo plano
-porque não é plano.
+**C₅₁H₂₅:** ver a seção de robustez abaixo: a molécula cicliza, e a DFT foi feita na forma ciclizada.
 
-Limites: base pequena (6-31G), um só funcional e estabilidade verificada só no cálice de Clar. Um
+Limites: base pequena (6-31G) e estabilidade verificada só no cálice de Clar. Um
 cálculo publicável pediria base maior (def2-TZVP), outros funcionais e métodos multirreferência
 (CASSCF/NEVPT2).
+
+### Robustez (4ª rodada)
+
+**Gap de spin (meV) em cada variação do Hubbard-CAS:**
+
+| variação | cálice de Clar | C₄₉H₂₁ | razão |
+|---|---|---|---|
+| U/t = 1,0 | 16,7 | 15,0 | 0,90 |
+| U/t = 1,2 (padrão) | 23,5 | 21,3 | 0,91 |
+| U/t = 1,4 | 31,3 | 28,5 | 0,91 |
+| U/t = 1,6 | 39,9 | 36,5 | 0,92 |
+| espaço ativo maior (η+6 orbitais) | 19,5 | 18,9 | 0,97 |
+| geometria xTB, saltos Slater–Koster só entre vizinhos (t·cos φ) | 18,7 | 14,8 | 0,79 |
+| geometria xTB + saltos pelo espaço até 4 Å | 20,9 | 18,3 | 0,87 |
+
+**DFT com dois funcionais (gap projetado de Yamaguchi):**
+
+| | cálice de Clar | C₄₉H₂₁ | razão |
+|---|---|---|---|
+| UB3LYP/6-31G | 87,5 | 81,7 | 0,93 |
+| UPBE0/6-31G | 140,7 | 126,9 | 0,90 |
+
+O valor absoluto da DFT depende do funcional (mais troca exata, gap maior); a razão não depende.
+A concordância exata de 23,5 meV no cálice de Clar com o CAS pequeno era em parte sorte: com o espaço
+ativo maior ela vai a 19,5 meV. A razão entre as moléculas, que é o que importa, fica estável.
+
+**C₅₁H₂₅, o que realmente aconteceu:** o xTB formou uma ligação σ C7–C26 de 1,558 Å, com os dois
+carbonos virando sp³. É uma recombinação dos dois centros de maior densidade de spin, forçados a ficar
+próximos no fiorde. A forma helicoidal sem a ligação (C7–C26 a 2,82 Å) é um mínimo, mas está 0,84 eV
+acima da ciclizada. Nela, a torção sozinha (t·cos φ) reduz o gap de 13,9 para 9,4 meV, e o salto
+direto entre as pontas da hélice o eleva para ~50 meV. A sugestão de explicar a discrepância só com
+t·cos φ não se confirma.
+
+**Isômeros (3 sementes, 96 universos):**
+
+| molécula | InChIKey | resultado final (vezes) | universos | gap Hubbard |
+|---|---|---|---|---|
+| C₄₉H₂₁ | SZADRCVFNYKXMY-UHFFFAOYSA-N | 265 | 86 | 21,3 meV |
+| C₃₈H₁₈ (cálice de Clar) | IQSWLUPJXFHUKA-UHFFFAOYSA-N | 6 | 4 | 23,5 meV |
+| C₅₅H₂₅ | ONDYYYOZKMTRRY-UHFFFAOYSA-N | 4 | 2 | 7,5 meV |
+| C₅₀H₂₀ | JOIPVWSJTCAJRK-UHFFFAOYSA-N | 2 | 2 | 24,1 meV |
+| C₅₃H₂₃ | CRCBVLJGTUJWTH-UHFFFAOYSA-N | 1 | 1 | 16,6 meV |
+| C₅₃H₂₅ | HUEHVUCUZKSIOZ-UHFFFAOYSA-N | 1 | 1 | 6,4 meV |
+
+**Enumeração exaustiva** (`simu enumerar --aneis 14`, 13 min; `resultados/enumeracao/`):
+
+| anéis | benzenoides (livres) | planos | com modos ocultos | com N_A = N_B | classe do C₄₉H₂₁ |
+|---|---|---|---|---|---|
+| ≤ 10 | 38 959 | 6 287 | 0 | 0 | 0 |
+| 11 | 143 552 | 14 512 | 1 (cálice de Clar) | 1 | 0 |
+| 12 | 683 101 | 48 866 | 4 | 4 | 0 |
+| 13 | 3 274 826 | 165 789 | 37 | 37 | 0 |
+| 14 | 15 796 897 | 565 320 | 237 | 236 | **1 (C₄₉H₂₁)** |
+
+Validação: as contagens de formas fixas e livres batem exatamente com a OEIS (A001207 e A000228) em
+todos os tamanhos, e o único caso de 11 anéis é o cálice de Clar, o menor da família segundo a
+literatura. Um viés declarado: a pontuação da busca favorece moléculas compactas, e por isso a
+enumeração era o teste decisivo.
 
 ### Literatura
 
@@ -129,10 +189,11 @@ acima na PubChem ou no CAS SciFinder.
 
 ## Próximos passos
 
-1. Refazer o Hubbard do C₅₁H₂₅ com saltos corrigidos pela torção (t·cos φ).
-2. Levar os candidatos planos com maior acoplamento de spin a um critério de busca: avaliar os
-   melhores de cada universo com Hubbard-CAS dentro da simulação.
-3. Liberar `pubchem.ncbi.nlm.nih.gov` na rede do ambiente para a checagem de literatura.
+1. Liberar `pubchem.ncbi.nlm.nih.gov` na rede do ambiente e checar a InChIKey do C₄₉H₂₁.
+2. Estender a enumeração a 15–16 anéis e incluir não planos, para mapear toda a família.
+3. DFT com base maior (def2-TZVP) e um método multirreferência (CASSCF/NEVPT2) no C₄₉H₂₁.
+4. Estabilidade química: índices de reatividade dos sítios de spin (como no C₅₁H₂₅) e grupos
+   protetores (mesitila), como se faz na síntese real de nanografenos radicalares.
 
 ## Onde estão os dados
 
@@ -141,6 +202,7 @@ acima na PubChem ou no CAS SciFinder.
 | `resultados/*/resumo.md`, `*.csv`, `catalogo.json` | cada simulação completa |
 | `resultados/bioquimica/` | surgimento por bioquímica |
 | `resultados/*_bioquimicas/` | civilizações de bioquímicas diferentes pesquisando |
-| `resultados/candidatos/` | Hubbard, geometrias xTB, DFT, densidades de spin e logs |
+| `resultados/candidatos/` | Hubbard, geometrias xTB, DFT (B3LYP e PBE0), densidades de spin, robustez e isômeros |
+| `resultados/enumeracao/` | enumeração exaustiva e lista de todos os planos com modos ocultos |
 | `data/candidatos/` | estrutura exata dos candidatos |
 | `resultados/relatorio.html` | relatório visual da 2ª rodada |
